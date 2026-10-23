@@ -1,0 +1,10 @@
+# 大文件统一走 Git LFS（指针入库，对象存 .git/lfs/objects）
+# 模型权重：LoRA adapter（真正训练产物）
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+# 训练续训快照（optimizer/state，体积约为 adapter 两倍）
+*.pt filter=lfs diff=lfs merge=lfs -text
+# 数据集、标注表、评测集
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+# tokenizer 快照：内容相同的多份按 sha256 去重，仅占一份对象
+tokenizer/** filter=lfs diff=lfs merge=lfs -text
