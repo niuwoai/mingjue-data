@@ -1,7 +1,8 @@
 # `verify_hf_publish.py` CUDA device-side assert 根因
 
-日期：2026-10-23
-脚本：`/home/ml-data/rsi-tool-gate-shell-auth-4b-v14/verify_hf_publish.py`（旧版，已被覆盖）
+日期：2026-10-23（2026-10-24 补断言硬化）
+脚本：`/home/ml-data/rsi-tool-gate-shell-auth-4b-v14/verify_hf_publish.py`
+现行版 sha256 `520b4210e6bfe84e0adb7d2f1c13d3bf64c60419c63b1f2dfce6d2ab6b658368`（已加形状断言）；加法前的可用版备份 `verify_hf_publish.py.pre-assert`，sha256 `885fc792ca803118474f577abca9d9cbf95fa5ee031fe838037a193fbadbcc8d`；最初触发崩溃的手搓版无备份
 主机：q4（`ssh -p 50022 root@h2.niuwoai.com`）
 
 ## 结论
@@ -89,4 +90,6 @@ with model.disable_adapter():
 - **已验证**：形状语义、`position` 形状 `(1,)`、`candidates=[32,33]`、越界内核断言逐字复现、旧日志 0 行即崩溃、修正后 8/8 一致。
 - **已核对**：`candidates` 由 `data.py:43` 从 `compiled.symbols["gate"]` 编码而来，`data.py:44` 断言每个 gate 符号必须是单 token，因此候选恒为小整数 id。
 - **推断**：旧版 `review_probability` 的确切源码排布。文件已被覆盖且无备份，是依据 traceback 插入符与函数签名 `(model, batch, position, candidates, torch)` 重建的；插入符证明坏操作是 `logits[candidates]`，这一条不依赖推断。
-- **未做**：未改动现行脚本（保持 13:34 产物与文件一致）。如果要防同类复发，最小硬化是在 `score` 返回值上加一句 `logits.dim() == 2` 断言，代价是必须重跑一次才能让产物与文件重新对齐。
+- **已做（2026-10-24 断言硬化）**：现行脚本的取概率不再散落在调用方，收敛到 helper `gate_probability(score_fn, model, item, vocab_size)`，进入 softmax 前强制三条断言 —— `logits.shape == (1, vocab_size)`、`0 <= c < vocab_size`（逐候选）、`vocab_size` 取自 `model.config.text_config.vocab_size`（实测 248,320，不是 tokenizer 的 248,078）。负向对照：旧缺陷的 `(1,1,V)`、转置 `(V,1)`、丢 batch 维的 `(V,)`、越界候选四种坏形状全部被拦截（GUARDED），正确形状 PASS（`p=0.993307`）。
+- **已重跑**：硬化版在 q4 上跑通，`reproduced: true`、`rows_checked: 8`、`mismatches: []`、`model_class: Qwen3_5ForConditionalGeneration`。产物与 13:34 版逐字段比对（排除 `script_sha256` 类元数据）**完全一致**，已用硬化版产物替换 `runs/trial-014/hf-publish-verification.json`（sha256 `aaadf5ac5cedd098dd4a746a1157f169d92179f119189a5385cebb521af7035a`）。
+- **未做**：未把断言做成通用 lint，也未改动 `data.py` / `short_eval.py` 的既有 `[0, candidates]` 调用方 —— 它们本来就对，缺陷只在手搓脚本里。

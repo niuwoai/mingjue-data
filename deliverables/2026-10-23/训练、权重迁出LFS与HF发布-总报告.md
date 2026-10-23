@@ -10,7 +10,8 @@
 2. **权重迁出**：权重与续训快照原本占 GitHub LFS 约 1.3 GB，已整体迁到 Hugging Face。GitHub 当前历史里权重文件为 0，LFS 只剩可 diff 的数据集/标注表/评测集 218 个对象。
 3. **发布**：三个 HF 仓库公开可用，README 里写的 `subfolder=` 加载路径已用 `PeftConfig` 实测 8/8 通过（v0.14 是独立仓库）。q4 上另有 5 份从未入过 git 的 adapter（`trial-007`~`trial-011`）已补进归档仓库，远端权重 sha256 与训练机逐字节一致。
 4. **LFS 收尾**：取得 `delete_repo` 后已删仓重建并重推（`156/156` 对象、358 MB），本地 `git lfs prune` 回收 1.3 GB（`.git/lfs` 剩 342 MB），删仓后的全新克隆 218/218 对象 `fsck OK`，仓库自包含已复验。
-5. **未完成**：21 条误拦/漏放的人工复核、300~500 条人工金标、`verify_hf_publish.py` 首跑 CUDA 断言崩溃的根因定位。
+5. **已补完**：`verify_hf_publish.py` 首跑 CUDA 断言崩溃的根因已定位（符号 token id 索引了长度为 1 的 position 维），现行脚本已加形状断言并重跑，8/8 与 13:34 产物一致。
+6. **未完成**：21 条误拦/漏放的人工复核、300~500 条人工金标。
 
 ---
 
@@ -216,7 +217,7 @@ git lfs push --all origin
 
 - 21 条误拦/漏放的人工复核，尤其 2 条漏放是否为标签噪声（`SHT4-write_shell_holdout-5-0` 优先）。
 - 300~500 条人工金标集：唯一能让"能否进入影子运行"脱离合成标签的路径。
-- `verify_hf_publish.py` 的 CUDA 崩溃根因未定位（已用替代实现绕过，非修复）。
+- ~~`verify_hf_publish.py` 的 CUDA 崩溃根因未定位~~ → 已结案（2026-10-24）：根因定位 + 断言硬化 + 重跑复现一致，见 `deliverables/2026-10-23/HF发布验证脚本CUDA-assert根因.md`。
 
 ---
 

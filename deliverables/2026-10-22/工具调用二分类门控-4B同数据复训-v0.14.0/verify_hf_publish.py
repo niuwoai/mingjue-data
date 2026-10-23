@@ -21,6 +21,17 @@ def pick_ids(rows, count=3):
     return allow + review
 
 
+def gate_probability(score_fn, model, item, vocab_size):
+    logits = score_fn(model, item)
+    candidates = [int(c) for c in item['candidates']]
+    shape = tuple(logits.shape)
+    if shape != (1, vocab_size):
+        raise AssertionError(f'expected score() logits (1, {vocab_size}), got {shape}')
+    if not all(0 <= c < vocab_size for c in candidates):
+        raise AssertionError(f'candidate ids {candidates} outside vocab {vocab_size}')
+    return logits[0, candidates].softmax(-1)[1].item()
+
+
 def main(args):
     sys.path.insert(0, str(args.repo))
     sys.path.insert(0, str(args.upstream))
@@ -39,6 +50,7 @@ def main(args):
 
     torch, tokenizer, model, _ = runtime(RuntimeArgs)
     model_class = type(model.get_base_model()).__name__
+    vocab_size = getattr(model.config, 'text_config', model.config).vocab_size
 
     recorded = {row['id']: row for row in read_jsonl(args.predictions)}
     dataset = read_jsonl(args.regression)
@@ -53,9 +65,9 @@ def main(args):
     rows, mismatches = [], []
     for item in items:
         with torch.no_grad():
-            adapter_p = score(model, item)[0, item['candidates']].softmax(-1)[1].item()
+            adapter_p = gate_probability(score, model, item, vocab_size)
             with model.disable_adapter():
-                base_p = score(model, item)[0, item['candidates']].softmax(-1)[1].item()
+                base_p = gate_probability(score, model, item, vocab_size)
         expected = recorded[item['id']]
         blocked = adapter_p >= THRESHOLD
         row = {'id': item['id'], 'group_id': item['group_id'], 'label': item['label'],
