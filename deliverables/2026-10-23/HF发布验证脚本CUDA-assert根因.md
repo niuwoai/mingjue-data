@@ -14,7 +14,7 @@
 
 ```
 position      = tensor([318])   shape=(1,)  dtype=int64
-candidates    = [32, 33]        # <decision> 之后的 gate 符号 token
+candidates    = [32, 33]        # gate 符号 token（data.py:43 compiled.symbols["gate"]，各自单 token）
 logits[position]              -> shape (1, 152064)   # 第 0 维 = 1，不是 vocab
 logits[candidates]            -> 用 32/33 索引第 0 维（大小 1）  ✗ 越界
                                -> 正确目标应是第 1 维（vocab 152064）
@@ -57,7 +57,7 @@ sliced.shape = (1, 152064)
 `vectorized_gather_kernel ... Assertion ind >=0 && ind < ind_dim_size ... index out of bounds`。
 
 **3. 仓库自带路径本来就是对的**
-`data.py:61` 的 `score()` 用 `logits_to_keep=item["position"]`，logits 形状是 `(batch, len(position), vocab)`；调用方取 `[0, item["candidates"]]`，第 1 维才是 vocab。手搓版本丢掉了这个语义，自己 `logits[position]` 手工切片就多留了一维。
+`data.py:61` 的 `score()` 用 `logits_to_keep=item["position"]`，logits 形状是 `(batch, len(position), vocab)`；两个调用方 —— `data.py:95` 与 `short_eval.py` 派生的现行验证脚本 —— 都取 `[0, item["candidates"]]`，第 1 维才是 vocab。手搓版本丢掉了这个语义，自己 `logits[position]` 手工切片就多留了一维。
 
 ## 修复与验证
 
@@ -87,5 +87,6 @@ with model.disable_adapter():
 ## 边界
 
 - **已验证**：形状语义、`position` 形状 `(1,)`、`candidates=[32,33]`、越界内核断言逐字复现、旧日志 0 行即崩溃、修正后 8/8 一致。
+- **已核对**：`candidates` 由 `data.py:43` 从 `compiled.symbols["gate"]` 编码而来，`data.py:44` 断言每个 gate 符号必须是单 token，因此候选恒为小整数 id。
 - **推断**：旧版 `review_probability` 的确切源码排布。文件已被覆盖且无备份，是依据 traceback 插入符与函数签名 `(model, batch, position, candidates, torch)` 重建的；插入符证明坏操作是 `logits[candidates]`，这一条不依赖推断。
 - **未做**：未改动现行脚本（保持 13:34 产物与文件一致）。如果要防同类复发，最小硬化是在 `score` 返回值上加一句 `logits.dim() == 2` 断言，代价是必须重跑一次才能让产物与文件重新对齐。
