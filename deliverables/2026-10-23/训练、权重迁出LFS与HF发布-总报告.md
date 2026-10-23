@@ -160,7 +160,7 @@ git push --force origin main
 ### 已知发布缺陷（已修）
 
 1. 模型卡原写 `torch_dtype=torch.bfloat16`，transformers 5.15.1 的 `from_pretrained` 已无此参数 → 改为 `dtype=` 并注明版本分界。
-2. 首版验证脚本手写加载与下标切片，首次运行崩在 `logits[candidates].softmax(-1)[1].item()`（`CUDA error: device-side assert triggered`），未入库即被覆盖，**根因未定位**；现脚本改为调用训练仓自己的 `train.runtime`/`short_eval.encode`/`data.score`，并整体包 `torch.no_grad()`。
+2. 首版验证脚本手写加载与下标切片，首次运行崩在 `logits[candidates].softmax(-1)[1].item()`（`CUDA error: device-side assert triggered`），未入库即被覆盖；**根因已定位**（拿符号 token id 索引了长度 1 的 position 维，缺一次 squeeze，详见 `deliverables/2026-10-23/HF发布验证脚本CUDA-assert根因.md`）；现脚本改为调用训练仓自己的 `train.runtime`/`short_eval.encode`/`data.score`，并整体包 `torch.no_grad()`。
 
 ---
 
