@@ -9,7 +9,8 @@
 1. **训练**：在 q4 上用与 v0.13.0（2B）完全相同的 28,000 条冻结数据、同一套超参，把基座换成 Intern-Decision-4B 跑完整单轮 LoRA（1,750 步），产物 `trial-014`。五条预注册门槛全过，2B 当年在门槛 2、3 上失败。
 2. **权重迁出**：权重与续训快照原本占 GitHub LFS 约 1.3 GB，已整体迁到 Hugging Face。GitHub 当前历史里权重文件为 0，LFS 只剩可 diff 的数据集/标注表/评测集 218 个对象。
 3. **发布**：三个 HF 仓库公开可用，README 里写的 `subfolder=` 加载路径已用 `PeftConfig` 实测 8/8 通过（v0.14 是独立仓库）。q4 上另有 5 份从未入过 git 的 adapter（`trial-007`~`trial-011`）已补进归档仓库，远端权重 sha256 与训练机逐字节一致。
-4. **未完成**：GitHub 免费额度里的历史 LFS 存储尚未真正释放，删仓需要 `delete_repo` 权限，当前 token 不具备。
+4. **LFS 收尾**：取得 `delete_repo` 后已删仓重建并重推（`156/156` 对象、358 MB），本地 `git lfs prune` 回收 1.3 GB（`.git/lfs` 剩 342 MB），删仓后的全新克隆 218/218 对象 `fsck OK`，仓库自包含已复验。
+5. **未完成**：21 条误拦/漏放的人工复核、300~500 条人工金标、`verify_hf_publish.py` 首跑 CUDA 断言崩溃的根因定位。
 
 ---
 
@@ -163,22 +164,33 @@ git push --force origin main
 
 ---
 
-## 五、仍未完成，需要你决定或操作
+## 五、LFS 收尾结果与仍未完成项
 
-### 1. GitHub LFS 额度未真正释放（需你操作）
+### 1. GitHub LFS 额度已回收（删仓重建，已完成）
 
-`gh repo delete` 失败：`HTTP 403: Must have admin rights to Repository.`，当前 token scopes 只有 `gist, read:org, repo, workflow`，缺 `delete_repo`。
+`gh repo delete` 首跑返回 `HTTP 403: Must have admin rights to Repository.`，token scopes 只有 `gist, read:org, repo, workflow`，缺 `delete_repo`。你执行 `gh auth refresh -s delete_repo` 后完成：
 
 ```bash
-gh auth refresh -h github.com -s delete_repo
-# 然后删仓重建（本地已有 /tmp/rsi-pre-migration.bundle 备份）
 gh repo delete niuwoai/mingjue-data --yes
-gh repo create niuwoai/mingjue-data --private
-git remote set-url origin git@github.com:niuwoai/mingjue-data.git
+gh repo create niuwoai/mingjue-data
 git push -u origin main
+git lfs push --all origin
 ```
 
-需要说清：**这一步只是回收额度，不是修复功能**。当前推送正常（本次 force push 上传 156 个对象 358 MB 成功），未被额度阻断。删仓会丢掉旧 commit 上的 LFS 存储计费，但 GitHub 侧实际回收数字**我无法验证**（无公开 API 查 LFS 用量）。
+| 断言 | 实测 |
+|---|---|
+| 删除旧仓 | 首次 403 → 授权后成功 |
+| 新仓 `created_at` | `2026-10-23T06:19:46Z`，旧 commit 的 LFS 计费不再计入新仓 |
+| 首推 | `* [new branch] main -> main` |
+| 补齐 LFS 对象 | `Uploading LFS objects: 100% (156/156), 358 MB, done`，exit 0 |
+| 远端 HEAD = 本地 HEAD | `dfaf95e705b16e639c9f367b2100aa7ae851c15d` |
+| 当前可见性 | `public` |
+
+两件要说清：
+
+1. **回收后的实际数字我无法验证**：GitHub 没有公开 API 查 LFS 用量，能确认的只是计费主体换成了新仓。
+2. **重建出来的仓是 public，与先前计划里的 `--private` 不一致**。匿名 `curl` 已能 200 读到 `deliverables/2026-10-20/Codex命令调用10000条标注包`（含 `实习生标注表10000条.csv`）。若这份标注数据不该公开，收回只需一条命令：
+   `gh repo edit niuwoai/mingjue-data --visibility private --accept-visibility-change-consequences`
 
 ### 2. q4 单机权重已补档（原缺口已闭合）
 
@@ -196,15 +208,36 @@ git push -u origin main
 
 **按 trial 号命名、不绑定实验版本号**：这 5 份对应 v0.7.0~v0.12.0 区间，但仓库交付物中缺少能一一锚定版本号的确证，强行标版本号会制造错误的版本真相。表中的 `training_engine_version` 直接取自各 `runs/` 下的 `model-provenance.json`，不是推测。
 
-### 3. 本地 `.git/lfs` 仍占 1.5 GB
+### 3. 本地 `.git/lfs` 已回收（1.5 GB → 342 MB）
 
-权重对象已被历史移除，成了不可达对象。`git lfs prune` 可以回收（权重已在 HF，工作树里没有权重文件，prune 不影响任何在用文件）。属于破坏性操作，未执行，等你确认。
+按你的授权执行 `git lfs prune`：移除 18 个不可达对象（约 1.3 GB），`.git/lfs` 剩 342 MB，覆盖当前 218 个在册指针，`git lfs fsck` 报 `OK`。工作树里没有权重文件，本次回收未影响任何在用对象。
 
 ### 4. 训练相关的实质未完成项
 
 - 21 条误拦/漏放的人工复核，尤其 2 条漏放是否为标签噪声（`SHT4-write_shell_holdout-5-0` 优先）。
 - 300~500 条人工金标集：唯一能让"能否进入影子运行"脱离合成标签的路径。
 - `verify_hf_publish.py` 的 CUDA 崩溃根因未定位（已用替代实现绕过，非修复）。
+
+---
+
+### 5. 删仓重建后的全新克隆复验（已完成）
+
+这一步专门验"仓库自己能不能被第三方完整拉起来"，不依赖本地缓存：
+
+```bash
+rm -rf /tmp/lfscheck
+GIT_LFS_SKIP_SMUDGE=1 git clone git@github.com:niuwoai/mingjue-data.git /tmp/lfscheck
+cd /tmp/lfscheck && git lfs pull && git lfs fsck
+```
+
+| 断言 | 实测 |
+|---|---|
+| clone 退出码 | 0 |
+| LFS 指针数 | 218 |
+| 拉取后仍是文本指针的 LFS 文件 | 0 |
+| `git lfs fsck` | `Git LFS fsck OK` |
+| 落地体积 | 909 MB（其中 `.git` 374 MB） |
+| 重建前的同类复验 | 曾报 `smudge filter lfs failed` 与单对象 404 `Object does not exist on the server`（oid `6311a806…e76f94`）；`git lfs push --all` 重传后该现象消失 |
 
 ---
 
@@ -226,4 +259,6 @@ git push -u origin main
 - 错误明细：`trial-014/regression-errors.json`
 - HF 复现：`trial-014/hf-publish-verification.json`、`trial-014/hf-verify.log`
 - 权重台账：`模型权重归档.md`
-- 迁移前全量备份：`/tmp/rsi-pre-migration.bundle`（10 个 commit，1.6 MB，临时目录，建议转存）
+- 迁移前全量备份：`~/rsi-backups/rsi-pre-migration-2026-10-23.bundle`、`/tmp/rsi-pre-migration.bundle`（10 个 commit，1.6 MB）
+- 收尾后备份：`~/rsi-backups/rsi-current-dfaf95e.bundle`（删仓前本地现状）
+- 克隆自包含复验：`/tmp/lfscheck`（一次性目录，命令与断言见 §5.5）
