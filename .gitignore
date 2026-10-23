@@ -1,10 +1,5 @@
-# 模型/数据产物：体积大，留在原地不入库（靠报告里的 sha256 溯源）
+# 交付压缩包：内容与仓库内已入库文件重复的打包件，不入库
 *.zip
-*.pt
-*.safetensors
-*.jsonl
-*.csv
-tokenizer/
 
 # Python 缓存
 *.pyc
@@ -16,3 +11,6 @@ private-review-keys/
 # 系统与虚拟环境
 .DS_Store
 .venv/
+
+# LFS 对象与指针缓存的本地副本，永远不入库
+.git/lfs/

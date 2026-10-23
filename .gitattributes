@@ -7,4 +7,4 @@
 *.jsonl filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 # tokenizer 快照：内容相同的多份按 sha256 去重，仅占一份对象
-tokenizer/** filter=lfs diff=lfs merge=lfs -text
+**/tokenizer/** filter=lfs diff=lfs merge=lfs -text
