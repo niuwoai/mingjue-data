@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "files": 28,
+  "checks": [
+    {
+      "file": "adapter/README.md",
+      "passed": true
+    },
+    {
+      "file": "adapter/adapter_config.json",
+      "passed": true
+    },
+    {
+      "file": "adapter/adapter_model.safetensors",
+      "passed": true
+    },
+    {
+      "file": "adapter-calibration.json",
+      "passed": true
+    },
+    {
+      "file": "adapter-development.json",
+      "passed": true
+    },
+    {
+      "file": "adapter-locked_test_candidate.json",
+      "passed": true
+    },
+    {
+      "file": "adapter-threshold_validation.json",
+      "passed": true
+    },
+    {
+      "file": "alignment.json",
+      "passed": true
+    },
+    {
+      "file": "base-calibration.json",
+      "passed": true
+    },
+    {
+      "file": "base-development.json",
+      "passed": true
+    },
+    {
+      "file": "base-locked_test_candidate.json",
+      "passed": true
+    },
+    {
+      "file": "base-threshold_validation.json",
+      "passed": true
+    },
+    {
+      "file": "data-audit.json",
+      "passed": true
+    },
+    {
+      "file": "environment.json",
+      "passed": true
+    },
+    {
+      "file": "lora-modules.json",
+      "passed": true
+    },
+    {
+      "file": "memory-probe.json",
+      "passed": true
+    },
+    {
+      "file": "metrics.json",
+      "passed": true
+    },
+    {
+      "file": "policy-contrast-inputs.json",
+      "passed": true
+    },
+    {
+      "file": "policy-contrast-results.json",
+      "passed": true
+    },
+    {
+      "file": "reload-verification.json",
+      "passed": true
+    },
+    {
+      "file": "service-verification.json",
+      "passed": true
+    },
+    {
+      "file": "tokenizer/chat_template.jinja",
+      "passed": true
+    },
+    {
+      "file": "tokenizer/tokenizer.json",
+      "passed": true
+    },
+    {
+      "file": "tokenizer/tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "file": "trace.jsonl",
+      "passed": true
+    },
+    {
+      "file": "training-journal.jsonl",
+      "passed": true
+    },
+    {
+      "file": "training-order.json",
+      "passed": true
+    },
+    {
+      "file": "training-state.pt",
+      "passed": true
+    }
+  ]
+}

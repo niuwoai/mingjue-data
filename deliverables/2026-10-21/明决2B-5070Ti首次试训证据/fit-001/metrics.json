@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "revision": "8797836c65fc91a2435b1fb6850b5f0aabd75cc3",
+  "steps": 32,
+  "data_scope": "32 synthetic records from 8 templates; engineering fit only; no business validation",
+  "before_loss": 0.6212889046873897,
+  "after_loss": 2.499602851457894e-05,
+  "loss_improved": true,
+  "trainable_parameters": 8409600,
+  "updated_adapter_tensors": 372,
+  "frozen_embedding_sample_unchanged": true,
+  "peak_reserved_bytes": 5383389184,
+  "peak_allocated_bytes": 5103042560,
+  "mean_step_seconds": 0.47889002068495756,
+  "torch": "2.13.0+cu130",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "capability": [
+    12,
+    0
+  ]
+}

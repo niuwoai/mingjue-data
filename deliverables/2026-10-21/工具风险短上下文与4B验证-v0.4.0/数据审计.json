@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "unique_train": 4000,
+  "normal": 2000,
+  "needs_review": 2000,
+  "short_train": 2880,
+  "short_review": 1440,
+  "historical_weak": 324,
+  "previous_synthetic": 796,
+  "synthetic_facts_are_not_real_telemetry": true,
+  "new_test": 500,
+  "exact_original_command_train": false,
+  "unknown_forced_harmful": false,
+  "commands_executed": false
+}

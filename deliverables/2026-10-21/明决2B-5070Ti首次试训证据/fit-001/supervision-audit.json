@@ -1,0 +1,127 @@
+{
+  "examples": [
+    {
+      "marker_position": 238,
+      "logit_position": 237,
+      "target_id": 32,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 238,
+      "logit_position": 237,
+      "target_id": 32,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 243,
+      "logit_position": 242,
+      "target_id": 33,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 246,
+      "logit_position": 245,
+      "target_id": 33,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 241,
+      "logit_position": 240,
+      "target_id": 34,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 245,
+      "logit_position": 244,
+      "target_id": 34,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 240,
+      "logit_position": 239,
+      "target_id": 35,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 247,
+      "logit_position": 246,
+      "target_id": 35,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 238,
+      "logit_position": 237,
+      "target_id": 32,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 238,
+      "logit_position": 237,
+      "target_id": 32,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 243,
+      "logit_position": 242,
+      "target_id": 33,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 246,
+      "logit_position": 245,
+      "target_id": 33,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 241,
+      "logit_position": 240,
+      "target_id": 34,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 245,
+      "logit_position": 244,
+      "target_id": 34,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 240,
+      "logit_position": 239,
+      "target_id": 35,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 247,
+      "logit_position": 246,
+      "target_id": 35,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 238,
+      "logit_position": 237,
+      "target_id": 32,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 238,
+      "logit_position": 237,
+      "target_id": 32,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 243,
+      "logit_position": 242,
+      "target_id": 33,
+      "input_id": 248077
+    },
+    {
+      "marker_position": 246,
+      "logit_position": 245,
+      "target_id": 33,
+      "input_id": 248077
+    }
+  ],
+  "manual_loss": 0.017735933884978294,
+  "hf_causal_loss": 0.017735933884978294,
+  "difference": 0.0
+}

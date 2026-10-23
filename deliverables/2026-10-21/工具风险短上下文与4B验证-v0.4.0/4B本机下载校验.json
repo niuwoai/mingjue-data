@@ -1,0 +1,99 @@
+{
+  "repo": "internlm/Intern-Decision-4B",
+  "revision": "1e65a988dacbcf00b84aee7366f9e47563407000",
+  "official_metadata_sha256": "6cc7d6d1f8a516abcd8337a12240a9af3fb1a3ba2366d948ffdd092f415d8ba3",
+  "files": [
+    {
+      "file": "added_tokens.json",
+      "bytes": 928,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "chat_template.jinja",
+      "bytes": 7756,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "config.json",
+      "bytes": 3161,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "merges.txt",
+      "bytes": 3353273,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "model-language-0001-save_rank0.safetensors",
+      "bytes": 4259095264,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "model-language-0002-save_rank0.safetensors",
+      "bytes": 4152470040,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "model-projector-0001-save_rank0.safetensors",
+      "bytes": 54543992,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "model-vision-0001-save_rank0.safetensors",
+      "bytes": 612517440,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 75719,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "preprocessor_config.json",
+      "bytes": 390,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "special_tokens_map.json",
+      "bytes": 735,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 19989530,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 7291,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "video_preprocessor_config.json",
+      "bytes": 385,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "file": "vocab.json",
+      "bytes": 5234494,
+      "verified": true,
+      "cached": false
+    }
+  ],
+  "all_verified": true,
+  "weight_bytes": 9078626736
+}

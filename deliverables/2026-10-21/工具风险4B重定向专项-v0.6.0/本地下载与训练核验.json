@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "downloaded_artifacts": 39,
+  "train_unique": 6000,
+  "positive_unique": 3000,
+  "draws": 6016,
+  "balanced_batches": 376,
+  "original_4000_unchanged": true,
+  "new_test_rows": 600,
+  "old15_verified": true,
+  "old26_present": true,
+  "fixed_threshold": 0.5,
+  "independent_reload": true,
+  "source_and_model_provenance_verified": true,
+  "adapter_sha256": "896b164962f41ed2c97beb120b841dbe38f6701ca42f83204a75b855297129fe",
+  "original_inference_restored": true
+}

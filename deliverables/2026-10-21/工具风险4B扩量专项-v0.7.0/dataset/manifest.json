@@ -1,0 +1,43 @@
+{
+  "version": "0.7.0",
+  "experiment": "shell_redirect_10000_v7",
+  "human_verified_rows": 0,
+  "independent_review_rows": 238,
+  "label_source": "policy-derived synthetic with stratified independent model audit",
+  "split_protocol": "All newly held-out wrapper families are test-only; old v0.6 development/calibration/threshold rows retained; synthetic, not human gold",
+  "previous_train_sha256": "ebd377129263a5ae853d6cf29af48ef2f220dcba481d91895a1bb7d0550bb593",
+  "new_train_sha256": "294378c99d13c86a57c7684097ddd9852a3624211cdb6de20b50918043f13b43",
+  "new_test_sha256": "2f9630aaa98426cfeceed2972efb5092d20db2cd4f82571b36eeabeea2cadb8b",
+  "review_sha256": "29341fb4ffeaacbe76bf09f15b77af0a84a61c2af5b0c3e3059f0662f7d000f1",
+  "splits": {
+    "train": {
+      "rows": 10000,
+      "positives": 5000,
+      "sha256": "8f4a26fdeee41013c09e5d173ea945433a1fbe9217e242cd69266125e415d441"
+    },
+    "locked_test_candidate": {
+      "rows": 1200,
+      "positives": 600,
+      "sha256": "2f9630aaa98426cfeceed2972efb5092d20db2cd4f82571b36eeabeea2cadb8b"
+    },
+    "development": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "dd2e789997a1ea05ad2a4239b5d9f8c6c012686ecb33851062d9f0e80e7f9ea9"
+    },
+    "calibration": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "f912e15ec280dcb94dc5bfd6cbfa65b2a8db9929234fcfdacd451d1137d2d9a9"
+    },
+    "threshold_validation": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "bc7b75d76afd28a1ed741937e8dd943a4ad00568057474a430d03eb47371aaca"
+    }
+  },
+  "regression": {
+    "rows": 1885,
+    "sha256": "241d672272b4ce88fb92ec8dfcbe74ae0bd19719e16513b04dd2a5dab900a1de"
+  }
+}

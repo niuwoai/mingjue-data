@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "downloaded_artifacts": 34,
+  "draws": 4096,
+  "unique_ids": 4000,
+  "balanced_batches": 256,
+  "every_batch_normal": 8,
+  "every_batch_review": 8,
+  "adapter_sha256": "0014518b247b2b9022f726981c0cd40038c2454044cfc8a37548af784dda4b0b",
+  "service_restored": true,
+  "source_snapshot_matches_remote": true,
+  "dataset_hashes_match": true,
+  "reload_verified": true
+}

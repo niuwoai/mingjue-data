@@ -1,0 +1,7 @@
+{
+  "input_sha256": "4fd7b925a7057e2bd91f5749e1d124d8048490f5a56304217fe933b5a643bca4",
+  "rubric_sha256": "bda9a4d4832bf4ef85709edd5db982c268690e78f3fd0ee73991d0da647a0a35",
+  "model": "codex/gpt-6-astra",
+  "label_source": "teacher_pseudo_label",
+  "human_verified": false
+}

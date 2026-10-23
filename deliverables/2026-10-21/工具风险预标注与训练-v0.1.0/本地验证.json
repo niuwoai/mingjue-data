@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-10-20T22:37:16Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "pipeline",
+      "command": [
+        "ruby",
+        "/Users/rocky/Sites/rsi/ops/decision-pipeline/test_pipeline.rb"
+      ],
+      "exit_status": 0,
+      "passed": true,
+      "stdout": "Run options: --seed 29184\n\n# Running:\n\n............\n\nFinished in 0.032773s, 366.1551 runs/s, 976.4135 assertions/s.\n\n12 runs, 32 assertions, 0 failures, 0 errors, 0 skips\n",
+      "stderr": ""
+    },
+    {
+      "name": "metrics",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "ops/decision-train",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_status": 0,
+      "passed": true,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "training_syntax",
+      "command": [
+        "python3",
+        "-m",
+        "py_compile",
+        "ops/decision-train/train.py",
+        "ops/decision-train/data.py",
+        "ops/decision-train/challenge.py"
+      ],
+      "exit_status": 0,
+      "passed": true,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

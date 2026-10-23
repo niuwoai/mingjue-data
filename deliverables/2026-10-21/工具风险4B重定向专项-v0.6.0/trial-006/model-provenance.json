@@ -1,0 +1,7 @@
+{
+  "repo": "internlm/Intern-Decision-4B",
+  "revision": "1e65a988dacbcf00b84aee7366f9e47563407000",
+  "download_verification_sha256": "2056634060f473779d1c8663b3fee42eda46b172df86e30482e1bfec67b1176a",
+  "start_from_original_base_not_probe_adapter": true,
+  "training_engine_version": "0.8.0"
+}

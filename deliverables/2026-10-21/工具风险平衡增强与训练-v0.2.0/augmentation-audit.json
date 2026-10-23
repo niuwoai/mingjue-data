@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "historical_commands_executed": false,
+  "unique_ids": 4773,
+  "groups": 262,
+  "splits": {
+    "train": {
+      "rows": 1280,
+      "synthetic_rows": 744,
+      "same_command_opposite_authorization_pairs": 156
+    },
+    "development": {
+      "rows": 1927,
+      "synthetic_rows": 216,
+      "same_command_opposite_authorization_pairs": 36
+    },
+    "calibration": {
+      "rows": 264,
+      "synthetic_rows": 120,
+      "same_command_opposite_authorization_pairs": 12
+    },
+    "threshold_validation": {
+      "rows": 337,
+      "synthetic_rows": 168,
+      "same_command_opposite_authorization_pairs": 24
+    },
+    "locked_test_candidate": {
+      "rows": 965,
+      "synthetic_rows": 216,
+      "same_command_opposite_authorization_pairs": 36
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "CHANGELOG.md": "dd12656abf734c26386d1b8ab3f75a53de905f5b5d7b07afda4c65486959adf3",
+  "PRODUCT_OVERVIEW.md": "0af67e25af7a7caafa0672c212785e0ad257ddc1e647515285e68e3c571a305e",
+  "VERSION": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79",
+  "audit_augmentation.rb": "721eb9675334850ed1ba62ac83e73c073c40400378a0ec6cf57f55b10c895ffd",
+  "augment.rb": "a164f353d5c6cb86d6a40d96a42a88199f59489880d619701668fc729d59ea91",
+  "balance.py": "a325fc9704a7aaf6265922c80a750b4e10d78bdf5c7df250f3906438f6db9ef4",
+  "challenge.py": "c9adaedd40f31527b473f198e8c25042b841b3479cc3f73dea4dd40f26e5faf1",
+  "collect.py": "fab9fd96ddee1dff4ea7c1f3da3232bde0f7900f8134f6d443747be46ef4cb29",
+  "compare.py": "e1620b39b1f3e4b42e2895649804ae565ba0a4dde338755d3cf9b86964ba8ced",
+  "data.py": "2ddb34a9611b32cc970132332e6d2da44af9a3ace0e3fc66b8fd507d4726d054",
+  "finalize_augmentation.rb": "48a194120baacd4f46470125dda19ec6ac343da43932be9c76189be9eb989e70",
+  "report_balance.rb": "7fda219f077cc7807bc0251e0fac8aab2a7cb43be287b31de9394d1c492022d9",
+  "rsi-tool-gate-balanced.service": "a88da07bac29c057ee6ecd177c88b849cc79ba2eaa76db6113083ae50789e2c7",
+  "rsi-tool-gate-trial.service": "3d05d0e974b7ed0dcf9a5fe438f5bebcd3893a513b088744a8a841a11e090e37",
+  "test_balance.py": "6f6b56cabfba02a30362481eadd150cd9f014a971a0b9e8d8c0f67c5c1fa2c8f",
+  "test_metrics.py": "f6ade3fa039bb58ad2e1d55b906bcd70242d76b5d728e9463af65e37826c502a",
+  "train.py": "05bba890a29a76aa2c96454fdfe5052c9c557f5326bf5dbf9a2d45c14fa8b871",
+  "verify_artifacts.rb": "f9940cc51cbf50189e7cda6ff1d2708a4cb9bf5ff6935ce39895707405963e2f"
+}

@@ -1,0 +1,8 @@
+{
+  "selected_rows": 2048,
+  "unique_rows": 2048,
+  "all_from_train": true,
+  "all_eligible_train_positives_retained": true,
+  "positive_rows": 24,
+  "selected_groups": 168
+}

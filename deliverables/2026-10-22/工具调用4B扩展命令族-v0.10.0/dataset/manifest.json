@@ -1,0 +1,44 @@
+{
+  "version": "0.10.0",
+  "experiment": "tool_gate_shell_dialect_16000_v9",
+  "label_source": "policy-derived synthetic contrasts; not human gold",
+  "human_verified_rows": 0,
+  "human_gold": false,
+  "production_qualified": false,
+  "training_rows_added": 4000,
+  "new_test_rows": 1200,
+  "base_train_manifest_sha256": "6fb4a56784cb18ac18f94ceda4c352a72b5f54b9251337b393f0a667070ae401",
+  "protocol": "threshold fixed at 0.5; v0.8 candidate test is exposed and excluded; new test is family-disjoint from train; historical regression remains weak-label-only",
+  "splits": {
+    "train": {
+      "rows": 16000,
+      "positives": 8000,
+      "sha256": "14d030074fe62b0efd6afc4a2a97b71ace258ede9a2f21666fdf8347f2b7e17e"
+    },
+    "locked_test_candidate": {
+      "rows": 1200,
+      "positives": 600,
+      "sha256": "2fa030723f49a9b3513c76f316a0a2d141880321ad6d4538d140d83ef86bdc7c"
+    },
+    "development": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "dd2e789997a1ea05ad2a4239b5d9f8c6c012686ecb33851062d9f0e80e7f9ea9"
+    },
+    "calibration": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "f912e15ec280dcb94dc5bfd6cbfa65b2a8db9929234fcfdacd451d1137d2d9a9"
+    },
+    "threshold_validation": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "bc7b75d76afd28a1ed741937e8dd943a4ad00568057474a430d03eb47371aaca"
+    },
+    "regression": {
+      "rows": 3073,
+      "positives": 1158,
+      "sha256": "baf9c0aa3c2c23e694e428f9fa8c16ea51554220385a4e0f841226c9b8232c10"
+    }
+  }
+}

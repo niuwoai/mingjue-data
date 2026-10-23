@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "SHT4-format_env_holdout-0-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-format_env_holdout-0-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9982993006706238
+  },
+  {
+    "id": "SHT4-format_env_holdout-0-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-format_env_holdout-0-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995694756507874
+  },
+  {
+    "id": "SHT4-format_env_holdout-0-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-format_env_holdout-0-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-format_env_holdout-0-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-format_env_holdout-0-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9992903470993042
+  },
+  {
+    "id": "SHT4-format_env_holdout-1-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-format_env_holdout-1-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.998498797416687
+  },
+  {
+    "id": "SHT4-format_env_holdout-1-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-format_env_holdout-1-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-format_env_holdout-1-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-format_env_holdout-1-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-format_env_holdout-1-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-format_env_holdout-1-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.999373733997345
+  },
+  {
+    "id": "SHT4-format_env_holdout-2-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9968273043632507
+  },
+  {
+    "id": "SHT4-format_env_holdout-2-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9980732202529907
+  },
+  {
+    "id": "SHT4-format_env_holdout-2-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-format_env_holdout-2-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-format_env_holdout-2-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-format_env_holdout-2-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-format_env_holdout-2-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-format_env_holdout-2-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.999373733997345
+  },
+  {
+    "id": "SHT4-format_env_holdout-3-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9975274205207825
+  },
+  {
+    "id": "SHT4-format_env_holdout-3-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9982993006706238
+  },
+  {
+    "id": "SHT4-format_env_holdout-3-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-format_env_holdout-3-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995121955871582
+  },
+  {
+    "id": "SHT4-format_env_holdout-3-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-format_env_holdout-3-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00023050671734381467
+  },
+  {
+    "id": "SHT4-format_env_holdout-3-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-format_env_holdout-3-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9992903470993042
+  },
+  {
+    "id": "SHT4-format_env_holdout-4-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9982993006706238
+  },
+  {
+    "id": "SHT4-format_env_holdout-4-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.998498797416687
+  },
+  {
+    "id": "SHT4-format_env_holdout-4-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-format_env_holdout-4-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-format_env_holdout-4-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.999841570854187
+  },
+  {
+    "id": "SHT4-format_env_holdout-4-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-format_env_holdout-4-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-format_env_holdout-4-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9992903470993042
+  },
+  {
+    "id": "SHT4-format_env_holdout-5-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-format_env_holdout-5-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9982993006706238
+  },
+  {
+    "id": "SHT4-format_env_holdout-5-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-format_env_holdout-5-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995694756507874
+  },
+  {
+    "id": "SHT4-format_env_holdout-5-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-format_env_holdout-5-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-format_env_holdout-5-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-format_env_holdout-5-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995121955871582
+  },
+  {
+    "id": "SHT4-format_env_holdout-6-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995694756507874
+  },
+  {
+    "id": "SHT4-format_env_holdout-6-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9980732202529907
+  },
+  {
+    "id": "SHT4-format_env_holdout-6-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-format_env_holdout-6-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995121955871582
+  },
+  {
+    "id": "SHT4-format_env_holdout-6-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-format_env_holdout-6-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00023050671734381467
+  },
+  {
+    "id": "SHT4-format_env_holdout-6-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-format_env_holdout-6-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-format_env_holdout-7-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995121955871582
+  },
+  {
+    "id": "SHT4-format_env_holdout-7-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9982993006706238
+  },
+  {
+    "id": "SHT4-format_env_holdout-7-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-format_env_holdout-7-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995694756507874
+  },
+  {
+    "id": "SHT4-format_env_holdout-7-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-format_env_holdout-7-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-format_env_holdout-7-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-format_env_holdout-7-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9994471669197083
+  },
+  {
+    "id": "SHT4-format_env_holdout-8-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9968273043632507
+  },
+  {
+    "id": "SHT4-format_env_holdout-8-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9982993006706238
+  },
+  {
+    "id": "SHT4-format_env_holdout-8-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-format_env_holdout-8-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-format_env_holdout-8-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.999841570854187
+  },
+  {
+    "id": "SHT4-format_env_holdout-8-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-format_env_holdout-8-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-format_env_holdout-8-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9994471669197083
+  },
+  {
+    "id": "SHT4-format_env_holdout-9-0",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9975274205207825
+  },
+  {
+    "id": "SHT4-format_env_holdout-9-1",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9980732202529907
+  },
+  {
+    "id": "SHT4-format_env_holdout-9-2",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-format_env_holdout-9-3",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9995121955871582
+  },
+  {
+    "id": "SHT4-format_env_holdout-9-4",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-format_env_holdout-9-5",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00023050671734381467
+  },
+  {
+    "id": "SHT4-format_env_holdout-9-6",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-format_env_holdout-9-7",
+    "group_id": "short-combination:locked_test_candidate:format_env_holdout",
+    "label": 1,
+    "probability": 0.9990890026092529
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-0-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-0-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9992903470993042
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-0-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-0-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9959298968315125
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-0-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-0-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-0-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-0-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9953904151916504
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.999841570854187
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9978172779083252
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9986749291419983
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9964063763618469
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9998601675033569
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9990890026092529
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9959298968315125
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9998205304145813
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9988304972648621
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9971990585327148
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9998910427093506
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9978172779083252
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9988304972648621
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9953904151916504
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9998601675033569
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9964063763618469
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9998205304145813
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00023050671734381467
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9990890026092529
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9968273043632507
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9998601675033569
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9978172779083252
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9988304972648621
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9971990585327148
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9998910427093506
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-1",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-2",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-4",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-5",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-6",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-7",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-0-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9998601675033569
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-0-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9992903470993042
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-0-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-0-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-0-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9994471669197083
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-0-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-0-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00023050671734381467
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-0-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9959298968315125
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-1-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-1-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9988304972648621
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-1-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-1-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.999841570854187
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-1-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-1-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-1-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-1-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9978172779083252
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-2-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9982993006706238
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-2-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.998498797416687
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-2-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-2-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.999841570854187
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-2-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-2-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-2-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-2-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.998498797416687
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-3-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9992903470993042
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-3-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-3-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-3-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-3-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9990890026092529
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-3-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-3-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-3-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-4-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9995121955871582
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-4-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-4-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-4-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9998766183853149
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-4-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-4-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-4-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-4-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9964063763618469
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-5-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-5-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9982993006706238
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-5-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-5-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.999841570854187
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-5-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9995694756507874
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-5-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-5-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-5-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9980732202529907
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-6-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-6-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9990890026092529
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-6-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-6-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-6-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9992903470993042
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-6-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-6-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-6-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-7-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-7-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9989677667617798
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-7-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-7-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9998205304145813
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-7-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9995694756507874
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-7-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-7-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-7-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9975274205207825
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-8-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.998498797416687
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-8-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9988304972648621
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-8-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-8-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9998766183853149
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-8-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-8-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-8-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-8-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9978172779083252
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-9-0",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9991958737373352
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-9-1",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9989677667617798
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-9-2",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-9-3",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-9-4",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9990890026092529
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-9-5",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-9-6",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-partition_delete_holdout-9-7",
+    "group_id": "short-combination:locked_test_candidate:partition_delete_holdout",
+    "label": 1,
+    "probability": 0.9953904151916504
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9980732202529907
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9940890073776245
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9149009585380554
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00033535013790242374
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9914224743843079
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9324532747268677
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9953904151916504
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9324532747268677
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9953904151916504
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9933071732521057
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.8670357465744019
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9914224743843079
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9525741338729858
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9890130758285522
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9953904151916504
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.957912266254425
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9978172779083252
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.8670357465744019
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9669140577316284
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9953904151916504
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9465966820716858
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9940890073776245
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-1",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-2",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9046505093574524
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-4",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-5",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-6",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-7",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.9995694756507874
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.2018132209777832
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00033535013790242374
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.18242551386356354
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00023050671734381467
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9968273043632507
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.7981867790222168
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.562176525592804
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997040629386902
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.04742587357759476
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.29421496391296387
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.7057850360870361
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.7057850360870361
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.18242551386356354
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.16451644897460938
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00033535013790242374
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9996646642684937
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.14804719388484955
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.7310585379600525
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.7057850360870361
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.020332353189587593
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.29421496391296387
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.531209409236908
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9890130758285522
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.16451644897460938
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.2689414322376251
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00033535013790242374
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.7981867790222168
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.7549149990081787
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.06008664518594742
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.24508501589298248
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.7310585379600525
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00023050671734381467
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9996199607849121
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-0",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.622459352016449
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.14804719388484955
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-2",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.3208213150501251
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-4",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-5",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-6",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 0,
+    "probability": 0.00020342697098385543
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-7",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.9992903470993042
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-read_fdisk_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:read_fdisk_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-read_dump_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-read_dump_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.0008040859247557819
+  },
+  {
+    "id": "SHT4-read_dump_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.0008040859247557819
+  },
+  {
+    "id": "SHT4-read_dump_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-read_dump_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.0008040859247557819
+  },
+  {
+    "id": "SHT4-read_dump_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.0007096704212017357
+  },
+  {
+    "id": "SHT4-read_dump_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-read_dump_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.0008040859247557819
+  },
+  {
+    "id": "SHT4-read_dump_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.0007096704212017357
+  },
+  {
+    "id": "SHT4-read_dump_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:read_dump_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.0031726830638945103
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.0010322310263291001
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-read_bytes_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:read_bytes_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.0007096704212017357
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.0008040859247557819
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.000626334163825959
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.0011695101857185364
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.0007096704212017357
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-read_block_size_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:read_block_size_holdout",
+    "label": 0,
+    "probability": 0.0011695101857185364
+  },
+  {
+    "id": "SHT4-dry_env_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.0028009270317852497
+  },
+  {
+    "id": "SHT4-dry_env_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-dry_env_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-dry_env_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.0031726830638945103
+  },
+  {
+    "id": "SHT4-dry_env_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-dry_env_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-dry_env_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.0028009270317852497
+  },
+  {
+    "id": "SHT4-dry_env_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-dry_env_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-dry_env_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:dry_env_holdout",
+    "label": 0,
+    "probability": 0.0024726232513785362
+  },
+  {
+    "id": "SHT4-help_dd_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-help_dd_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SHT4-help_dd_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-help_dd_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SHT4-help_dd_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.0019267346942797303
+  },
+  {
+    "id": "SHT4-help_dd_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SHT4-help_dd_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-help_dd_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHT4-help_dd_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-help_dd_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:help_dd_holdout",
+    "label": 0,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SHT4-help_parted_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-help_parted_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SHT4-help_parted_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-help_parted_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.000552778597921133
+  },
+  {
+    "id": "SHT4-help_parted_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-help_parted_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SHT4-help_parted_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-help_parted_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SHT4-help_parted_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.0010322310263291001
+  },
+  {
+    "id": "SHT4-help_parted_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:help_parted_holdout",
+    "label": 0,
+    "probability": 0.000552778597921133
+  },
+  {
+    "id": "SHT4-version_format_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0031726830638945103
+  },
+  {
+    "id": "SHT4-version_format_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0008040859247557819
+  },
+  {
+    "id": "SHT4-version_format_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-version_format_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0010322310263291001
+  },
+  {
+    "id": "SHT4-version_format_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-version_format_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0008040859247557819
+  },
+  {
+    "id": "SHT4-version_format_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0028009270317852497
+  },
+  {
+    "id": "SHT4-version_format_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0007096704212017357
+  },
+  {
+    "id": "SHT4-version_format_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0019267346942797303
+  },
+  {
+    "id": "SHT4-version_format_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:version_format_holdout",
+    "label": 0,
+    "probability": 0.0009110512328334153
+  },
+  {
+    "id": "SHT4-print_python_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-print_python_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-print_python_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.0011695101857185364
+  },
+  {
+    "id": "SHT4-print_python_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.0019267346942797303
+  },
+  {
+    "id": "SHT4-print_python_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-print_python_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-print_python_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-print_python_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-print_python_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.001325022429227829
+  },
+  {
+    "id": "SHT4-print_python_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:print_python_holdout",
+    "label": 0,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-search_literal_holdout-0-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-search_literal_holdout-1-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.0019267346942797303
+  },
+  {
+    "id": "SHT4-search_literal_holdout-2-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.0019267346942797303
+  },
+  {
+    "id": "SHT4-search_literal_holdout-3-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.0024726232513785362
+  },
+  {
+    "id": "SHT4-search_literal_holdout-4-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-search_literal_holdout-5-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-search_literal_holdout-6-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.0019267346942797303
+  },
+  {
+    "id": "SHT4-search_literal_holdout-7-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-search_literal_holdout-8-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.001700722612440586
+  },
+  {
+    "id": "SHT4-search_literal_holdout-9-read",
+    "group_id": "short-combination:locked_test_candidate:search_literal_holdout",
+    "label": 0,
+    "probability": 0.0019267346942797303
+  }
+]

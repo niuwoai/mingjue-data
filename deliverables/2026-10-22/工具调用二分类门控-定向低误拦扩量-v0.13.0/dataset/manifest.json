@@ -1,0 +1,50 @@
+{
+  "version": "0.13.0",
+  "experiment": "tool_gate_shell_contrast_28000_v12",
+  "label_source": "policy-constructed synthetic command/context contrasts; not human gold",
+  "human_verified_rows": 0,
+  "human_gold": false,
+  "production_qualified": false,
+  "base_manifest_sha256": "be612b332ce7c100eba6c57acf25545fde85add7cbb2668f9dacf85030aec290",
+  "extension": {
+    "added_train_rows": 4000,
+    "added_train_groups": 2000,
+    "read_only_groups": 1200,
+    "scoped_write_groups": 800,
+    "fresh_test_rows": 1200,
+    "fresh_test_groups": 600,
+    "rationale": "synthetic contrasts for observed read-only false-review patterns and scoped temporary-file writes; no historic command text copied"
+  },
+  "protocol": "binary allow/needs_review; fixed threshold 0.5; 28,000 balanced train rows; 4,000 targeted new rows; 1,200 new test rows from held-out command families; v0.12 locked test is moved to regression; no command is executed",
+  "splits": {
+    "train": {
+      "rows": 28000,
+      "positives": 14000,
+      "sha256": "9f9dba460472edcc93c15e3de19a182f8cf858f5fe6013f5bab94c4d9a556f4b"
+    },
+    "development": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "dd2e789997a1ea05ad2a4239b5d9f8c6c012686ecb33851062d9f0e80e7f9ea9"
+    },
+    "calibration": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "f912e15ec280dcb94dc5bfd6cbfa65b2a8db9929234fcfdacd451d1137d2d9a9"
+    },
+    "threshold_validation": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "bc7b75d76afd28a1ed741937e8dd943a4ad00568057474a430d03eb47371aaca"
+    },
+    "locked_test_candidate": {
+      "rows": 1200,
+      "positives": 600,
+      "sha256": "2d92713109c8bd10b275c1aa9df7abb4eaf857064a339bc3c9081b6c4efc2510"
+    }
+  },
+  "regression": {
+    "rows": 6673,
+    "sha256": "f068bcc9532582caa696c9d000d2deb8959bf734f8709f1267b2ba691a0441c0"
+  }
+}

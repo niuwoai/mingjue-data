@@ -1,0 +1,26 @@
+[
+  {
+    "id": "SHT4-format_help-8-read",
+    "group_id": "short-combination:train:format_help",
+    "label": 0,
+    "probability": 0.01098694372922182
+  },
+  {
+    "id": "engineering-padding-512-SHT4-format_help-8-read",
+    "group_id": "short-combination:train:format_help",
+    "label": 0,
+    "probability": 0.01098694372922182
+  },
+  {
+    "id": "CDX10-00388",
+    "group_id": "019f17d2-6121-7192-aec7-6383b59d4143",
+    "label": 0,
+    "probability": 0.009708477184176445
+  },
+  {
+    "id": "engineering-padding-1536-CDX10-00388",
+    "group_id": "019f17d2-6121-7192-aec7-6383b59d4143",
+    "label": 0,
+    "probability": 0.009708477184176445
+  }
+]

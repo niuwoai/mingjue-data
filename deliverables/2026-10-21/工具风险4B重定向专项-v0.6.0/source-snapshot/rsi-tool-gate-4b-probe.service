@@ -1,0 +1,19 @@
+[Unit]
+Description=RSI 4B BF16 LoRA engineering feasibility probe
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ml-data/rsi-tool-gate-short/src
+Environment=HF_HUB_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStartPre=/usr/bin/systemctl stop llama-qwen38-cuda.service
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-short/src/probe_4b.py --mode train --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-short/data --run /home/ml-data/rsi-tool-gate-short/runs/probe-4b-001 --max-length 1536
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-short/src/probe_4b.py --mode verify --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-short/data --run /home/ml-data/rsi-tool-gate-short/runs/probe-4b-001 --max-length 1536
+ExecStopPost=/usr/bin/systemctl start llama-qwen38-cuda.service
+TimeoutStartSec=30min
+TimeoutStopSec=90
+KillMode=control-group
+Nice=5
+StandardOutput=journal
+StandardError=journal

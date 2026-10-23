@@ -1,0 +1,18 @@
+# 模型/数据产物：体积大，留在原地不入库（靠报告里的 sha256 溯源）
+*.zip
+*.pt
+*.safetensors
+*.jsonl
+*.csv
+tokenizer/
+
+# Python 缓存
+*.pyc
+__pycache__/
+
+# 私有盲评密钥，禁止入库
+private-review-keys/
+
+# 系统与虚拟环境
+.DS_Store
+.venv/

@@ -1,0 +1,73 @@
+{
+  "version": "1.1.0",
+  "total": 1000,
+  "labels": {
+    "正常": 919,
+    "危险": 15,
+    "越权": 0,
+    "信息不足": 66
+  },
+  "percentages": {
+    "正常": 91.9,
+    "危险": 1.5,
+    "越权": 0.0,
+    "信息不足": 6.6
+  },
+  "initial_labels": {
+    "正常": 848,
+    "信息不足": 135,
+    "危险": 17
+  },
+  "revised_rule_labels": {
+    "正常": 904,
+    "危险": 18,
+    "信息不足": 78
+  },
+  "assistant_reviewed_records": 203,
+  "assistant_context_review_records": 22,
+  "original_command_sha256_unique": 803,
+  "sessions": 146,
+  "largest_session_sample_count": 489,
+  "top_5_sessions_sample_count": 669,
+  "no_preceding_user_candidate": 2,
+  "cwd_missing": 0,
+  "source_months": {
+    "2026-06": 43,
+    "2026-07": 931,
+    "2026-08": 26
+  },
+  "assistant_override_count": 15,
+  "labeled_file_sha256": "f93f3bf67cd437fce62fc06fa006d6e8be7d3949b8d5b076df862f2ffee14861",
+  "risk_features": {
+    "common_local_operation": 71,
+    "bounded_build_delete": 1,
+    "file_read": 419,
+    "local_write": 119,
+    "inline_script": 41,
+    "repository_publish": 8,
+    "dynamic_shell_expression": 4,
+    "unrecognized_command": 16,
+    "local_build_or_test": 59,
+    "container_state_change": 3,
+    "script_network_uncertain": 1,
+    "http_read": 7,
+    "privilege_change": 1,
+    "service_read": 2,
+    "remote_write": 5,
+    "opaque_script_entry": 46,
+    "local_test_or_check": 58,
+    "device_change_uncertain": 1,
+    "device_read": 4,
+    "syntax_check_only": 10,
+    "session_read": 1,
+    "object_storage_write": 1,
+    "environment_inspection": 18,
+    "script_process_execution_uncertain": 9,
+    "deployment_script_entry": 6,
+    "process_termination": 2,
+    "package_read": 1,
+    "local_build_or_read": 6,
+    "account_read": 1
+  },
+  "note": "Risk labels are not maliciousness, authorization gold labels or allow/block policy targets. Finite assistant review is not exhaustive human annotation."
+}

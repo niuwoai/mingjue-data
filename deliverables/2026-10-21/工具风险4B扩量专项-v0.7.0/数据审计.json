@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "train_rows": 10000,
+  "train_positive": 5000,
+  "added_train_rows": 4000,
+  "added_train_synthetic": 4000,
+  "prior_train_rows_retained": 6000,
+  "locked_test_rows": 1200,
+  "locked_test_positive": 600,
+  "new_test_synthetic": 1200,
+  "independent_model_review_rows": 238,
+  "independent_model_disagreements": 0,
+  "human_gold": 0,
+  "regression_rows": 1885,
+  "commands_executed": false,
+  "validation_splits_retained_from_v06": true,
+  "split_family_disjoint": true
+}

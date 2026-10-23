@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "train_rows": 28000,
+  "train_allow": 14000,
+  "train_needs_review": 14000,
+  "added_rows": 4000,
+  "fresh_test_rows": 1200,
+  "fresh_test_groups": 600,
+  "regression_rows": 6673,
+  "human_gold": 0,
+  "commands_executed": false,
+  "train_test_family_disjoint": true,
+  "threshold": 0.5,
+  "production_qualified": false
+}

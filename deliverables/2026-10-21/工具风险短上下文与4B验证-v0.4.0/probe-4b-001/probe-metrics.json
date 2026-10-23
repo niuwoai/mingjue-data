@@ -1,0 +1,91 @@
+{
+  "purpose": "engineering_feasibility_only_not_full_training_or_quality_acceptance",
+  "repo": "internlm/Intern-Decision-4B",
+  "revision": "1e65a988dacbcf00b84aee7366f9e47563407000",
+  "dtype": "bfloat16",
+  "lora_rank": 8,
+  "microbatch": 1,
+  "accumulation": 4,
+  "optimizer_steps": 2,
+  "forward_backward_calls": 8,
+  "tested_token_lengths": [
+    266,
+    512,
+    1536,
+    1536
+  ],
+  "synthetic_padding_is_quality_test": false,
+  "trainable_parameters": 16232448,
+  "updated_adapter_tensors": 496,
+  "peak_reserved_bytes": 11144265728,
+  "gpu_free_after_bytes": 3958177792,
+  "gpu_total_bytes": 16605380608,
+  "seconds": 10.501202320010634,
+  "trace": [
+    {
+      "step": 1,
+      "id": "SHT4-format_help-8-read",
+      "tokens": 266,
+      "loss": 0.12705068290233612,
+      "seconds": 0.792245335993357,
+      "peak_reserved_bytes": 10133438464
+    },
+    {
+      "step": 1,
+      "id": "engineering-padding-512-SHT4-format_help-8-read",
+      "tokens": 512,
+      "loss": 0.10042375326156616,
+      "seconds": 0.7092720700020436,
+      "peak_reserved_bytes": 10148118528
+    },
+    {
+      "step": 1,
+      "id": "CDX10-00388",
+      "tokens": 1536,
+      "loss": 0.062099259346723557,
+      "seconds": 1.5477560049912427,
+      "peak_reserved_bytes": 11012145152
+    },
+    {
+      "step": 1,
+      "id": "engineering-padding-1536-CDX10-00388",
+      "tokens": 1536,
+      "loss": 0.062099259346723557,
+      "seconds": 1.6478710349765606,
+      "peak_reserved_bytes": 11012145152
+    },
+    {
+      "step": 2,
+      "id": "SHT4-format_help-8-read",
+      "tokens": 266,
+      "loss": 0.06207069382071495,
+      "seconds": 0.6274540429876652,
+      "peak_reserved_bytes": 11089739776
+    },
+    {
+      "step": 2,
+      "id": "engineering-padding-512-SHT4-format_help-8-read",
+      "tokens": 512,
+      "loss": 0.062179360538721085,
+      "seconds": 0.6995690629992168,
+      "peak_reserved_bytes": 11089739776
+    },
+    {
+      "step": 2,
+      "id": "CDX10-00388",
+      "tokens": 1536,
+      "loss": 0.03815766051411629,
+      "seconds": 1.6861126980220433,
+      "peak_reserved_bytes": 11144265728
+    },
+    {
+      "step": 2,
+      "id": "engineering-padding-1536-CDX10-00388",
+      "tokens": 1536,
+      "loss": 0.038155823945999146,
+      "seconds": 1.5035902399977203,
+      "peak_reserved_bytes": 11144265728
+    }
+  ],
+  "completed": true
+}

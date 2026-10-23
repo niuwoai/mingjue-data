@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "train_unique": 4000,
+  "train_positives": 2000,
+  "train_negatives": 2000,
+  "historical_rows": 824,
+  "previous_synthetic": 720,
+  "new_synthetic": 2456,
+  "new_test_rows": 400,
+  "deduplicated_seed_rows": 24,
+  "conflicting_seed_inputs": 0,
+  "family_leakage": false,
+  "exact_state_leakage": false,
+  "duplicate_inputs": false,
+  "historical_commands_executed": false
+}

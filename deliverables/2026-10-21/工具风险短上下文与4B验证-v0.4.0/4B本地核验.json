@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "downloaded_probe_artifacts": 18,
+  "official_revision": "1e65a988dacbcf00b84aee7366f9e47563407000",
+  "remote_model_files_verified": 15,
+  "bf16_lora_training_steps": 2,
+  "max_tested_tokens": 1536,
+  "peak_reserved_gib": 10.37890625,
+  "adapter_sha256": "83165e23b87f3643bcf3c2cd08ba681873e034e9bd00aef15aba49e3dccc1726",
+  "fresh_reload_verified": true,
+  "original_inference_and_watchdog_restored": true,
+  "full_four_b_training": false,
+  "quality_acceptance": false
+}

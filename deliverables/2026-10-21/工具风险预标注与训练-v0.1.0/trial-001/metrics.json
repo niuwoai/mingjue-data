@@ -1,0 +1,325 @@
+{
+  "version": "0.3.0",
+  "base_revision": "8797836c65fc91a2435b1fb6850b5f0aabd75cc3",
+  "epochs": 1,
+  "available_train_rows": 5631,
+  "train_rows": 2048,
+  "trial_sampling": "all eligible review positives plus seeded train-only negatives, bounded by max_train_rows",
+  "max_train_rows": 2048,
+  "train_positive_rows": 24,
+  "positive_weight": 20.0,
+  "gradient_accumulation": 16,
+  "optimizer_steps": 128,
+  "trainable_parameters": 8409600,
+  "training_seconds": 1178.5608161210257,
+  "updated_adapter_tensors": 372,
+  "peak_reserved_bytes": 6469713920,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "seed": 20261021,
+  "max_length": 1536,
+  "threshold": 0.05,
+  "threshold_selection": "macro_f1 on threshold_validation only, fixed 0.5 if a class absent",
+  "before": {
+    "development": {
+      "rows": 1709,
+      "threshold": 0.5,
+      "tp": 8,
+      "fp": 1532,
+      "fn": 0,
+      "tn": 169,
+      "review_recall": 1.0,
+      "false_allow_rate": 0.0,
+      "review_positive_support": 8,
+      "review_recall_wilson_95": [
+        0.6755924351161198,
+        1
+      ],
+      "false_review_rate": 0.9006466784244562,
+      "accuracy": 0.10356933879461673,
+      "macro_f1": 0.0955422902071329,
+      "positive_class_absent": false
+    },
+    "calibration": {
+      "rows": 135,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 132,
+      "fn": 0,
+      "tn": 3,
+      "review_recall": null,
+      "false_allow_rate": null,
+      "review_positive_support": 0,
+      "review_recall_wilson_95": null,
+      "false_review_rate": 0.9777777777777777,
+      "accuracy": 0.022222222222222223,
+      "macro_f1": 0.021739130434782608,
+      "positive_class_absent": true
+    },
+    "threshold_validation": {
+      "rows": 162,
+      "threshold": 0.5,
+      "tp": 1,
+      "fp": 160,
+      "fn": 0,
+      "tn": 1,
+      "review_recall": 1.0,
+      "false_allow_rate": 0.0,
+      "review_positive_support": 1,
+      "review_recall_wilson_95": [
+        0.20654931437723745,
+        1
+      ],
+      "false_review_rate": 0.9937888198757764,
+      "accuracy": 0.012345679012345678,
+      "macro_f1": 0.012345679012345678,
+      "positive_class_absent": false
+    },
+    "locked_test_candidate": {
+      "rows": 706,
+      "threshold": 0.5,
+      "tp": 2,
+      "fp": 675,
+      "fn": 0,
+      "tn": 29,
+      "review_recall": 1.0,
+      "false_allow_rate": 0.0,
+      "review_positive_support": 2,
+      "review_recall_wilson_95": [
+        0.34238022750665303,
+        1
+      ],
+      "false_review_rate": 0.9588068181818182,
+      "accuracy": 0.043909348441926344,
+      "macro_f1": 0.04250894602647742,
+      "positive_class_absent": false
+    }
+  },
+  "after_fixed_0_5": {
+    "development": {
+      "rows": 1709,
+      "threshold": 0.5,
+      "tp": 2,
+      "fp": 1,
+      "fn": 6,
+      "tn": 1700,
+      "review_recall": 0.25,
+      "false_allow_rate": 0.75,
+      "review_positive_support": 8,
+      "review_recall_wilson_95": [
+        0.071479212752109,
+        0.5907245696898311
+      ],
+      "false_review_rate": 0.0005878894767783657,
+      "accuracy": 0.9959040374488005,
+      "macro_f1": 0.6807908850761801,
+      "positive_class_absent": false
+    },
+    "calibration": {
+      "rows": 135,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 135,
+      "review_recall": null,
+      "false_allow_rate": null,
+      "review_positive_support": 0,
+      "review_recall_wilson_95": null,
+      "false_review_rate": 0.0,
+      "accuracy": 1.0,
+      "macro_f1": 0.5,
+      "positive_class_absent": true
+    },
+    "threshold_validation": {
+      "rows": 162,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "tn": 161,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 1,
+      "review_recall_wilson_95": [
+        0,
+        0.7934506856227626
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.9938271604938271,
+      "macro_f1": 0.4984520123839009,
+      "positive_class_absent": false
+    },
+    "locked_test_candidate": {
+      "rows": 706,
+      "threshold": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "tn": 704,
+      "review_recall": 0.5,
+      "false_allow_rate": 0.5,
+      "review_positive_support": 2,
+      "review_recall_wilson_95": [
+        0.09453120573423074,
+        0.9054687942657693
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.9985835694050992,
+      "macro_f1": 0.8329784717293589,
+      "positive_class_absent": false
+    }
+  },
+  "after_selected_threshold": {
+    "development": {
+      "rows": 1709,
+      "threshold": 0.05,
+      "tp": 3,
+      "fp": 10,
+      "fn": 5,
+      "tn": 1691,
+      "review_recall": 0.375,
+      "false_allow_rate": 0.625,
+      "review_positive_support": 8,
+      "review_recall_wilson_95": [
+        0.13684428582359742,
+        0.6942576053973727
+      ],
+      "false_review_rate": 0.005878894767783657,
+      "accuracy": 0.9912229373902867,
+      "macro_f1": 0.6406493124185205,
+      "positive_class_absent": false
+    },
+    "calibration": {
+      "rows": 135,
+      "threshold": 0.05,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 135,
+      "review_recall": null,
+      "false_allow_rate": null,
+      "review_positive_support": 0,
+      "review_recall_wilson_95": null,
+      "false_review_rate": 0.0,
+      "accuracy": 1.0,
+      "macro_f1": 0.5,
+      "positive_class_absent": true
+    },
+    "threshold_validation": {
+      "rows": 162,
+      "threshold": 0.05,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "tn": 161,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 1,
+      "review_recall_wilson_95": [
+        0,
+        0.7934506856227626
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.9938271604938271,
+      "macro_f1": 0.4984520123839009,
+      "positive_class_absent": false
+    },
+    "locked_test_candidate": {
+      "rows": 706,
+      "threshold": 0.05,
+      "tp": 1,
+      "fp": 2,
+      "fn": 1,
+      "tn": 702,
+      "review_recall": 0.5,
+      "false_allow_rate": 0.5,
+      "review_positive_support": 2,
+      "review_recall_wilson_95": [
+        0.09453120573423074,
+        0.9054687942657693
+      ],
+      "false_review_rate": 0.002840909090909091,
+      "accuracy": 0.9957507082152974,
+      "macro_f1": 0.6989339019189765,
+      "positive_class_absent": false
+    }
+  },
+  "always_allow": {
+    "development": {
+      "rows": 1709,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "tn": 1701,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 8,
+      "review_recall_wilson_95": [
+        0,
+        0.32440756488388023
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.9953188999414863,
+      "macro_f1": 0.4988269794721408,
+      "positive_class_absent": false
+    },
+    "calibration": {
+      "rows": 135,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 135,
+      "review_recall": null,
+      "false_allow_rate": null,
+      "review_positive_support": 0,
+      "review_recall_wilson_95": null,
+      "false_review_rate": 0.0,
+      "accuracy": 1.0,
+      "macro_f1": 0.5,
+      "positive_class_absent": true
+    },
+    "threshold_validation": {
+      "rows": 162,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "tn": 161,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 1,
+      "review_recall_wilson_95": [
+        0,
+        0.7934506856227626
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.9938271604938271,
+      "macro_f1": 0.4984520123839009,
+      "positive_class_absent": false
+    },
+    "locked_test_candidate": {
+      "rows": 706,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "tn": 704,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 2,
+      "review_recall_wilson_95": [
+        0,
+        0.6576197724933469
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.9971671388101983,
+      "macro_f1": 0.49929078014184397,
+      "positive_class_absent": false
+    }
+  },
+  "human_gold": false,
+  "production_qualified": false,
+  "data_manifest_sha256": "c9a02278a109708f767a996b3b2466229c78f268f8dbda037e8e1180881af3a7"
+}

@@ -1,0 +1,23 @@
+{
+  "phase": "completed",
+  "updated_at": "2026-10-20T23:12:15Z",
+  "teacher_rows": 10000,
+  "independent_review_rows": 1776,
+  "dataset_usable_before_length": 8524,
+  "dataset_usable_after_length": 8343,
+  "training_trial_cap": 2048,
+  "training_review_positives": 24,
+  "service": "rsi-tool-gate-trial.service",
+  "remote_run": "/home/ml-data/rsi-tool-gate/runs/trial-001",
+  "human_verified": false,
+  "trained_rows": 2048,
+  "optimizer_steps": 128,
+  "engineering_acceptance": "passed",
+  "safety_acceptance": "failed",
+  "production_qualified": false,
+  "qwen_restored": true,
+  "reload_max_probability_difference": 0.0,
+  "development_review_recall": 0.25,
+  "weak_test_review_recall": 0.5,
+  "policy_contrast_review_recall": 0.1
+}

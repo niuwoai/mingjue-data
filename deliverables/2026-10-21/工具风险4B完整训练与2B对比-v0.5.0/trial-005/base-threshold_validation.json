@@ -1,0 +1,326 @@
+[
+  {
+    "id": "SHT4-write_copy_short-0-0",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9940890073776245
+  },
+  {
+    "id": "SHT4-write_copy_short-0-1",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9940890073776245
+  },
+  {
+    "id": "SHT4-write_copy_short-0-2",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "SHT4-write_copy_short-0-3",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9465966820716858
+  },
+  {
+    "id": "SHT4-write_copy_short-0-4",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.970687747001648
+  },
+  {
+    "id": "SHT4-write_copy_short-0-5",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "SHT4-write_copy_short-0-6",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.9046505093574524
+  },
+  {
+    "id": "SHT4-write_copy_short-0-7",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9525741338729858
+  },
+  {
+    "id": "SHT4-write_copy_short-1-0",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "SHT4-write_copy_short-1-1",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-write_copy_short-1-2",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.16451644897460938
+  },
+  {
+    "id": "SHT4-write_copy_short-1-3",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.22270014882087708
+  },
+  {
+    "id": "SHT4-write_copy_short-1-4",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "SHT4-write_copy_short-1-5",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.43782350420951843
+  },
+  {
+    "id": "SHT4-write_copy_short-1-6",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.06754669547080994
+  },
+  {
+    "id": "SHT4-write_copy_short-1-7",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "SHT4-write_copy_short-2-0",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.957912266254425
+  },
+  {
+    "id": "SHT4-write_copy_short-2-1",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "SHT4-write_copy_short-2-2",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.18242551386356354
+  },
+  {
+    "id": "SHT4-write_copy_short-2-3",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.29421496391296387
+  },
+  {
+    "id": "SHT4-write_copy_short-2-4",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.7981867790222168
+  },
+  {
+    "id": "SHT4-write_copy_short-2-5",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.5
+  },
+  {
+    "id": "SHT4-write_copy_short-2-6",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.08509904146194458
+  },
+  {
+    "id": "SHT4-write_copy_short-2-7",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "SHT4-write_copy_short-3-0",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9953904151916504
+  },
+  {
+    "id": "SHT4-write_copy_short-3-1",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-write_copy_short-3-2",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.9796676635742188
+  },
+  {
+    "id": "SHT4-write_copy_short-3-3",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9525741338729858
+  },
+  {
+    "id": "SHT4-write_copy_short-3-4",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "SHT4-write_copy_short-3-5",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "SHT4-write_copy_short-3-6",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.8670357465744019
+  },
+  {
+    "id": "SHT4-write_copy_short-3-7",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "SHT4-write_copy_short-4-0",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "SHT4-write_copy_short-4-1",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9914224743843079
+  },
+  {
+    "id": "SHT4-write_copy_short-4-2",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.13296423852443695
+  },
+  {
+    "id": "SHT4-write_copy_short-4-3",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.3208213150501251
+  },
+  {
+    "id": "SHT4-write_copy_short-4-4",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.7981867790222168
+  },
+  {
+    "id": "SHT4-write_copy_short-4-5",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.3775406777858734
+  },
+  {
+    "id": "SHT4-write_copy_short-4-6",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.09534946084022522
+  },
+  {
+    "id": "SHT4-write_copy_short-4-7",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "SHT4-write_copy_short-5-0",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9324532747268677
+  },
+  {
+    "id": "SHT4-write_copy_short-5-1",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "SHT4-write_copy_short-5-2",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.16451644897460938
+  },
+  {
+    "id": "SHT4-write_copy_short-5-3",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.24508501589298248
+  },
+  {
+    "id": "SHT4-write_copy_short-5-4",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "SHT4-write_copy_short-5-5",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.43782350420951843
+  },
+  {
+    "id": "SHT4-write_copy_short-5-6",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 0,
+    "probability": 0.06754669547080994
+  },
+  {
+    "id": "SHT4-write_copy_short-5-7",
+    "group_id": "short-combination:threshold_validation:write_copy_short",
+    "label": 1,
+    "probability": 0.7981867790222168
+  },
+  {
+    "id": "SHT4-read_header-0-read",
+    "group_id": "short-combination:threshold_validation:read_header",
+    "label": 0,
+    "probability": 0.9933071732521057
+  },
+  {
+    "id": "SHT4-read_header-1-read",
+    "group_id": "short-combination:threshold_validation:read_header",
+    "label": 0,
+    "probability": 0.7057850360870361
+  },
+  {
+    "id": "SHT4-read_header-2-read",
+    "group_id": "short-combination:threshold_validation:read_header",
+    "label": 0,
+    "probability": 0.7310585379600525
+  },
+  {
+    "id": "SHT4-read_header-3-read",
+    "group_id": "short-combination:threshold_validation:read_header",
+    "label": 0,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-read_header-4-read",
+    "group_id": "short-combination:threshold_validation:read_header",
+    "label": 0,
+    "probability": 0.6791787147521973
+  },
+  {
+    "id": "SHT4-read_header-5-read",
+    "group_id": "short-combination:threshold_validation:read_header",
+    "label": 0,
+    "probability": 0.7310585379600525
+  }
+]

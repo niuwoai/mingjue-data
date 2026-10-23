@@ -1,0 +1,14 @@
+[
+  {
+    "name": "磁盘授权与隔离",
+    "passed": true,
+    "stdout": "Run options: --seed 61176\n\n# Running:\n\n.....\n\nFinished in 0.279408s, 17.8950 runs/s, 33785.7184 assertions/s.\n\n5 runs, 9440 assertions, 0 failures, 0 errors, 0 skips\n",
+    "stderr": ""
+  },
+  {
+    "name": "采样及指标",
+    "passed": true,
+    "stdout": "",
+    "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+  }
+]

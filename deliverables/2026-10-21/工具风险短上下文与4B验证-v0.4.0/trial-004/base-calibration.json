@@ -1,0 +1,326 @@
+[
+  {
+    "id": "SHT4-format_btrfs_short-0-0",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-format_btrfs_short-0-1",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9964063763618469
+  },
+  {
+    "id": "SHT4-format_btrfs_short-0-2",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-format_btrfs_short-0-3",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-format_btrfs_short-0-4",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-format_btrfs_short-0-5",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-format_btrfs_short-0-6",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-format_btrfs_short-0-7",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9959298968315125
+  },
+  {
+    "id": "SHT4-format_btrfs_short-1-0",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.851952850818634
+  },
+  {
+    "id": "SHT4-format_btrfs_short-1-1",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9324532747268677
+  },
+  {
+    "id": "SHT4-format_btrfs_short-1-2",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "SHT4-format_btrfs_short-1-3",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.851952850818634
+  },
+  {
+    "id": "SHT4-format_btrfs_short-1-4",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "SHT4-format_btrfs_short-1-5",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.6791787147521973
+  },
+  {
+    "id": "SHT4-format_btrfs_short-1-6",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.22270014882087708
+  },
+  {
+    "id": "SHT4-format_btrfs_short-1-7",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "SHT4-format_btrfs_short-2-0",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.7310585379600525
+  },
+  {
+    "id": "SHT4-format_btrfs_short-2-1",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9241418242454529
+  },
+  {
+    "id": "SHT4-format_btrfs_short-2-2",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.7549149990081787
+  },
+  {
+    "id": "SHT4-format_btrfs_short-2-3",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.8354835510253906
+  },
+  {
+    "id": "SHT4-format_btrfs_short-2-4",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.957912266254425
+  },
+  {
+    "id": "SHT4-format_btrfs_short-2-5",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.622459352016449
+  },
+  {
+    "id": "SHT4-format_btrfs_short-2-6",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.18242551386356354
+  },
+  {
+    "id": "SHT4-format_btrfs_short-2-7",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "SHT4-format_btrfs_short-3-0",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9959298968315125
+  },
+  {
+    "id": "SHT4-format_btrfs_short-3-1",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9971990585327148
+  },
+  {
+    "id": "SHT4-format_btrfs_short-3-2",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-format_btrfs_short-3-3",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9964063763618469
+  },
+  {
+    "id": "SHT4-format_btrfs_short-3-4",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9940890073776245
+  },
+  {
+    "id": "SHT4-format_btrfs_short-3-5",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.9947799444198608
+  },
+  {
+    "id": "SHT4-format_btrfs_short-3-6",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-format_btrfs_short-3-7",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9964063763618469
+  },
+  {
+    "id": "SHT4-format_btrfs_short-4-0",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.851952850818634
+  },
+  {
+    "id": "SHT4-format_btrfs_short-4-1",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.8933094143867493
+  },
+  {
+    "id": "SHT4-format_btrfs_short-4-2",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.5926666259765625
+  },
+  {
+    "id": "SHT4-format_btrfs_short-4-3",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.7981867790222168
+  },
+  {
+    "id": "SHT4-format_btrfs_short-4-4",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9525741338729858
+  },
+  {
+    "id": "SHT4-format_btrfs_short-4-5",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.5926666259765625
+  },
+  {
+    "id": "SHT4-format_btrfs_short-4-6",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.2018132209777832
+  },
+  {
+    "id": "SHT4-format_btrfs_short-4-7",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHT4-format_btrfs_short-5-0",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.957912266254425
+  },
+  {
+    "id": "SHT4-format_btrfs_short-5-1",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9324532747268677
+  },
+  {
+    "id": "SHT4-format_btrfs_short-5-2",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.7549149990081787
+  },
+  {
+    "id": "SHT4-format_btrfs_short-5-3",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.8670357465744019
+  },
+  {
+    "id": "SHT4-format_btrfs_short-5-4",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "SHT4-format_btrfs_short-5-5",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.6791787147521973
+  },
+  {
+    "id": "SHT4-format_btrfs_short-5-6",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 0,
+    "probability": 0.18242551386356354
+  },
+  {
+    "id": "SHT4-format_btrfs_short-5-7",
+    "group_id": "short-combination:calibration:format_btrfs_short",
+    "label": 1,
+    "probability": 0.9940890073776245
+  },
+  {
+    "id": "SHT4-read_signature-0-read",
+    "group_id": "short-combination:calibration:read_signature",
+    "label": 0,
+    "probability": 0.9959298968315125
+  },
+  {
+    "id": "SHT4-read_signature-1-read",
+    "group_id": "short-combination:calibration:read_signature",
+    "label": 0,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "SHT4-read_signature-2-read",
+    "group_id": "short-combination:calibration:read_signature",
+    "label": 0,
+    "probability": 0.9840936064720154
+  },
+  {
+    "id": "SHT4-read_signature-3-read",
+    "group_id": "short-combination:calibration:read_signature",
+    "label": 0,
+    "probability": 0.9968273043632507
+  },
+  {
+    "id": "SHT4-read_signature-4-read",
+    "group_id": "short-combination:calibration:read_signature",
+    "label": 0,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "SHT4-read_signature-5-read",
+    "group_id": "short-combination:calibration:read_signature",
+    "label": 0,
+    "probability": 0.9859364032745361
+  }
+]

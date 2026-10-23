@@ -1,0 +1,16 @@
+[Unit]
+Description=RSI post-result shell literal/context diagnostic, no training
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ml-data/rsi-tool-gate-shell/src
+Environment=HF_HUB_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStartPre=/usr/bin/systemctl stop llama-qwen38-cuda.service
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-shell/src/shell_diagnostic.py --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-shell/data --run /home/ml-data/rsi-tool-gate-shell/runs/trial-006
+ExecStopPost=/usr/bin/systemctl start llama-qwen38-cuda.service
+TimeoutStartSec=10min
+TimeoutStopSec=90
+Nice=5
+StandardOutput=journal
+StandardError=journal

@@ -1,0 +1,15 @@
+{
+  "current_data_manifest_sha256": "ca059dc7bf1b150fb6367da00cf0e1577d0fcf2591df5f24c140f93f6a02d96f",
+  "previous_files_sha256": {
+    "trial-005": {
+      "adapter-locked_test_candidate.json": "76eef2e8b0b4f06c9348d2e81b3dac60fa36ee5abc9eec4dbfd1f50ef5029842",
+      "4b-regression.json": "8b53ebd90034b6358dd458b987c2b0b218ab1e1f87350022df2c5a9388187788",
+      "original-26-error-followup.json": "a4a51d0784598adb4b91cdaf983129c7b07ad044f7dfd26022c35b0417259c5b",
+      "adapter/adapter_model.safetensors": "848559576b372fc3eaf526b9623c490b5fff3d055a41bb8361cd7969739f170e"
+    },
+    "trial-004": {
+      "adapter-locked_test_candidate.json": "33ff5f1511fad70e19893f72eacba621ae72e907c8ccff47264d515b7bfe4019",
+      "trial4-regression.json": "b3a2ec0de741e224578add95c8f0592cc735dffef279db8af8a16cede37e6300"
+    }
+  }
+}

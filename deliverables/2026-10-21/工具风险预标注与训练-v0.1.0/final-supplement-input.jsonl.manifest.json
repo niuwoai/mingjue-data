@@ -1,0 +1,9 @@
+{
+  "rows": 54,
+  "selected_ids_sha256": "2d97bdae53da21e79917fc5052864ca7e6d76eddf044df3608aecfb95e66343a",
+  "input_sha256": "709ee3bc9fbbb662737fd031753d6733adfa8909419335af43f0caee1a705ef3",
+  "primary_labels_sha256": "e7f4d097f687672f27d0d9916b01ba8b7c7da1f78b9ab832e60609dd103b1399",
+  "reviewer_blinded_to_primary_labels": true,
+  "human_review": false,
+  "selection": "all teacher high/critical/out-of-scope/review/block plus up to 200 destructive/push syntax candidates; syntax used only for sampling, not labels"
+}

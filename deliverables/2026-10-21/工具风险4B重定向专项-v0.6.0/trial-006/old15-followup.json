@@ -1,0 +1,107 @@
+[
+  {
+    "id": "SHT4-write_shell_holdout-0-1",
+    "label": 1,
+    "previous_probability": 0.2018132209777832,
+    "current_probability": 0.037326883524656296,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-0-3",
+    "label": 1,
+    "previous_probability": 0.18242551386356354,
+    "current_probability": 0.001325022429227829,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-0",
+    "label": 1,
+    "previous_probability": 0.04742587357759476,
+    "current_probability": 0.001700722612440586,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-1",
+    "label": 1,
+    "previous_probability": 0.29421496391296387,
+    "current_probability": 0.009708477184176445,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-1",
+    "label": 1,
+    "previous_probability": 0.18242551386356354,
+    "current_probability": 0.0534033328294754,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-3-3",
+    "label": 1,
+    "previous_probability": 0.16451644897460938,
+    "current_probability": 0.0010322310263291001,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-0",
+    "label": 1,
+    "previous_probability": 0.14804719388484955,
+    "current_probability": 0.0534033328294754,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-0",
+    "label": 1,
+    "previous_probability": 0.020332353189587593,
+    "current_probability": 0.004609572701156139,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-1",
+    "label": 1,
+    "previous_probability": 0.29421496391296387,
+    "current_probability": 0.008577484637498856,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-1",
+    "label": 1,
+    "previous_probability": 0.16451644897460938,
+    "current_probability": 0.022977370768785477,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-6-3",
+    "label": 1,
+    "previous_probability": 0.2689414322376251,
+    "current_probability": 0.002182716503739357,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-0",
+    "label": 1,
+    "previous_probability": 0.06008664518594742,
+    "current_probability": 0.002182716503739357,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-1",
+    "label": 1,
+    "previous_probability": 0.24508501589298248,
+    "current_probability": 0.008577484637498856,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-1",
+    "label": 1,
+    "previous_probability": 0.14804719388484955,
+    "current_probability": 0.02595735713839531,
+    "current_correct": false
+  },
+  {
+    "id": "SHT4-write_shell_holdout-9-3",
+    "label": 1,
+    "previous_probability": 0.3208213150501251,
+    "current_probability": 0.0019267346942797303,
+    "current_correct": false
+  }
+]

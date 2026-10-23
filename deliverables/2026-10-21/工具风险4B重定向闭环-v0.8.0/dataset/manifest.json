@@ -1,0 +1,41 @@
+{
+  "version": "0.8.0",
+  "experiment": "shell_redirect_12000_v8",
+  "human_verified_rows": 0,
+  "label_source": "policy-derived synthetic; manually specified contrast pairs",
+  "split_protocol": "fresh six-family holdout; v0.7 test moved to observed regression after error analysis; no command execution",
+  "prior_train_sha256": "8f4a26fdeee41013c09e5d173ea945433a1fbe9217e242cd69266125e415d441",
+  "new_train_rows": 2000,
+  "new_test_rows": 1200,
+  "splits": {
+    "train": {
+      "rows": 12000,
+      "positives": 6000,
+      "sha256": "a4efb9d4d65f1152d7fd8433531ded542521473c30f6b7a4a6c20e877bb3d78e"
+    },
+    "locked_test_candidate": {
+      "rows": 1200,
+      "positives": 600,
+      "sha256": "1b1ad4d6c587e3687b2188a0b4c3b41557be9db8daf344dfc560c2d0f97ec108"
+    },
+    "development": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "dd2e789997a1ea05ad2a4239b5d9f8c6c012686ecb33851062d9f0e80e7f9ea9"
+    },
+    "calibration": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "f912e15ec280dcb94dc5bfd6cbfa65b2a8db9929234fcfdacd451d1137d2d9a9"
+    },
+    "threshold_validation": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "bc7b75d76afd28a1ed741937e8dd943a4ad00568057474a430d03eb47371aaca"
+    }
+  },
+  "regression": {
+    "rows": 3073,
+    "sha256": "baf9c0aa3c2c23e694e428f9fa8c16ea51554220385a4e0f841226c9b8232c10"
+  }
+}

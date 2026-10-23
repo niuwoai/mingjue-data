@@ -1,0 +1,6 @@
+{
+  "model": "codex/gpt-6-astra",
+  "rubric_sha256": "f2d8bf0ee562bb5183578e8c9118e5051fb6422dda458791533f5513b09d1657",
+  "input_sha256": "f1ff4265de4f44177d6c9473b5f8c8b77835692cc88b847e2fb61a9a4c13c002",
+  "human_verified": false
+}

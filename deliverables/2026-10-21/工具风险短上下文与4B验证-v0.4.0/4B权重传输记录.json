@@ -1,0 +1,17 @@
+{
+  "route": "Official Hugging Face -> local temporary cache -> existing SSH SCP -> q4; reverify on q4 before probe",
+  "official_repo": "internlm/Intern-Decision-4B",
+  "revision": "1e65a988dacbcf00b84aee7366f9e47563407000",
+  "local_files_verified": true,
+  "weight_bytes": 9078626736,
+  "local_verification_sha256": "92725f3a9e2f0c6a7a16678a9df33065e09633dbd34db7a7b606c04619c0acbe",
+  "network_observations": {
+    "q4_hf_mirror": 403,
+    "q4_huggingface": "timeout",
+    "local_huggingface": 200
+  },
+  "new_reverse_tunnels_created": false,
+  "ssh_copy_completed": true,
+  "q4_reverification_pending": false,
+  "q4_reverification_passed": true
+}

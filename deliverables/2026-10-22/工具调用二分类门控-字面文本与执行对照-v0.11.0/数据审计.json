@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "train_rows": 20000,
+  "train_needs_review": 10000,
+  "added_train_rows": 4000,
+  "new_locked_test_rows": 1200,
+  "new_locked_test_needs_review": 600,
+  "regression_rows": 4273,
+  "human_review_queue_rows": 200,
+  "human_verified_rows": 0,
+  "human_gold": false,
+  "commands_executed": false,
+  "train_test_family_disjoint": true,
+  "threshold": 0.5,
+  "production_qualified": false
+}

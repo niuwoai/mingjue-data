@@ -1,0 +1,20 @@
+[Unit]
+Description=RSI full 4000-row Intern Decision 4B LoRA comparison
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ml-data/rsi-tool-gate-4b-full/src
+Environment=HF_HUB_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStartPre=/usr/bin/systemctl stop llama-qwen38-cuda.service
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-4b-full/src/full_4b.py --mode train --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-short/data --run /home/ml-data/rsi-tool-gate-4b-full/runs/trial-005
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-4b-full/src/full_4b.py --mode verify --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-short/data --run /home/ml-data/rsi-tool-gate-4b-full/runs/trial-005
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-4b-full/src/full_4b_eval.py --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-short/data --run /home/ml-data/rsi-tool-gate-4b-full/runs/trial-005 --previous /home/ml-data/rsi-tool-gate-short/runs/trial-004
+ExecStopPost=/usr/bin/systemctl start llama-qwen38-cuda.service
+TimeoutStartSec=8h
+TimeoutStopSec=90
+KillMode=control-group
+Nice=5
+StandardOutput=journal
+StandardError=journal

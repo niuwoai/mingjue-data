@@ -1,0 +1,15 @@
+{
+  "restored_optimizer": true,
+  "restored_rng": true,
+  "previous_step": 32,
+  "new_step": 33,
+  "learning_rate": 5e-05,
+  "trace": [
+    {
+      "step": 33,
+      "loss": 7.867782187531702e-06,
+      "gradient_norm": 0.00038785309880040586,
+      "seconds": 1.1092536250071134
+    }
+  ]
+}

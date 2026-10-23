@@ -1,0 +1,38 @@
+{
+  "version": "0.6.0",
+  "experiment": "shell_redirect_6000_v6",
+  "human_verified_rows": 0,
+  "labels": 6780,
+  "independent_review_rows": 218,
+  "split_protocol": "New held-out shell wrapper/task/target combinations; shared writing semantics and some templates; synthetic not human gold",
+  "original_train_sha256": "40ec36b09d56c09929fa42435ece67399793cef886d2ea81df5338ca41134380",
+  "source_sha256": "21a9ad43941a97c5e146ac65cd020f77b50eae3f0cf0afc95f120c9988f52142",
+  "splits": {
+    "train": {
+      "rows": 6000,
+      "positives": 3000,
+      "sha256": "ebd377129263a5ae853d6cf29af48ef2f220dcba481d91895a1bb7d0550bb593"
+    },
+    "development": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "dd2e789997a1ea05ad2a4239b5d9f8c6c012686ecb33851062d9f0e80e7f9ea9"
+    },
+    "calibration": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "f912e15ec280dcb94dc5bfd6cbfa65b2a8db9929234fcfdacd451d1137d2d9a9"
+    },
+    "threshold_validation": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "bc7b75d76afd28a1ed741937e8dd943a4ad00568057474a430d03eb47371aaca"
+    },
+    "locked_test_candidate": {
+      "rows": 600,
+      "positives": 300,
+      "sha256": "20a9b1e2caf42adfb1352c110c2cb46fcfe3e5ac27533068a2ef17de90f3cf2f"
+    }
+  },
+  "regression_sha256": "241d672272b4ce88fb92ec8dfcbe74ae0bd19719e16513b04dd2a5dab900a1de"
+}

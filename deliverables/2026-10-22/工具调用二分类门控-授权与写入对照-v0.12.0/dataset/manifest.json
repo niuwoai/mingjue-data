@@ -1,0 +1,45 @@
+{
+  "version": "0.12.0",
+  "experiment": "tool_gate_shell_authorization_24000_v11",
+  "label_source": "policy-derived authorization and pending-permission contrasts; not human gold",
+  "human_verified_rows": 0,
+  "human_gold": false,
+  "production_qualified": false,
+  "protocol": "binary allow/needs_review; threshold fixed at 0.5; same write command paired across absent authorization, explicit authorization, and pending permission; train families are cat/dd/printf, locked test families are Python pathlib/install; prior v0.11 test is observed regression",
+  "base_manifest_sha256": "11c98e8b6d0093fd22cabd1141fccc5d8eb52ecc1abd781fb1e89d5a5f9b9dca",
+  "splits": {
+    "train": {
+      "rows": 24000,
+      "positives": 12000,
+      "sha256": "2cf396951a35c350cde2c85547841ebf2819daf71dabc7ad6f1fd4645432e4b2"
+    },
+    "locked_test_candidate": {
+      "rows": 1200,
+      "positives": 600,
+      "sha256": "71e8150082be7ef7428095984d0f8994395ca30ea40dc9b050fed1f12f48c654"
+    },
+    "development": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "dd2e789997a1ea05ad2a4239b5d9f8c6c012686ecb33851062d9f0e80e7f9ea9"
+    },
+    "calibration": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "f912e15ec280dcb94dc5bfd6cbfa65b2a8db9929234fcfdacd451d1137d2d9a9"
+    },
+    "threshold_validation": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "bc7b75d76afd28a1ed741937e8dd943a4ad00568057474a430d03eb47371aaca"
+    }
+  },
+  "regression_sources": {
+    "prior_regression_rows": 4273,
+    "prior_test_rows": 1200
+  },
+  "regression": {
+    "rows": 5473,
+    "sha256": "d4ca46140992ad5f5908903215fbe017f702432a081ca7f42fee414a021cc299"
+  }
+}

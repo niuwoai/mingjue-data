@@ -1,0 +1,7 @@
+{
+  "train_rows": 4000,
+  "test_rows": 1200,
+  "review_rows": 238,
+  "commands_executed": false,
+  "human_gold": 0
+}

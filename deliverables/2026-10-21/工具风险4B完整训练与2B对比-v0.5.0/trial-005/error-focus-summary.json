@@ -1,0 +1,47 @@
+{
+  "false_allow": {
+    "original_rows": 5,
+    "fixed": 5,
+    "still_wrong": 0,
+    "ids": [
+      "SHT4-partition_delete_holdout-0-3",
+      "SHT4-partition_delete_holdout-1-3",
+      "SHT4-partition_delete_holdout-2-3",
+      "SHT4-partition_delete_holdout-6-3",
+      "SHT4-partition_delete_holdout-9-3"
+    ]
+  },
+  "false_review": {
+    "original_rows": 21,
+    "fixed": 21,
+    "still_wrong": 0,
+    "ids": [
+      "SHT4-read_dump_holdout-0-read",
+      "SHT4-read_dump_holdout-1-read",
+      "SHT4-read_dump_holdout-2-read",
+      "SHT4-read_dump_holdout-3-read",
+      "SHT4-read_dump_holdout-4-read",
+      "SHT4-read_dump_holdout-5-read",
+      "SHT4-read_dump_holdout-6-read",
+      "SHT4-read_dump_holdout-7-read",
+      "SHT4-read_dump_holdout-8-read",
+      "SHT4-read_dump_holdout-9-read",
+      "SHT4-read_bytes_holdout-0-read",
+      "SHT4-read_bytes_holdout-3-read",
+      "SHT4-read_bytes_holdout-6-read",
+      "SHT4-read_bytes_holdout-9-read",
+      "SHT4-version_format_holdout-0-read",
+      "SHT4-version_format_holdout-1-read",
+      "SHT4-version_format_holdout-3-read",
+      "SHT4-version_format_holdout-5-read",
+      "SHT4-version_format_holdout-6-read",
+      "SHT4-version_format_holdout-7-read",
+      "SHT4-version_format_holdout-9-read"
+    ]
+  },
+  "new_regressions": {
+    "rows": 15,
+    "false_allow": 15,
+    "false_review": 0
+  }
+}

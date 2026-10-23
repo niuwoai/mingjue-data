@@ -1,0 +1,20 @@
+[Unit]
+Description=RSI tool gate short context safety 4000 trial 004
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ml-data/rsi-tool-gate-short/src
+Environment=HF_HUB_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStartPre=/usr/bin/systemctl stop llama-qwen38-cuda.service
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-short/src/train.py --mode train --model /home/ml-data/rsi-smoke/model-2b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-short/data --run /home/ml-data/rsi-tool-gate-short/runs/trial-004 --max-length 1536 --accumulation 16 --balanced-draws 4096
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-short/src/train.py --mode verify --model /home/ml-data/rsi-smoke/model-2b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-short/data --run /home/ml-data/rsi-tool-gate-short/runs/trial-004 --max-length 1536
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-short/src/short_eval.py --model /home/ml-data/rsi-smoke/model-2b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-short/data --run /home/ml-data/rsi-tool-gate-short/runs/trial-004 --previous /home/ml-data/rsi-tool-gate-disk/runs/trial-003 --max-length 1536
+ExecStopPost=/usr/bin/systemctl start llama-qwen38-cuda.service
+TimeoutStartSec=8h
+TimeoutStopSec=90
+KillMode=control-group
+Nice=5
+StandardOutput=journal
+StandardError=journal

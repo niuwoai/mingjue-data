@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "train_unique": 6000,
+  "new_shell_rows": 2000,
+  "normal": 3000,
+  "needs_review": 3000,
+  "original_4000_retained": true,
+  "new_test": 600,
+  "new_test_positive": 300,
+  "reviewed_representatives": 218,
+  "historical_weak": 324,
+  "synthetic": 5676,
+  "human_gold": 0,
+  "commands_executed": false,
+  "known_15_remain_regression_only": true
+}

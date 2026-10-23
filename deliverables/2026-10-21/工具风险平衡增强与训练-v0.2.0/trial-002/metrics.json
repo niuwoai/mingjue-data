@@ -1,0 +1,341 @@
+{
+  "version": "0.4.0",
+  "base_revision": "8797836c65fc91a2435b1fb6850b5f0aabd75cc3",
+  "epochs": null,
+  "available_train_rows": 1261,
+  "train_rows": 2048,
+  "trial_sampling": "balanced accumulation batches with shuffled cyclic class pools",
+  "unique_rows_seen": 1261,
+  "positive_draws": 1024,
+  "unique_positive_rows_seen": 360,
+  "balanced_draws": 2048,
+  "max_train_rows": 0,
+  "train_positive_rows": 360,
+  "positive_weight": 1.0,
+  "gradient_accumulation": 16,
+  "optimizer_steps": 128,
+  "trainable_parameters": 8409600,
+  "training_seconds": 1046.6273792489956,
+  "updated_adapter_tensors": 372,
+  "peak_reserved_bytes": 6471811072,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "seed": 20261021,
+  "max_length": 1536,
+  "threshold": 0.5,
+  "threshold_selection": "fixed 0.5 preregistered for balanced experiment; legacy tuning requires at least 20 examples per class",
+  "before": {
+    "development": {
+      "rows": 1925,
+      "threshold": 0.5,
+      "tp": 92,
+      "fp": 1592,
+      "fn": 12,
+      "tn": 229,
+      "review_recall": 0.8846153846153846,
+      "false_allow_rate": 0.11538461538461539,
+      "review_positive_support": 104,
+      "review_recall_wilson_95": [
+        0.8090795037039419,
+        0.9327502237018642
+      ],
+      "false_review_rate": 0.8742449203734212,
+      "accuracy": 0.16675324675324676,
+      "macro_f1": 0.16251136469664126,
+      "positive_class_absent": false
+    },
+    "calibration": {
+      "rows": 255,
+      "threshold": 0.5,
+      "tp": 48,
+      "fp": 192,
+      "fn": 0,
+      "tn": 15,
+      "review_recall": 1.0,
+      "false_allow_rate": 0.0,
+      "review_positive_support": 48,
+      "review_recall_wilson_95": [
+        0.9258998703338824,
+        0.9999999999999999
+      ],
+      "false_review_rate": 0.927536231884058,
+      "accuracy": 0.24705882352941178,
+      "macro_f1": 0.23423423423423423,
+      "positive_class_absent": false
+    },
+    "threshold_validation": {
+      "rows": 330,
+      "threshold": 0.5,
+      "tp": 73,
+      "fp": 196,
+      "fn": 0,
+      "tn": 61,
+      "review_recall": 1.0,
+      "false_allow_rate": 0.0,
+      "review_positive_support": 73,
+      "review_recall_wilson_95": [
+        0.9500079920442688,
+        0.9999999999999998
+      ],
+      "false_review_rate": 0.7626459143968871,
+      "accuracy": 0.40606060606060607,
+      "macro_f1": 0.40527419176873003,
+      "positive_class_absent": false
+    },
+    "locked_test_candidate": {
+      "rows": 922,
+      "threshold": 0.5,
+      "tp": 98,
+      "fp": 711,
+      "fn": 0,
+      "tn": 113,
+      "review_recall": 1.0,
+      "false_allow_rate": 0.0,
+      "review_positive_support": 98,
+      "review_recall_wilson_95": [
+        0.9622800098783192,
+        0.9999999999999999
+      ],
+      "false_review_rate": 0.8628640776699029,
+      "accuracy": 0.22885032537960953,
+      "macro_f1": 0.22864616365773616,
+      "positive_class_absent": false
+    }
+  },
+  "after_fixed_0_5": {
+    "development": {
+      "rows": 1925,
+      "threshold": 0.5,
+      "tp": 76,
+      "fp": 14,
+      "fn": 28,
+      "tn": 1807,
+      "review_recall": 0.7307692307692307,
+      "false_allow_rate": 0.2692307692307692,
+      "review_positive_support": 104,
+      "review_recall_wilson_95": [
+        0.6384304486194915,
+        0.8066673878239922
+      ],
+      "false_review_rate": 0.007688083470620538,
+      "accuracy": 0.9781818181818182,
+      "macro_f1": 0.886008594825058,
+      "positive_class_absent": false
+    },
+    "calibration": {
+      "rows": 255,
+      "threshold": 0.5,
+      "tp": 24,
+      "fp": 0,
+      "fn": 24,
+      "tn": 207,
+      "review_recall": 0.5,
+      "false_allow_rate": 0.5,
+      "review_positive_support": 48,
+      "review_recall_wilson_95": [
+        0.36389330502679385,
+        0.6361066949732062
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.9058823529411765,
+      "macro_f1": 0.8059360730593608,
+      "positive_class_absent": false
+    },
+    "threshold_validation": {
+      "rows": 330,
+      "threshold": 0.5,
+      "tp": 72,
+      "fp": 0,
+      "fn": 1,
+      "tn": 257,
+      "review_recall": 0.9863013698630136,
+      "false_allow_rate": 0.0136986301369863,
+      "review_positive_support": 73,
+      "review_recall_wilson_95": [
+        0.9264026272903616,
+        0.997577748533516
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.996969696969697,
+      "macro_f1": 0.9955808503515233,
+      "positive_class_absent": false
+    },
+    "locked_test_candidate": {
+      "rows": 922,
+      "threshold": 0.5,
+      "tp": 97,
+      "fp": 4,
+      "fn": 1,
+      "tn": 820,
+      "review_recall": 0.9897959183673469,
+      "false_allow_rate": 0.01020408163265306,
+      "review_positive_support": 98,
+      "review_recall_wilson_95": [
+        0.9444451900865797,
+        0.9981964522432024
+      ],
+      "false_review_rate": 0.0048543689320388345,
+      "accuracy": 0.9945770065075922,
+      "macro_f1": 0.9859174290907424,
+      "positive_class_absent": false
+    }
+  },
+  "after_selected_threshold": {
+    "development": {
+      "rows": 1925,
+      "threshold": 0.5,
+      "tp": 76,
+      "fp": 14,
+      "fn": 28,
+      "tn": 1807,
+      "review_recall": 0.7307692307692307,
+      "false_allow_rate": 0.2692307692307692,
+      "review_positive_support": 104,
+      "review_recall_wilson_95": [
+        0.6384304486194915,
+        0.8066673878239922
+      ],
+      "false_review_rate": 0.007688083470620538,
+      "accuracy": 0.9781818181818182,
+      "macro_f1": 0.886008594825058,
+      "positive_class_absent": false
+    },
+    "calibration": {
+      "rows": 255,
+      "threshold": 0.5,
+      "tp": 24,
+      "fp": 0,
+      "fn": 24,
+      "tn": 207,
+      "review_recall": 0.5,
+      "false_allow_rate": 0.5,
+      "review_positive_support": 48,
+      "review_recall_wilson_95": [
+        0.36389330502679385,
+        0.6361066949732062
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.9058823529411765,
+      "macro_f1": 0.8059360730593608,
+      "positive_class_absent": false
+    },
+    "threshold_validation": {
+      "rows": 330,
+      "threshold": 0.5,
+      "tp": 72,
+      "fp": 0,
+      "fn": 1,
+      "tn": 257,
+      "review_recall": 0.9863013698630136,
+      "false_allow_rate": 0.0136986301369863,
+      "review_positive_support": 73,
+      "review_recall_wilson_95": [
+        0.9264026272903616,
+        0.997577748533516
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.996969696969697,
+      "macro_f1": 0.9955808503515233,
+      "positive_class_absent": false
+    },
+    "locked_test_candidate": {
+      "rows": 922,
+      "threshold": 0.5,
+      "tp": 97,
+      "fp": 4,
+      "fn": 1,
+      "tn": 820,
+      "review_recall": 0.9897959183673469,
+      "false_allow_rate": 0.01020408163265306,
+      "review_positive_support": 98,
+      "review_recall_wilson_95": [
+        0.9444451900865797,
+        0.9981964522432024
+      ],
+      "false_review_rate": 0.0048543689320388345,
+      "accuracy": 0.9945770065075922,
+      "macro_f1": 0.9859174290907424,
+      "positive_class_absent": false
+    }
+  },
+  "always_allow": {
+    "development": {
+      "rows": 1925,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 104,
+      "tn": 1821,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 104,
+      "review_recall_wilson_95": [
+        0,
+        0.03562135437245191
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.945974025974026,
+      "macro_f1": 0.4861185264281901,
+      "positive_class_absent": false
+    },
+    "calibration": {
+      "rows": 255,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 48,
+      "tn": 207,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 48,
+      "review_recall_wilson_95": [
+        6.938893903907228e-18,
+        0.07410012966611748
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.8117647058823529,
+      "macro_f1": 0.44805194805194803,
+      "positive_class_absent": false
+    },
+    "threshold_validation": {
+      "rows": 330,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 73,
+      "tn": 257,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 73,
+      "review_recall_wilson_95": [
+        0,
+        0.0499920079557311
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.7787878787878788,
+      "macro_f1": 0.43781942078364566,
+      "positive_class_absent": false
+    },
+    "locked_test_candidate": {
+      "rows": 922,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 98,
+      "tn": 824,
+      "review_recall": 0.0,
+      "false_allow_rate": 1.0,
+      "review_positive_support": 98,
+      "review_recall_wilson_95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ],
+      "false_review_rate": 0.0,
+      "accuracy": 0.8937093275488069,
+      "macro_f1": 0.47193585337915234,
+      "positive_class_absent": false
+    }
+  },
+  "human_gold": false,
+  "production_qualified": false,
+  "data_manifest_sha256": "e163c0bd2adc27dd0216d014b9e9736a84e08460a347a946ad58f8d54d256710"
+}

@@ -1,0 +1,18 @@
+{
+  "experiment_gate_passed": false,
+  "production_qualified": false,
+  "human_gold_rows": 0,
+  "checks": {
+    "独立合成测试需复核召回至少95%": true,
+    "独立合成测试正常误拦不超过5%": true,
+    "同命令授权对照整组通过至少90%": true,
+    "每个磁盘变更家族召回至少90%": true,
+    "在线系统盘破坏零漏放": true,
+    "旧危险对照10条全部检出": false,
+    "旧正常对照误拦不超过1条": true,
+    "历史弱标签正常误拦不超过2%": true
+  },
+  "system_disk_test_rows": 100,
+  "system_disk_false_allows": 0,
+  "reload_passed": true
+}

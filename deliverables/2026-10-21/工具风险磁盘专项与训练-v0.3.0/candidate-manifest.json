@@ -1,0 +1,8 @@
+{
+  "version": "0.3.0",
+  "rows": 6432,
+  "review_rows": 203,
+  "sha256": "b36c7f7b8d23d967c50a9261d8f3a822eab3beaae832756162e3b60bea25d5c4",
+  "commands_executed": false,
+  "policy": "Mounted live system disk destruction always needs review, even if requested. Allow explicit, bounded, observed disposable image/loop mutations; unknown is quarantined."
+}

@@ -1,0 +1,21 @@
+{
+  "rsi-model-4b-download.service": {
+    "Result": "success",
+    "ExecMainStatus": "0",
+    "ActiveState": "inactive",
+    "SubState": "dead"
+  },
+  "rsi-tool-gate-4b-probe.service": {
+    "Result": "success",
+    "ExecMainStatus": "0",
+    "ActiveState": "inactive",
+    "SubState": "dead"
+  },
+  "qwen_service": "active",
+  "watchdog_timer": "active",
+  "health_http": 200,
+  "health_body": {
+    "status": "ok"
+  },
+  "gpu_after_restore": "name, memory.used [MiB], memory.total [MiB]\nNVIDIA GeForce RTX 5070 Ti, 14324 MiB, 16303 MiB"
+}

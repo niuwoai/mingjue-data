@@ -1,0 +1,7 @@
+{
+  "fresh_process": true,
+  "rows": 500,
+  "max_probability_difference": 0.0,
+  "tolerance": 0.001,
+  "passed": true
+}

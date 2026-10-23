@@ -1,0 +1,173 @@
+{
+  "reviewed_unique": 1776,
+  "matched_to_primary": 1776,
+  "repeated_review_disagreements": 4,
+  "all_three_axes_agreement": 1564,
+  "axes": {
+    "risk": {
+      "rows": 1776,
+      "agreement": 0.9695945945945946,
+      "cohen_kappa": 0.9287111226080383,
+      "confusion": [
+        {
+          "teacher": "unknown",
+          "reviewer": "unknown",
+          "rows": 73
+        },
+        {
+          "teacher": "low",
+          "reviewer": "low",
+          "rows": 1280
+        },
+        {
+          "teacher": "medium",
+          "reviewer": "medium",
+          "rows": 348
+        },
+        {
+          "teacher": "unknown",
+          "reviewer": "medium",
+          "rows": 8
+        },
+        {
+          "teacher": "low",
+          "reviewer": "medium",
+          "rows": 5
+        },
+        {
+          "teacher": "medium",
+          "reviewer": "unknown",
+          "rows": 11
+        },
+        {
+          "teacher": "medium",
+          "reviewer": "low",
+          "rows": 12
+        },
+        {
+          "teacher": "high",
+          "reviewer": "medium",
+          "rows": 13
+        },
+        {
+          "teacher": "high",
+          "reviewer": "high",
+          "rows": 21
+        },
+        {
+          "teacher": "low",
+          "reviewer": "unknown",
+          "rows": 1
+        },
+        {
+          "teacher": "high",
+          "reviewer": "unknown",
+          "rows": 2
+        },
+        {
+          "teacher": "medium",
+          "reviewer": "high",
+          "rows": 2
+        }
+      ]
+    },
+    "authorization": {
+      "rows": 1776,
+      "agreement": 0.9222972972972973,
+      "cohen_kappa": 0.7347325765644074,
+      "confusion": [
+        {
+          "teacher": "unknown",
+          "reviewer": "unknown",
+          "rows": 246
+        },
+        {
+          "teacher": "within_scope",
+          "reviewer": "within_scope",
+          "rows": 1391
+        },
+        {
+          "teacher": "within_scope",
+          "reviewer": "unknown",
+          "rows": 86
+        },
+        {
+          "teacher": "unknown",
+          "reviewer": "within_scope",
+          "rows": 52
+        },
+        {
+          "teacher": "out_of_scope",
+          "reviewer": "out_of_scope",
+          "rows": 1
+        }
+      ]
+    },
+    "decision": {
+      "rows": 1776,
+      "agreement": 0.9177927927927928,
+      "cohen_kappa": 0.7608793284229689,
+      "confusion": [
+        {
+          "teacher": "unknown",
+          "reviewer": "unknown",
+          "rows": 226
+        },
+        {
+          "teacher": "allow",
+          "reviewer": "allow",
+          "rows": 1346
+        },
+        {
+          "teacher": "review",
+          "reviewer": "review",
+          "rows": 57
+        },
+        {
+          "teacher": "allow",
+          "reviewer": "unknown",
+          "rows": 76
+        },
+        {
+          "teacher": "review",
+          "reviewer": "unknown",
+          "rows": 13
+        },
+        {
+          "teacher": "unknown",
+          "reviewer": "review",
+          "rows": 9
+        },
+        {
+          "teacher": "allow",
+          "reviewer": "review",
+          "rows": 2
+        },
+        {
+          "teacher": "unknown",
+          "reviewer": "allow",
+          "rows": 23
+        },
+        {
+          "teacher": "review",
+          "reviewer": "allow",
+          "rows": 23
+        },
+        {
+          "teacher": "block",
+          "reviewer": "block",
+          "rows": 1
+        }
+      ]
+    }
+  },
+  "primary_sha256": "e7f4d097f687672f27d0d9916b01ba8b7c7da1f78b9ab832e60609dd103b1399",
+  "review_hashes": {
+    "deliverables/2026-10-21/工具风险预标注与训练-v0.1.0/pilot-review-astra/labels.jsonl": "6423bee3c33d796bb4bb48a702e02df837d06a81a84b78af298dc61fa8647078",
+    "deliverables/2026-10-21/工具风险预标注与训练-v0.1.0/review-astra/labels.jsonl": "6b8080f15b6357f427915aeb08f3d1ad0317edb728cdd63157a54c1fc0cc8278",
+    "deliverables/2026-10-21/工具风险预标注与训练-v0.1.0/review-astra-early/labels.jsonl": "26066fa12d70e5a9ee15335f17ac713f2f43f39da6ee9e2a6c42bf868dcbef4e",
+    "deliverables/2026-10-21/工具风险预标注与训练-v0.1.0/review-astra-final/labels.jsonl": "a530414e618e567fc3a4dd721692fd67883efd17e82c7e0e03854e24ed690116"
+  },
+  "human_reviewed": 0,
+  "note": "AI blind review only. Kappa affected by class imbalance and targeted sample selection; not accuracy."
+}

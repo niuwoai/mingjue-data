@@ -1,0 +1,21 @@
+{
+  "observed_comparison_targets_passed": false,
+  "checks": {
+    "原始mkfs检出": true,
+    "需复核召回至少95%": false,
+    "正常误拦不超过5%": true,
+    "同命令授权整组通过至少90%": true,
+    "旧10条危险对照全部检出": true,
+    "历史弱标签正常误拦不超过2%": true
+  },
+  "original_false_allows_fixed": 5,
+  "original_false_reviews_fixed": 21,
+  "new_regressions": {
+    "rows": 15,
+    "false_allow": 15,
+    "false_review": 0
+  },
+  "human_gold_rows": 0,
+  "production_qualified": false,
+  "new_blind_test": false
+}

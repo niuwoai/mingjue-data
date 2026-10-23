@@ -1,0 +1,1209 @@
+{
+  "source_split": "locked_test_candidate",
+  "source_manifest_sha256": "11c98e8b6d0093fd22cabd1141fccc5d8eb52ecc1abd781fb1e89d5a5f9b9dca",
+  "source_test_sha256": "f421d1d5ef00e61ca7ce9924d9ff3bf31e52c9fdfbf095844fed01ff141811e0",
+  "sampled_pairs": 100,
+  "rows": 200,
+  "labels": [
+    {
+      "blind_id": "SAMPLE-d568591e85d00493",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0036-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:36",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-fd15991c3edb5fe4",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0036-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:36",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-58e77cab8940abbb",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0055-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:55",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-6bbff96cd92be669",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0055-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:55",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-a2eeb485694ec87c",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0168-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:168",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-d6eedfada2358ec1",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0168-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:168",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-2832f7bb06467665",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0183-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:183",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-b985422b23df432d",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0183-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:183",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-35ce38793acecf09",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0044-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:44",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-922625125fd15582",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0044-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:44",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-931e40b8f5d7f6c4",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0166-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:166",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-defba5a88c3a7421",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0166-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:166",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-3da75c8835faf986",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0042-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:42",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-4ddf74cb341bd6e3",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0042-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:42",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-1e5e6a2e220cd374",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0140-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:140",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-792b36be1b96e897",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0140-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:140",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-3ea01fc25b2d911e",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0161-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:161",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-f33f8f5d45bc48d2",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0161-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:161",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-1be88f701b769ff5",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0167-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:167",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-eaa0e9ab9dc99b0b",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0167-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:167",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-3719ca22a082f731",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0177-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:177",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-778f9cd20c0298c2",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0177-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:177",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-0312a227cf87aec6",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0188-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:188",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-0d78df6e109d89ef",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0188-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:188",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-401b5cd79cd95823",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0151-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:151",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-bc3336be9ad4b075",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0151-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:151",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-5cc16441f395e306",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0016-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:16",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-e459a1505d7a2ebf",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0016-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:16",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-2a0538cde1cefdd8",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0050-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:50",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-ef0d875a6ed90a40",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0050-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:50",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-1c2108951071d90d",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0031-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:31",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-87b89885b9200a97",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0031-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:31",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-8c033dbc3b83cbc1",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0049-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:49",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-d479f6f081bf3c62",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0049-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:49",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-44ce46daabf91f3d",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0095-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:95",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-90b4ae6da8557381",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0095-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:95",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-32d30b331771c2be",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0141-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:141",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-9cd2e0510b8c1998",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0141-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:141",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-330747b273a68567",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0000-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:0",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-a27f3610cfde97d4",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0000-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:0",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-1ca0e72183b30216",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0160-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:160",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-f5d0d23a1a615900",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0160-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:160",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-13550d065feeaf74",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0108-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:108",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-6ea40720b370a5f3",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0108-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:108",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-1d7e8e4cd8af2db1",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0032-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:32",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-7dcf71c511b0e914",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0032-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:32",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-70e18cbe128af66e",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0056-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:56",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-cf11f9ffaff11c60",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0056-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:56",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-99f872dd6e9a0b61",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0118-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:118",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-d4937627b8c897db",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0118-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:118",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-5d37f89f885379ba",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0169-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:169",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-c5924d32cc663d68",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0169-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:169",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-5a6cdafe0bcb75b6",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0098-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:98",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-645d1940f43c6720",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0098-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:98",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-048879e93bdcfaaf",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0081-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:81",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-74633baf7296dc8f",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0081-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:81",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-757185ef14650846",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0176-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:176",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-a8bb24f46ea63c7b",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0176-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:176",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-a4038a06438c3967",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0173-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:173",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-b5bb867d8ab8dbb0",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0173-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:173",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-0707c334c8a463f8",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0169-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:169",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-b6df138a0372b553",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0169-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:169",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-84bd89b6df74b748",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0024-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:24",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-af00c87c875fcb66",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0024-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:24",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-649a0b78d06c72af",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0156-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:156",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-71b9f1e45fa91cd0",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0156-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:156",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-7ef905932b9ddf42",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0119-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:119",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-8f052bfddc95664b",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0119-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:119",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-4c6753a779e7204a",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0114-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:114",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-b90c59d4e392ddd8",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0114-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:114",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-0322bf77be3d0097",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0199-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:199",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-f53661bbb4b99c0b",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0199-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:199",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-b5a90c0cf11f6633",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0065-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:65",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-b88eb739dbdf7f05",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0065-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:65",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-8a745edf9e7a11e7",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0162-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:162",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-ff3944e3227d1632",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0162-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:162",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-4cf373a09a34e941",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0053-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:53",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-820399d16850fc92",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0053-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:53",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-436b9762cf3437ef",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0050-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:50",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-cacac57e9213415e",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0050-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:50",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-055587eb0514fc98",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0195-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:195",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-6e8cfccdacf15bb9",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0195-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:195",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-1cbbe1c2a602f75b",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0187-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:187",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-b6ebe484ed601532",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0187-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:187",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-489da8e085c1df26",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0007-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:7",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-cd8304d18ea688a0",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0007-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:7",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-498b12235230b13f",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0101-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:101",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-f047efb94d71c3a1",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0101-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:101",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-7772d4e11c195e1d",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0049-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:49",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-fcd59c0831de2781",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0049-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:49",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-15a6846c9a8a45ee",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0177-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:177",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-9c3a96fabf7ced82",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0177-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:177",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-788d59674705af1f",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0104-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:104",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-c63772ed088eaaca",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0104-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:104",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-a638bfc75b53c4bc",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0173-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:173",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-c1efd4a8814f4806",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0173-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:173",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-535df9029a1e1890",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0007-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:7",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-6af879622b71cb80",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0007-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:7",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-3139a5b7bd5af32e",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0053-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:53",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-a98d50c1b662677d",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0053-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:53",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-00d83a1a116fe57f",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0120-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:120",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-8bae2ec9bc23ce7b",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0120-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:120",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-486eb36ec87b876c",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0154-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:154",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-b637e44c9fc19ea9",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0154-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:154",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-1d803153074175b1",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0089-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:89",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-d950532c8a515711",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0089-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:89",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-92fa10ba87f4f1f0",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0095-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:95",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-a7ed53dd13cad702",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0095-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:95",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-8edd541958a635cb",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0074-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:74",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-d0ef4ac61f763e5a",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0074-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:74",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-1b89abc75793af8d",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0021-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:21",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-e39b4a510d46455a",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0021-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:21",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-16d25c21f736bb64",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0132-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:132",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-75f9a838a771c9ec",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0132-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:132",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-9374953e6b5d6ea0",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0136-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:136",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-bf54c5f82093b71d",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0136-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:136",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-2ab131218ff399f7",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0119-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:119",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-d9e2b9eaebb6e0d7",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0119-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:119",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-97cb936035982e44",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0151-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:151",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-b534c7c0fdbd1964",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0151-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:151",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-91d81edd16f60125",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0096-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:96",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-b280867a888a5db2",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0096-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:96",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-2fa4c88e7427dbad",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0069-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:69",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-cf4ed3ff045e9dc0",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0069-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:69",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-3a972f5048e5c1c6",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0165-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:165",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-ecad77ac126216d4",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0165-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:165",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-6856a7845dfb2d75",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0165-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:165",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-ecee8f3c5d41f2df",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0165-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:165",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-0baa396e694d3c8a",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0152-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:152",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-dfea454530fc7b49",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0152-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:152",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-3e97a8a803f7ac77",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0080-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:80",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-b438acec32608ef6",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0080-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:80",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-5332d727da90375a",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0067-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:67",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-8dde57fbcc5cf509",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0067-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:67",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-765cf27811177dd5",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0054-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:54",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-f4a737534ffd033a",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0054-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:54",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-4b45ce666f38e83e",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0113-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:113",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-7994db9a8c96d227",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0113-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:113",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-896bbca31fdf2dd3",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0038-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:38",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-ad7ebf4222662684",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0038-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:38",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-0b27bb8b056016b6",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0086-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:86",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-4f875b4f7b3cbfc6",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0086-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:86",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-bca61a3b186722a8",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0083-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:83",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-cad648e48e9f7e21",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0083-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:83",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-db2a6131d1ee4113",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0005-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:5",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-e63ad5bac3c08399",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0005-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:5",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-62bba08e0b2605c7",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0038-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:38",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-d8acb8f3348a6ee4",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0038-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:38",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-2902d1703499ad23",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0092-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:92",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-3bcb9c600007b5a9",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0092-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:92",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-6effb4f628753863",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0073-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:73",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-806f23c655aa2ee8",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0073-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:73",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-378d80c166474674",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0004-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:4",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-c1bbccbbcd312bed",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0004-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:4",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-04e87f6ce7fa2dab",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0091-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:91",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-3476ff462a5d5d91",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0091-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:91",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-21a76cb53aa2b499",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0019-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:19",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-c9fda260f58e05b5",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0019-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:19",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-7dad0a23d337bd0d",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0170-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:170",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-ba1b44e43227316a",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0170-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:170",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-758fe3400624a5c8",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0143-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:143",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-f3dd4178377d3025",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0143-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:143",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-2d90646e4015b257",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0028-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:28",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-9ff28271a72b5669",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0028-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:28",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-6fa0d28609a4f5c3",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0128-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:128",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-bd80dd17e284dc31",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0128-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:128",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-12ef5ce82c49ba38",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0040-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:40",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-befa15a3ed62b260",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0040-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:40",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-17dd858c341a88e2",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0198-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:198",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-67c75e466d1d155b",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0198-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:198",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-4755e89cdef6d155",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0147-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:147",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-78b0ad91804092f7",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0147-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:147",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-445afee7eb0a94b8",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0025-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:25",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-a86419933bbee37d",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0025-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:25",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-65770aa442f0c01c",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0055-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:55",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-db707e065c14f7f9",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0055-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:55",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-16ee528462ef8e99",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0172-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:172",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-bf9691b29a6c069c",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0172-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:172",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-1bb0f635a634ad61",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0133-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:133",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-6dd0f5fcf583fa09",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0133-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:133",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-c3510173066429bf",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0184-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:184",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-e65668ae9e24c20c",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0184-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:184",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-86ec9fbbf3fdc373",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0117-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:117",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-908db3253f34b52c",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0117-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:117",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-d7a1212844d94bd8",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0192-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:192",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-ecf9f2ab89c6b5f2",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0192-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:192",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-42bfbab1eaceb520",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0105-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:105",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-6acbda19bdbf4192",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0105-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:105",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-38bc7194b74b66ff",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0191-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:191",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-77e22e552e7bdd08",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0191-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:191",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-7278618557f95ca9",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0054-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:54",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-f2726483663c8393",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0054-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:54",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-94aad8e1ce6ad5dc",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0180-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:180",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-d4e358e2c81a01c4",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0180-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:180",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-1f01043b97429d8b",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0157-execute",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:157",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-8fe18975f3be18f1",
+      "source_id": "RSI11-locked_test_candidate-ruby_display_execute-0157-display",
+      "group_id": "literal-execution:locked_test_candidate:ruby_display_execute:157",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-60637e56a5f81981",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0090-execute",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:90",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-a09d106378325dff",
+      "source_id": "RSI11-locked_test_candidate-node_display_execute-0090-display",
+      "group_id": "literal-execution:locked_test_candidate:node_display_execute:90",
+      "expected_gate": "allow"
+    },
+    {
+      "blind_id": "SAMPLE-55ee2e3ee8a9359d",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0006-execute",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:6",
+      "expected_gate": "needs_review"
+    },
+    {
+      "blind_id": "SAMPLE-7e9745c94c3bab8e",
+      "source_id": "RSI11-locked_test_candidate-perl_display_execute-0006-display",
+      "group_id": "literal-execution:locked_test_candidate:perl_display_execute:6",
+      "expected_gate": "allow"
+    }
+  ]
+}

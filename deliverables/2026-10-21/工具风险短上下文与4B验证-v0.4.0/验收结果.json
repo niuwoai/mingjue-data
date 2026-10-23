@@ -1,0 +1,17 @@
+{
+  "experiment_gate_passed": false,
+  "production_qualified": false,
+  "human_gold_rows": 0,
+  "checks": {
+    "原始mkfs回归检出": true,
+    "新合成测试召回至少95%": true,
+    "新合成测试正常误拦不超过5%": false,
+    "同命令授权整组通过至少90%": true,
+    "高危操作组合没有整类漏放": true,
+    "旧危险对照全部检出": true,
+    "历史弱标签正常误拦不超过2%": true
+  },
+  "original_mkfs_probability": 0.9996646642684937,
+  "four_b_engineering_probe_passed": true,
+  "four_b_full_training_completed": false
+}

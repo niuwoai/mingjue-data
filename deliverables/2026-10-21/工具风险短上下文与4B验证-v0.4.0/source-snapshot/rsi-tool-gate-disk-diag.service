@@ -1,0 +1,13 @@
+[Unit]
+Description=RSI disk trial post-result four-case diagnosis
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ml-data/rsi-tool-gate-disk/src
+Environment=HF_HUB_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStartPre=/usr/bin/systemctl stop llama-qwen38-cuda.service
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-disk/src/disk_diagnostic.py --model /home/ml-data/rsi-smoke/model-2b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-disk/data --run /home/ml-data/rsi-tool-gate-disk/runs/trial-003 --max-length 1536
+ExecStopPost=/usr/bin/systemctl start llama-qwen38-cuda.service
+TimeoutStartSec=5min
+TimeoutStopSec=60

@@ -1,0 +1,20 @@
+[Unit]
+Description=RSI 4B shell redirection 6000-row safety trial 006
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ml-data/rsi-tool-gate-shell/src
+Environment=HF_HUB_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStartPre=/usr/bin/systemctl stop llama-qwen38-cuda.service
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-shell/src/shell_4b.py --mode train --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-shell/data --run /home/ml-data/rsi-tool-gate-shell/runs/trial-006
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-shell/src/shell_4b.py --mode verify --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-shell/data --run /home/ml-data/rsi-tool-gate-shell/runs/trial-006
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-shell/src/shell_eval.py --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-shell/data --run /home/ml-data/rsi-tool-gate-shell/runs/trial-006 --previous /home/ml-data/rsi-tool-gate-4b-full/runs/trial-005 --previous2b /home/ml-data/rsi-tool-gate-short/runs/trial-004
+ExecStopPost=/usr/bin/systemctl start llama-qwen38-cuda.service
+TimeoutStartSec=8h
+TimeoutStopSec=90
+KillMode=control-group
+Nice=5
+StandardOutput=journal
+StandardError=journal

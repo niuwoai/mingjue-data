@@ -1,0 +1,9 @@
+{
+  "rows": 64,
+  "selected_ids_sha256": "7b5e717f3c48a62d583fa60f002e50c379d0e8f4d4d68f325526977ced3d2a94",
+  "input_sha256": "709ee3bc9fbbb662737fd031753d6733adfa8909419335af43f0caee1a705ef3",
+  "primary_labels_sha256": "5da4ee41e05a234b860b3bbd05af17b667d569c9f007ee8b043fbe7b664a86a3",
+  "reviewer_blinded_to_primary_labels": true,
+  "human_review": false,
+  "selection": "all development pilot labels"
+}

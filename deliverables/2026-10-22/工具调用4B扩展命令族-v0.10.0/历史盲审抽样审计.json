@@ -1,0 +1,29 @@
+{
+  "source_rows": 10000,
+  "source": "Codex historical tool calls",
+  "all_known_experiment_dataset_dirs_excluded": 10,
+  "proposed_split_filter": [
+    "train",
+    "development",
+    "threshold_validation",
+    "calibration"
+  ],
+  "eligible_after_overlap_and_truncation_exclusion": 123,
+  "excluded": {
+    "overlapping_session": 8937,
+    "overlapping_command": 46
+  },
+  "sampled_rows": 104,
+  "unique_source_sessions": 58,
+  "max_rows_per_source_session": 4,
+  "training_or_regression_overlap": false,
+  "model_outputs_or_weak_labels_exported": false,
+  "sensitive_patterns_remaining": 0,
+  "redaction_counts": {
+    "home_path": 1075,
+    "ip_address": 27,
+    "phone": 1
+  },
+  "human_gold_rows": 0,
+  "commands_executed": false
+}

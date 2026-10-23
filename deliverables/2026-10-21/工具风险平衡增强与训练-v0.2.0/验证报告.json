@@ -1,0 +1,23 @@
+[
+  {
+    "name": "采样与指标单元测试",
+    "passed": true,
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+  },
+  {
+    "name": "数据隔离与对照审计",
+    "passed": true,
+    "exit_code": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"historical_commands_executed\": false,\n  \"unique_ids\": 4773,\n  \"groups\": 262,\n  \"splits\": {\n    \"train\": {\n      \"rows\": 1280,\n      \"synthetic_rows\": 744,\n      \"same_command_opposite_authorization_pairs\": 156\n    },\n    \"development\": {\n      \"rows\": 1927,\n      \"synthetic_rows\": 216,\n      \"same_command_opposite_authorization_pairs\": 36\n    },\n    \"calibration\": {\n      \"rows\": 264,\n      \"synthetic_rows\": 120,\n      \"same_command_opposite_authorization_pairs\": 12\n    },\n    \"threshold_validation\": {\n      \"rows\": 337,\n      \"synthetic_rows\": 168,\n      \"same_command_opposite_authorization_pairs\": 24\n    },\n    \"locked_test_candidate\": {\n      \"rows\": 965,\n      \"synthetic_rows\": 216,\n      \"same_command_opposite_authorization_pairs\": 36\n    }\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "name": "Python语法",
+    "passed": true,
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

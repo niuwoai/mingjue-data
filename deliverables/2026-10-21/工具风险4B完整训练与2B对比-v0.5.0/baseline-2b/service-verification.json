@@ -1,0 +1,34 @@
+{
+  "Result": "success",
+  "ExecMainStatus": "0",
+  "ActiveState": "inactive",
+  "SubState": "dead",
+  "ActiveEnterTimestamp": "",
+  "InactiveEnterTimestamp": "",
+  "qwen_service": "active",
+  "watchdog_timer": "active",
+  "health_http": 200,
+  "health_body": {
+    "status": "ok"
+  },
+  "gpu_after_restore": "name, memory.used [MiB], memory.total [MiB]\nNVIDIA GeForce RTX 5070 Ti, 14312 MiB, 16303 MiB",
+  "packages": {
+    "torch": "2.13.0+cu130",
+    "transformers": "5.15.1",
+    "peft": "0.21.2",
+    "accelerate": "1.15.0"
+  },
+  "remote_source_sha256": {
+    "short_eval.py": "9eef3a392fdaeb24a8d77d41c2e2ede9b4d9ed4f9147bac24f8ef730950b00f2",
+    "probe_4b.py": "5a99715655107495e8f6f6b803bc1f7968f97bd3dba4ae75478bf029ab92deb3",
+    "rsi-tool-gate-4b-probe.service": "9c9f4e07e5a109e320940cabf7e55c4d946f22a09c86306d8868164c931b156b",
+    "train.py": "988f26d9cb4f198696ffb44d0eb8678c79d254c6bd2a153b2238188a39f5b630",
+    "collect_4b.py": "d4e65984bae73487e298d6766de8deaee586283a5e7d341b93329c074bfe1250",
+    "balance.py": "a325fc9704a7aaf6265922c80a750b4e10d78bdf5c7df250f3906438f6db9ef4",
+    "collect_short.py": "0bdeeaaf0204be61e971b5d26f53c99abbd0bd586885e258178c979aa447afa3",
+    "fetch_4b.py": "4886078a5bd151b8f502ccd1f8710d1eec7b78d12bb8b00c3fc98237b88d8650",
+    "rsi-tool-gate-short.service": "0be41894ed899a0be70e73b987f600c0ebc172fb828d8cef27a49013c9ae9fd4",
+    "data.py": "2ddb34a9611b32cc970132332e6d2da44af9a3ace0e3fc66b8fd507d4726d054",
+    "rsi-model-4b-download.service": "153dd649d3b0b94a9de9df926a284f6e7f972a0b983cf28a3f169ee3b5c8caf3"
+  }
+}

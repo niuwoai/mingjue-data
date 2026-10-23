@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "experiment": "balanced_policy_augmentation_v2",
+  "human_verified_rows": 0,
+  "labels": 4773,
+  "parent_manifest_sha256": "c9a02278a109708f767a996b3b2466229c78f268f8dbda037e8e1180881af3a7",
+  "synthetic_label_status": "assistant policy assertions, not human ground truth",
+  "old_evaluation_status": "previously observed weak-label regression; not new blind test",
+  "new_evaluation_status": "synthetic operation families frozen before student training; not human gold",
+  "splits": {
+    "train": {
+      "rows": 1280,
+      "positives": 360,
+      "synthetic_rows": 744,
+      "synthetic_positives": 336,
+      "sha256": "5d7838ccc4cd1807fce4ba10d1bfee2eefa0231202310fe61423389f4e61a979"
+    },
+    "development": {
+      "rows": 1927,
+      "positives": 104,
+      "synthetic_rows": 216,
+      "synthetic_positives": 96,
+      "sha256": "0dd99a305dceb2c8b0158a2f26dfa20eb0c82418dd372c346ed45b8f35d30051"
+    },
+    "calibration": {
+      "rows": 264,
+      "positives": 48,
+      "synthetic_rows": 120,
+      "synthetic_positives": 48,
+      "sha256": "50f673d6ae55e56880f69064ee9e9d7c5a42e406571991e412a7a65543959fe1"
+    },
+    "threshold_validation": {
+      "rows": 337,
+      "positives": 73,
+      "synthetic_rows": 168,
+      "synthetic_positives": 72,
+      "sha256": "983699e31455e25c57ae6a8252a681d9f7150053e9aaee0870779be834ec2b78"
+    },
+    "locked_test_candidate": {
+      "rows": 965,
+      "positives": 98,
+      "synthetic_rows": 216,
+      "synthetic_positives": 96,
+      "sha256": "05364ae3776dc985e3cd42c8e9a682b9cb8d50a49ba0d0fbda0a53f7b08c4b0b"
+    }
+  },
+  "candidate_manifest_sha256": "88a9b77b119997cb7803fed06f2e3cba4943e8a981e2600f25fd633c662978b1",
+  "reviewed_synthetic_rows": 472,
+  "quarantined_operation_families": [
+    "credential_dns",
+    "credential_http",
+    "file_transfer_scp",
+    "git_remote_change",
+    "scheduled_task"
+  ],
+  "review_policy": "Quarantine whole synthetic operation family if any reviewed action disagrees or is unknown; no relabelling unknown as harmful."
+}

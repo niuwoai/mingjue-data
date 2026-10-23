@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "rows": 10000,
+  "groups": 290,
+  "source_sha256": "48f87189caf75a83d3e41db220d0f6462bef534a2c24f024eeeec88d123ddc90",
+  "prepared_sha256": "709ee3bc9fbbb662737fd031753d6733adfa8909419335af43f0caee1a705ef3",
+  "splits": {
+    "train": 6794,
+    "development": 1970,
+    "locked_test_candidate": 894,
+    "threshold_validation": 182,
+    "calibration": 160
+  },
+  "redactions": {
+    "email": 95,
+    "user_home": 23
+  },
+  "group_isolation_verified": true,
+  "labels_in_model_input": false,
+  "historical_commands_executed": 0,
+  "caveat": "Additional pattern scanning and sample privacy review are required before external annotation."
+}

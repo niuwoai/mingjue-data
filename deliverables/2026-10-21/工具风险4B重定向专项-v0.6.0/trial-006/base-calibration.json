@@ -1,0 +1,362 @@
+[
+  {
+    "id": "SHR6-cat_double_dash-0-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9933071732521057
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.970687747001648
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9525741338729858
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9399133324623108
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.9241418242454529
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.851952850818634
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.8175744414329529
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9241418242454529
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.970687747001648
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.4073334336280823
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.562176525592804
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.29421496391296387
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.09534946084022522
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.08509904146194458
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.4073334336280823
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9465966820716858
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.970687747001648
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.43782350420951843
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.622459352016449
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.3486451506614685
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.10669060051441193
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.08509904146194458
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.43782350420951843
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9964063763618469
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9959298968315125
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9669140577316284
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.7549149990081787
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.8807970285415649
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9149009585380554
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.970687747001648
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.29421496391296387
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.622459352016449
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.3486451506614685
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.10669060051441193
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.08509904146194458
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.3775406777858734
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9399133324623108
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9669140577316284
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.4073334336280823
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.5926666259765625
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.3208213150501251
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.09534946084022522
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 0.08509904146194458
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.4073334336280823
+  },
+  {
+    "id": "SHR6-save_df-0-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 0.851952850818634
+  },
+  {
+    "id": "SHR6-save_df-1-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 0.02595735713839531
+  },
+  {
+    "id": "SHR6-save_df-2-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 0.02595735713839531
+  },
+  {
+    "id": "SHR6-save_df-3-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 0.8807970285415649
+  },
+  {
+    "id": "SHR6-save_df-4-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 0.01590639166533947
+  },
+  {
+    "id": "SHR6-save_df-5-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 0.02595735713839531
+  },
+  {
+    "id": "SHR6-print_append-0-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "SHR6-print_append-1-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.9149009585380554
+  },
+  {
+    "id": "SHR6-print_append-2-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.9465966820716858
+  },
+  {
+    "id": "SHR6-print_append-3-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.9796676635742188
+  },
+  {
+    "id": "SHR6-print_append-4-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.9149009585380554
+  },
+  {
+    "id": "SHR6-print_append-5-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.9046505093574524
+  }
+]

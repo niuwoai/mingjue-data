@@ -1,0 +1,31 @@
+{
+  "Result": "success",
+  "ExecMainStatus": "0",
+  "ActiveState": "inactive",
+  "SubState": "dead",
+  "ActiveEnterTimestamp": "",
+  "InactiveEnterTimestamp": "",
+  "qwen_service": "active",
+  "watchdog_timer": "active",
+  "health_http": 200,
+  "health_body": {
+    "status": "ok"
+  },
+  "gpu_after_restore": "name, memory.used [MiB], memory.total [MiB]\nNVIDIA GeForce RTX 5070 Ti, 14248 MiB, 16303 MiB",
+  "packages": {
+    "torch": "2.13.0+cu130",
+    "transformers": "5.15.1",
+    "peft": "0.21.2",
+    "accelerate": "1.15.0"
+  },
+  "remote_source_sha256": {
+    "rsi-tool-gate-disk.service": "b0884ea113dcea30eac49517a8c73cb3c980f5d5f311d0ab9228d43468d77fee",
+    "train.py": "4206c84e179394cc0de60b39dc6cd6c114d3534dfd8e38a233134cd7f0934d3d",
+    "balance.py": "a325fc9704a7aaf6265922c80a750b4e10d78bdf5c7df250f3906438f6db9ef4",
+    "disk_eval.py": "05261e5a8f99cbfc14390ac55ee53f62c85005e57082462eddc8de25be832b4a",
+    "collect_disk.py": "07855e03ca3024a96f38309f769db55e000700595bc81c69985208626980c7f0",
+    "rsi-tool-gate-disk-diag.service": "f12bf8a3518207d929ce1c8d5b5a36cbcf377dd01fce33b79d38adc64d19f107",
+    "disk_diagnostic.py": "305550d5446e421cf9d75cc28caf47271d25b365933df36899b9f8420206fa6d",
+    "data.py": "2ddb34a9611b32cc970132332e6d2da44af9a3ace0e3fc66b8fd507d4726d054"
+  }
+}

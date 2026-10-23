@@ -1,0 +1,23 @@
+[Unit]
+Description=RSI 4B shell device-write contrast trial 008
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ml-data/rsi-tool-gate-shell-scale-v8/src
+Environment=HF_HUB_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStartPre=/usr/bin/systemctl stop llama-qwen38-cuda.service
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-shell-scale-v8/src/shell_4b_scale.py --mode train --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-shell-scale-v8/data --run /home/ml-data/rsi-tool-gate-shell-scale-v8/runs/trial-008 --expected-train-rows 12000 --balanced-draws 12000
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-shell-scale-v8/src/shell_4b_scale.py --mode verify --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-shell-scale-v8/data --run /home/ml-data/rsi-tool-gate-shell-scale-v8/runs/trial-008 --expected-train-rows 12000 --balanced-draws 12000
+ExecStart=/home/ml-data/rsi-smoke/venv/bin/python /home/ml-data/rsi-tool-gate-shell-scale-v8/src/shell_eval_scale.py --model /home/ml-data/rsi-smoke/model-4b --upstream /home/ml-data/rsi-smoke/upstream --data /home/ml-data/rsi-tool-gate-shell-scale-v8/data --run /home/ml-data/rsi-tool-gate-shell-scale-v8/runs/trial-008 --previous_adapter /home/ml-data/rsi-tool-gate-shell-scale/runs/trial-007/adapter --previous_run /home/ml-data/rsi-tool-gate-shell/runs/trial-006
+TimeoutStartSec=8h
+TimeoutStopSec=90
+KillMode=control-group
+Nice=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,37 @@
+{
+  "version": "0.1.0",
+  "date": "2026-10-21",
+  "deployment_host": "q4",
+  "deployed_via": "QTerm",
+  "probe": {
+    "host": "h2.niuwoai.com",
+    "port": 50022,
+    "expected_identity": "q4 local Ed25519 SSH public host key",
+    "observed": "healthy"
+  },
+  "timer": {
+    "unit": "q4-tunnel-watchdog.timer",
+    "enabled": true,
+    "active": true,
+    "interval_after_completion_seconds": 60,
+    "accuracy_seconds": 5,
+    "boot_delay_seconds": 90,
+    "last_observed_local_time": "2026-10-21 02:34:06 Asia/Shanghai",
+    "next_observed_local_time": "2026-10-21 02:35:06 Asia/Shanghai"
+  },
+  "recovery": {
+    "service": "edge-cli-q4-ssh-h2.service",
+    "consecutive_failures": 3,
+    "cooldown_seconds": 300,
+    "live_failure_injection_performed": false
+  },
+  "validation": {
+    "local_unit_tests_passed": 7,
+    "q4_unit_tests_passed": 7,
+    "systemd_analyze_verify_passed": true,
+    "real_dry_run_passed": true,
+    "real_systemd_check_passed": true,
+    "recent_automatic_checks_healthy": 3,
+    "recovery_branch": "mock tested; no deliberate live SSH outage"
+  }
+}

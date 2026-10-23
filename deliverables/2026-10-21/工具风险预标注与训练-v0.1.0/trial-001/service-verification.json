@@ -1,0 +1,17 @@
+{
+  "training_service": {
+    "Result": "success",
+    "ExecMainStatus": "0",
+    "ActiveState": "inactive",
+    "SubState": "dead",
+    "ActiveEnterTimestamp": "",
+    "InactiveEnterTimestamp": ""
+  },
+  "qwen_active": true,
+  "watchdog_active": true,
+  "qwen_health": {
+    "http_status": 200,
+    "body": "{\"status\":\"ok\"}"
+  },
+  "journal_successful_completion": true
+}

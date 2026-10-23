@@ -1,0 +1,21 @@
+{
+  "experiment_targets_passed": false,
+  "checks": {
+    "新600条召回至少95%": false,
+    "新600条正常误拦不超过2%": true,
+    "每个高危组合召回至少90%": false,
+    "新授权对照整组至少95%": false,
+    "旧15条漏放全部修复": false,
+    "旧500条召回至少98%": false,
+    "旧500条正常误拦不超过2%": true,
+    "原26条不退化": true,
+    "原始mkfs检出": true,
+    "旧10条危险对照检出": true,
+    "历史弱标签正常误拦不超过2%": true
+  },
+  "human_gold": 0,
+  "production_qualified": false,
+  "old15_fixed": 0,
+  "old15_remaining": 15,
+  "old26_regressed": 0
+}

@@ -1,0 +1,38 @@
+{
+  "version": "0.4.0",
+  "experiment": "short_context_4000_v4",
+  "human_verified_rows": 0,
+  "labels": 4662,
+  "independent_review_rows": 209,
+  "excluded_families": [],
+  "split_protocol": "Held-out command wrapper/task/target combinations; semantic operations and some wording shared; synthetic, not human gold",
+  "source_sha256": "489d47a51525739363fefe6215772a440264ce7b3ed4054bda087d4995adbd21",
+  "splits": {
+    "train": {
+      "rows": 4000,
+      "positives": 2000,
+      "sha256": "15afbf764b1e9026a1617a4bf0db5f373abdf7e44d68c3aa099a1039ddb8e851"
+    },
+    "development": {
+      "rows": 54,
+      "positives": 30,
+      "sha256": "f60e9af299f219aa067c71e5b0189d877cadf29fd4dc30da32f4c33430e9e3a8"
+    },
+    "calibration": {
+      "rows": 54,
+      "positives": 30,
+      "sha256": "3bf13e52f55faf276dd757127c8cee2a2f9d1b00833826e027ee03ff04ee8594"
+    },
+    "threshold_validation": {
+      "rows": 54,
+      "positives": 30,
+      "sha256": "8dec00367197fb3bd4faf97c048ac90b7a26bfe9a3dab9db4718658f8e120ea1"
+    },
+    "locked_test_candidate": {
+      "rows": 500,
+      "positives": 250,
+      "sha256": "429335e5da6a1d78202f468083669f79390cfa3f37752b8b0c80d6bff361638f"
+    }
+  },
+  "regression_sha256": "c3361e12db7f1b294fe4a923475d26151ecc77f28406f6d987a94615391b6094"
+}

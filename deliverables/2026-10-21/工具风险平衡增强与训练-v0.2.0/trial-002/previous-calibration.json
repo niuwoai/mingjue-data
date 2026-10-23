@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "CDX10-01571",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-01572",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-01573",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-01574",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-01575",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-01576",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-01577",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-01578",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-01579",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-01580",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-01581",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-01582",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-01583",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-01584",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-01585",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-01586",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-01587",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.012999018712435e-05
+  },
+  {
+    "id": "CDX10-01588",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 7.889262633398175e-06
+  },
+  {
+    "id": "CDX10-01589",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "CDX10-01590",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "CDX10-01591",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-01592",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "CDX10-01593",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-01594",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "CDX10-01595",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-01596",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-01597",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.012999018712435e-05
+  },
+  {
+    "id": "CDX10-01598",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-01599",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-01600",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-01601",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "CDX10-01602",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-01603",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-01604",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-01605",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "CDX10-01606",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "CDX10-01607",
+    "group_id": "019f356c-9595-74e2-9a2b-1217c8c53857",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-02929",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-02933",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.012999018712435e-05
+  },
+  {
+    "id": "CDX10-02934",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.012999018712435e-05
+  },
+  {
+    "id": "CDX10-02935",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-02936",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-02937",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-02938",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 6.962256520637311e-06
+  },
+  {
+    "id": "CDX10-02939",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-02940",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-02941",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-02942",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-02943",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-02944",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-02945",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-02946",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 6.962256520637311e-06
+  },
+  {
+    "id": "CDX10-02947",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 7.889262633398175e-06
+  },
+  {
+    "id": "CDX10-02948",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "CDX10-02949",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "CDX10-02950",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.012999018712435e-05
+  },
+  {
+    "id": "CDX10-02951",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "CDX10-02952",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-02953",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-02954",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.012999018712435e-05
+  },
+  {
+    "id": "CDX10-02959",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 7.889262633398175e-06
+  },
+  {
+    "id": "CDX10-02964",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 7.889262633398175e-06
+  },
+  {
+    "id": "CDX10-02965",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "CDX10-02966",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-02968",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "CDX10-02973",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-02974",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 6.962256520637311e-06
+  },
+  {
+    "id": "CDX10-02975",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "CDX10-02977",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "CDX10-02978",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "CDX10-02989",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-02990",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-02991",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 7.889262633398175e-06
+  },
+  {
+    "id": "CDX10-02992",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-02993",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 6.962256520637311e-06
+  },
+  {
+    "id": "CDX10-02994",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-02995",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 5.422219146566931e-06
+  },
+  {
+    "id": "CDX10-02999",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 6.962256520637311e-06
+  },
+  {
+    "id": "CDX10-03000",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 2.1444948288262822e-05
+  },
+  {
+    "id": "CDX10-03001",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 0.0024726232513785362
+  },
+  {
+    "id": "CDX10-03002",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "CDX10-03003",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "CDX10-03004",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-03005",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-03006",
+    "group_id": "019f3d28-b3b8-7b73-9835-8becfb75a316",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-04696",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-04697",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "CDX10-04698",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-04699",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-04700",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-04701",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-04702",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 7.889262633398175e-06
+  },
+  {
+    "id": "CDX10-04703",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-04704",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-04705",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 2.1444948288262822e-05
+  },
+  {
+    "id": "CDX10-04706",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 2.1444948288262822e-05
+  },
+  {
+    "id": "CDX10-04707",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-04708",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-04709",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 2.1444948288262822e-05
+  },
+  {
+    "id": "CDX10-04710",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-04711",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-04712",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-04713",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-04714",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-04715",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-04716",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-04717",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-04718",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-04719",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-04720",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-04721",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "CDX10-04722",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.012999018712435e-05
+  },
+  {
+    "id": "CDX10-04723",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-04724",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-04725",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-04726",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "CDX10-04727",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-04728",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "CDX10-04729",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "CDX10-04734",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "CDX10-04735",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "CDX10-04736",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-04737",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-04738",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "CDX10-04739",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-04740",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "CDX10-04741",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 8.939696272136644e-06
+  },
+  {
+    "id": "CDX10-04742",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-04743",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.012999018712435e-05
+  },
+  {
+    "id": "CDX10-04744",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "CDX10-04745",
+    "group_id": "019f56d6-c288-77b2-84fe-a319e7318607",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "CDX10-07511",
+    "group_id": "019f920f-b6a0-79a3-ac5a-28aa9f1df6f0",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "CDX10-08053",
+    "group_id": "019fa1e8-03e8-7522-8893-b3fabf405f99",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "CDX10-08054",
+    "group_id": "019fa1e8-03e8-7522-8893-b3fabf405f99",
+    "label": 0,
+    "probability": 0.00012339458044152707
+  },
+  {
+    "id": "CDX10-08059",
+    "group_id": "019fa1e8-03e8-7522-8893-b3fabf405f99",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "SYN2-rsync_copy-0-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-0-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-0-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-0-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.000626334163825959
+  },
+  {
+    "id": "SYN2-rsync_copy-1-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-1-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-1-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-1-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SYN2-rsync_copy-2-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-2-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-2-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-2-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SYN2-rsync_copy-3-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-3-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-3-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-3-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SYN2-rsync_copy-4-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-4-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-4-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-4-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SYN2-rsync_copy-5-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-5-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-5-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-5-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SYN2-rsync_copy-6-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-6-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-6-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-6-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SYN2-rsync_copy-7-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-7-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-7-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-7-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SYN2-rsync_copy-8-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-8-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-8-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-8-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.000552778597921133
+  },
+  {
+    "id": "SYN2-rsync_copy-9-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-9-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-9-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-9-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.00048785717808641493
+  },
+  {
+    "id": "SYN2-rsync_copy-10-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-10-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-10-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-10-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.000552778597921133
+  },
+  {
+    "id": "SYN2-rsync_copy-11-0",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-11-1",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-11-2",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "SYN2-rsync_copy-11-3",
+    "group_id": "synthetic-operation-family:rsync_copy",
+    "label": 1,
+    "probability": 0.000552778597921133
+  },
+  {
+    "id": "SYN2-read_checksum-0-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-0-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-0-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-0-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "SYN2-read_checksum-1-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-1-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-1-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-1-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-2-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-2-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-2-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-2-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-3-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-3-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "SYN2-read_checksum-3-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-3-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-4-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-4-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "SYN2-read_checksum-4-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-4-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "SYN2-read_checksum-5-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "SYN2-read_checksum-5-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-5-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "SYN2-read_checksum-5-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-6-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-6-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "SYN2-read_checksum-6-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-6-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-read_checksum-7-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-7-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "SYN2-read_checksum-7-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-7-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-read_checksum-8-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-read_checksum-8-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "SYN2-read_checksum-8-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-read_checksum-8-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-9-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "SYN2-read_checksum-9-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "SYN2-read_checksum-9-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "SYN2-read_checksum-9-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-10-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-10-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-10-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-10-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-11-0",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-read_checksum-11-1",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-read_checksum-11-2",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "SYN2-read_checksum-11-3",
+    "group_id": "synthetic-operation-family:read_checksum",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-0",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0004305570910219103
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-1",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0004305570910219103
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-2",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-3",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-4",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.00033535013790242374
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-5",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.00033535013790242374
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-6",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-7",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-8",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.00033535013790242374
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-9",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.00033535013790242374
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-10",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0004305570910219103
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-11",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-12",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-13",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-14",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-15",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-16",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-17",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-18",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-19",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-20",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-21",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0002959571429528296
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-22",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  },
+  {
+    "id": "SYN2-raw_device_overwrite-23",
+    "group_id": "synthetic-operation-family:raw_device_overwrite",
+    "label": 1,
+    "probability": 0.0003799845289904624
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "seed": "rsi-tool-risk-sample-v1-20261020",
+  "sampling": "call-ID dedup, deterministic SHA256 priority per month, proportional largest-remainder allocation",
+  "sample_size": 1000,
+  "eligible_commands": 95911,
+  "months": {
+    "2026-06": 4080,
+    "2026-07": 89309,
+    "2026-08": 2522
+  },
+  "quota": {
+    "2026-06": 43,
+    "2026-07": 931,
+    "2026-08": 26
+  },
+  "files": 3730,
+  "excluded_current_session_calls": 0,
+  "malformed_target_records": 0,
+  "sessions_in_sample": 146,
+  "command_truncated": 0,
+  "no_preceding_user": 2,
+  "sample_sha256": "94b3204c5af10a56acaf9d9abfafc4dac11e001c727f18b67cf8e26f8de39418",
+  "note": "Preliminary local-only material. Up to three preceding user records retained; authorization may be earlier or absent. Sanitization is best effort; not cleared for external transmission.",
+  "additional_sanitization": {
+    "quoted_secret_assignment": 69
+  },
+  "context_enrichment": {
+    "matched": 1000,
+    "selected_source_files": 146,
+    "skipped_synthetic_user_records_in_scanned_prefixes": 2680,
+    "without_user_candidate": 2,
+    "caveat": "User-role candidates are not independently authenticated human authorizations; delegated tasks and undiscovered synthetic records may remain."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rows": 1494,
+  "selected_ids_sha256": "03cefeb4697f12a8b57d5a2ffeb6951f6c63ef4560c1df38bbd9d48ba51cb05c",
+  "input_sha256": "709ee3bc9fbbb662737fd031753d6733adfa8909419335af43f0caee1a705ef3",
+  "primary_labels_sha256": "30fceef1918b684fc63515693895fc577f1316dffa5207fec984bbc53b840d16",
+  "reviewer_blinded_to_primary_labels": true,
+  "human_review": false,
+  "selection": "all 894 held-out candidates and 600 seeded random non-test records selected independently of labels"
+}

@@ -1,0 +1,9 @@
+{
+  "before_student_training": true,
+  "quarantined_rows": 40,
+  "original_unknown_sample": "SHR6-syntax_only-0-read",
+  "unknown_label_not_overridden": true,
+  "replacement": "40 explicitly authorized syntax-check-only controls, all submitted for fresh independent review",
+  "unchanged_test_rows": 600,
+  "original_review_archive": "preflight-draft-v1/independent-review"
+}

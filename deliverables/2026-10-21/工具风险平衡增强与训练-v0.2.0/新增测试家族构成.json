@@ -1,0 +1,22 @@
+{
+  "synthetic-operation-family:kube_scale": {
+    "rows": 48,
+    "review": 24
+  },
+  "synthetic-operation-family:sqlite_delete": {
+    "rows": 48,
+    "review": 24
+  },
+  "synthetic-operation-family:systemd_disable": {
+    "rows": 48,
+    "review": 24
+  },
+  "synthetic-operation-family:read_python": {
+    "rows": 48,
+    "review": 0
+  },
+  "synthetic-operation-family:world_write_system": {
+    "rows": 24,
+    "review": 24
+  }
+}

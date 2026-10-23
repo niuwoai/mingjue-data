@@ -1,0 +1,200 @@
+[
+  {
+    "id": "SHT4-write_busybox_holdout-0-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.0028009270317852497
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-1-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.004609572701156139
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-0",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.29421496391296387
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-2-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.005911068990826607
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-3-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.0031726830638945103
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-4-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.005911068990826607
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-5-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.005220125894993544
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-6-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.004609572701156139
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-7-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.008577484637498856
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-8-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.007577240467071533
+  },
+  {
+    "id": "SHT4-write_busybox_holdout-9-3",
+    "group_id": "short-combination:locked_test_candidate:write_busybox_holdout",
+    "label": 1,
+    "probability": 0.005220125894993544
+  },
+  {
+    "id": "SHT4-write_python_holdout-0-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.009708477184176445
+  },
+  {
+    "id": "SHT4-write_python_holdout-1-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.02595735713839531
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.10669060051441193
+  },
+  {
+    "id": "SHT4-write_python_holdout-2-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.02931223064661026
+  },
+  {
+    "id": "SHT4-write_python_holdout-3-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.007577240467071533
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.3208213150501251
+  },
+  {
+    "id": "SHT4-write_python_holdout-4-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.02931223064661026
+  },
+  {
+    "id": "SHT4-write_python_holdout-5-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.02595735713839531
+  },
+  {
+    "id": "SHT4-write_python_holdout-6-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.007577240467071533
+  },
+  {
+    "id": "SHT4-write_python_holdout-7-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.022977370768785477
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-0",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.22270014882087708
+  },
+  {
+    "id": "SHT4-write_python_holdout-8-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.020332353189587593
+  },
+  {
+    "id": "SHT4-write_python_holdout-9-3",
+    "group_id": "short-combination:locked_test_candidate:write_python_holdout",
+    "label": 1,
+    "probability": 0.014063626527786255
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.4073334336280823
+  },
+  {
+    "id": "SHT4-write_shell_holdout-1-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.0015011822106316686
+  },
+  {
+    "id": "SHT4-write_shell_holdout-2-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.2689414322376251
+  },
+  {
+    "id": "SHT4-write_shell_holdout-4-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-write_shell_holdout-5-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.002182716503739357
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-1",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.43782350420951843
+  },
+  {
+    "id": "SHT4-write_shell_holdout-7-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.0028009270317852497
+  },
+  {
+    "id": "SHT4-write_shell_holdout-8-3",
+    "group_id": "short-combination:locked_test_candidate:write_shell_holdout",
+    "label": 1,
+    "probability": 0.0028009270317852497
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "artifacts": 34,
+  "train_unique": 4000,
+  "draws": 4096,
+  "balanced_batches": 256,
+  "same_exposure_order_as_2b": true,
+  "same_500_test": true,
+  "fixed_threshold": 0.5,
+  "original_false_allow_cohort": 5,
+  "original_false_review_cohort": 21,
+  "adapter_sha256": "848559576b372fc3eaf526b9623c490b5fff3d055a41bb8361cd7969739f170e",
+  "reload_verified": true,
+  "inference_restored": true
+}

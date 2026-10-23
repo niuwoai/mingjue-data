@@ -1,0 +1,12 @@
+[Unit]
+Description=Download pinned official Intern Decision 4B with checksum verification
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ml-data/rsi-tool-gate-short/src
+ExecStart=/usr/bin/python3 /home/ml-data/rsi-tool-gate-short/src/fetch_4b.py --metadata /home/ml-data/rsi-tool-gate-short/model-4b-official.json --destination /home/ml-data/rsi-smoke/model-4b
+TimeoutStartSec=2h
+Nice=10
+StandardOutput=journal
+StandardError=journal

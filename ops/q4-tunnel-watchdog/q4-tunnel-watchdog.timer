@@ -1,0 +1,11 @@
+[Unit]
+Description=Check q4 public SSH tunnel every minute
+
+[Timer]
+OnBootSec=90s
+OnUnitInactiveSec=60s
+AccuracySec=5s
+Unit=q4-tunnel-watchdog.service
+
+[Install]
+WantedBy=timers.target

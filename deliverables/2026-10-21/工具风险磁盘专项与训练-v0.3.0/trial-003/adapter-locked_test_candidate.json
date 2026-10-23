@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "DSK3-format_btrfs-0-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-format_btrfs-0-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999151229858398
+  },
+  {
+    "id": "DSK3-format_btrfs-0-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-0-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-format_btrfs-0-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-0-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-format_btrfs-1-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-format_btrfs-1-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-format_btrfs-1-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-1-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-format_btrfs-1-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-1-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-format_btrfs-2-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-format_btrfs-2-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-format_btrfs-2-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-2-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-format_btrfs-2-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-2-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-format_btrfs-3-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999251365661621
+  },
+  {
+    "id": "DSK3-format_btrfs-3-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-format_btrfs-3-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-3-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-format_btrfs-3-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-3-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-format_btrfs-4-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-format_btrfs-4-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-format_btrfs-4-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-4-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-format_btrfs-4-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-4-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999885559082031
+  },
+  {
+    "id": "DSK3-format_btrfs-5-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-format_btrfs-5-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-format_btrfs-5-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-5-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-format_btrfs-5-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-5-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-format_btrfs-6-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-format_btrfs-6-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999251365661621
+  },
+  {
+    "id": "DSK3-format_btrfs-6-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-6-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-format_btrfs-6-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-6-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-format_btrfs-7-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-format_btrfs-7-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-format_btrfs-7-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-7-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-format_btrfs-7-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-7-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999833106994629
+  },
+  {
+    "id": "DSK3-format_btrfs-8-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-format_btrfs-8-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-format_btrfs-8-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-8-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-format_btrfs-8-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-8-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-format_btrfs-9-0",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999151229858398
+  },
+  {
+    "id": "DSK3-format_btrfs-9-1",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-format_btrfs-9-2",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-9-3",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-format_btrfs-9-4",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "DSK3-format_btrfs-9-5",
+    "group_id": "disk-operation-family:format_btrfs",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-partition_sfdisk-0-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-partition_sfdisk-0-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9998766183853149
+  },
+  {
+    "id": "DSK3-partition_sfdisk-0-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-0-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-partition_sfdisk-0-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-0-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-partition_sfdisk-1-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-partition_sfdisk-1-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9998766183853149
+  },
+  {
+    "id": "DSK3-partition_sfdisk-1-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-1-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-partition_sfdisk-1-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-1-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999885559082031
+  },
+  {
+    "id": "DSK3-partition_sfdisk-2-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-partition_sfdisk-2-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-partition_sfdisk-2-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-2-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-partition_sfdisk-2-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-2-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-partition_sfdisk-3-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-partition_sfdisk-3-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9998205304145813
+  },
+  {
+    "id": "DSK3-partition_sfdisk-3-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-3-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999833106994629
+  },
+  {
+    "id": "DSK3-partition_sfdisk-3-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 2.1444948288262822e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-3-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-partition_sfdisk-4-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-partition_sfdisk-4-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9998910427093506
+  },
+  {
+    "id": "DSK3-partition_sfdisk-4-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-4-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999833106994629
+  },
+  {
+    "id": "DSK3-partition_sfdisk-4-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-4-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999898672103882
+  },
+  {
+    "id": "DSK3-partition_sfdisk-5-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-partition_sfdisk-5-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-partition_sfdisk-5-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-5-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999833106994629
+  },
+  {
+    "id": "DSK3-partition_sfdisk-5-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-5-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999833106994629
+  },
+  {
+    "id": "DSK3-partition_sfdisk-6-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-partition_sfdisk-6-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9998601675033569
+  },
+  {
+    "id": "DSK3-partition_sfdisk-6-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-6-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999833106994629
+  },
+  {
+    "id": "DSK3-partition_sfdisk-6-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-6-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-partition_sfdisk-7-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-partition_sfdisk-7-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9998766183853149
+  },
+  {
+    "id": "DSK3-partition_sfdisk-7-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-7-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-partition_sfdisk-7-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-7-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-partition_sfdisk-8-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-partition_sfdisk-8-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-partition_sfdisk-8-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-8-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-partition_sfdisk-8-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-8-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999885559082031
+  },
+  {
+    "id": "DSK3-partition_sfdisk-9-0",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-partition_sfdisk-9-1",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9998205304145813
+  },
+  {
+    "id": "DSK3-partition_sfdisk-9-2",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-9-3",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-partition_sfdisk-9-4",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "DSK3-partition_sfdisk-9-5",
+    "group_id": "disk-operation-family:partition_sfdisk",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-raw_copy_cp-0-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-raw_copy_cp-0-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_copy_cp-0-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-0-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999756813049316
+  },
+  {
+    "id": "DSK3-raw_copy_cp-0-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-0-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-raw_copy_cp-1-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-raw_copy_cp-1-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_copy_cp-1-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-1-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-raw_copy_cp-1-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-1-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-raw_copy_cp-2-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_copy_cp-2-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-raw_copy_cp-2-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-2-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-raw_copy_cp-2-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-2-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-raw_copy_cp-3-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_copy_cp-3-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-raw_copy_cp-3-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-3-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_copy_cp-3-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-3-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-raw_copy_cp-4-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999833106994629
+  },
+  {
+    "id": "DSK3-raw_copy_cp-4-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-raw_copy_cp-4-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "DSK3-raw_copy_cp-4-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-raw_copy_cp-4-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-4-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999910593032837
+  },
+  {
+    "id": "DSK3-raw_copy_cp-5-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_copy_cp-5-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-raw_copy_cp-5-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-5-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999756813049316
+  },
+  {
+    "id": "DSK3-raw_copy_cp-5-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-5-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999833106994629
+  },
+  {
+    "id": "DSK3-raw_copy_cp-6-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-raw_copy_cp-6-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-raw_copy_cp-6-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-6-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999756813049316
+  },
+  {
+    "id": "DSK3-raw_copy_cp-6-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-6-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999852180480957
+  },
+  {
+    "id": "DSK3-raw_copy_cp-7-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_copy_cp-7-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_copy_cp-7-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-7-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-raw_copy_cp-7-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 1.8925147742265835e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-7-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-raw_copy_cp-8-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_copy_cp-8-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-raw_copy_cp-8-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-8-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999810457229614
+  },
+  {
+    "id": "DSK3-raw_copy_cp-8-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-8-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.999987006187439
+  },
+  {
+    "id": "DSK3-raw_copy_cp-9-0",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_copy_cp-9-1",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999339580535889
+  },
+  {
+    "id": "DSK3-raw_copy_cp-9-2",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 2.1444948288262822e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-9-3",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-raw_copy_cp-9-4",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 0,
+    "probability": 1.3007128472963814e-05
+  },
+  {
+    "id": "DSK3-raw_copy_cp-9-5",
+    "group_id": "disk-operation-family:raw_copy_cp",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-raw_python_write-0-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_python_write-0-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9998766183853149
+  },
+  {
+    "id": "DSK3-raw_python_write-0-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-0-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_python_write-0-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-0-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_python_write-1-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999251365661621
+  },
+  {
+    "id": "DSK3-raw_python_write-1-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9998601675033569
+  },
+  {
+    "id": "DSK3-raw_python_write-1-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 0.00010889690747717395
+  },
+  {
+    "id": "DSK3-raw_python_write-1-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-raw_python_write-1-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-1-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_python_write-2-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9998910427093506
+  },
+  {
+    "id": "DSK3-raw_python_write-2-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999339580535889
+  },
+  {
+    "id": "DSK3-raw_python_write-2-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "DSK3-raw_python_write-2-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_python_write-2-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "DSK3-raw_python_write-2-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_python_write-3-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "DSK3-raw_python_write-3-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "DSK3-raw_python_write-3-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-3-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-raw_python_write-3-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-3-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9998601675033569
+  },
+  {
+    "id": "DSK3-raw_python_write-4-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-raw_python_write-4-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_python_write-4-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 0.00023050671734381467
+  },
+  {
+    "id": "DSK3-raw_python_write-4-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-raw_python_write-4-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 0.0001398220774717629
+  },
+  {
+    "id": "DSK3-raw_python_write-4-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999785423278809
+  },
+  {
+    "id": "DSK3-raw_python_write-5-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "DSK3-raw_python_write-5-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999151229858398
+  },
+  {
+    "id": "DSK3-raw_python_write-5-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-5-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_python_write-5-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-5-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_python_write-6-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_python_write-6-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9998766183853149
+  },
+  {
+    "id": "DSK3-raw_python_write-6-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 8.481103577651083e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-6-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_python_write-6-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 7.48462334740907e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-6-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_python_write-7-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999251365661621
+  },
+  {
+    "id": "DSK3-raw_python_write-7-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9998601675033569
+  },
+  {
+    "id": "DSK3-raw_python_write-7-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 9.610241977497935e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-7-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_python_write-7-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-7-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-raw_python_write-8-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_python_write-8-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999339580535889
+  },
+  {
+    "id": "DSK3-raw_python_write-8-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "DSK3-raw_python_write-8-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_python_write-8-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 0.00015843621804378927
+  },
+  {
+    "id": "DSK3-raw_python_write-8-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_python_write-9-0",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9997695088386536
+  },
+  {
+    "id": "DSK3-raw_python_write-9-1",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9997965693473816
+  },
+  {
+    "id": "DSK3-raw_python_write-9-2",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-9-3",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-raw_python_write-9-4",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "DSK3-raw_python_write-9-5",
+    "group_id": "disk-operation-family:raw_python_write",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-0-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-0-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-0-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 2.1444948288262822e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-0-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-0-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-0-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-1-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.999841570854187
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-1-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999151229858398
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-1-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-1-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-1-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-1-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-2-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999251365661621
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-2-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-2-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-2-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-2-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-2-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999724626541138
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-3-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.999373733997345
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-3-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-3-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-3-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999339580535889
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-3-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-3-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9998910427093506
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-4-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-4-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-4-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-4-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999687671661377
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-4-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-4-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999756813049316
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-5-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9997387528419495
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-5-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-5-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-5-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999599456787109
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-5-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-5-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-6-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999417066574097
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-6-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999151229858398
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-6-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 2.4300239601871e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-6-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999645948410034
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-6-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-6-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-7-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9998205304145813
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-7-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999151229858398
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-7-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-7-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-7-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 1.6701422282494605e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-7-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999545812606812
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-8-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999251365661621
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-8-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-8-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-8-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999756813049316
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-8-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-8-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999756813049316
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-9-0",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.999373733997345
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-9-1",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-9-2",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 1.1478769010864198e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-9-3",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999485015869141
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-9-4",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 0,
+    "probability": 1.4738980098627508e-05
+  },
+  {
+    "id": "DSK3-raw_shell_redirect-9-5",
+    "group_id": "disk-operation-family:raw_shell_redirect",
+    "label": 1,
+    "probability": 0.9999039173126221
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-0-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-1-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-2-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-3-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-4-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-5-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-6-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-7-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-8-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-9-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-10-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-11-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-12-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-13-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-14-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-15-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-16-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-17-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-18-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_sfdisk_dump-19-read",
+    "group_id": "disk-operation-family:read_sfdisk_dump",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-0-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-1-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-2-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-3-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-4-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-5-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-6-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-7-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-8-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-9-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-10-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-11-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-12-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-13-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-14-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-15-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-16-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-17-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-18-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_fdisk-19-read",
+    "group_id": "disk-operation-family:read_fdisk",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-0-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-1-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-2-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-3-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-4-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-5-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-6-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-7-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-8-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-9-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-10-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-11-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-12-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-13-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-14-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-15-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-16-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-17-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-18-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_blockdev-19-read",
+    "group_id": "disk-operation-family:read_blockdev",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_file_type-0-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_file_type-1-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_file_type-2-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_file_type-3-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_file_type-4-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_file_type-5-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-read_file_type-6-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_file_type-7-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "DSK3-read_file_type-8-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_file_type-9-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "DSK3-read_file_type-10-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_file_type-11-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 2.7535692424862646e-05
+  },
+  {
+    "id": "DSK3-read_file_type-12-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_file_type-13-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_file_type-14-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_file_type-15-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 3.120191104244441e-05
+  },
+  {
+    "id": "DSK3-read_file_type-16-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_file_type-17-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_file_type-18-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_file_type-19-read",
+    "group_id": "disk-operation-family:read_file_type",
+    "label": 0,
+    "probability": 3.535625000949949e-05
+  },
+  {
+    "id": "DSK3-read_hex-0-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-read_hex-1-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_hex-2-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-read_hex-3-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_hex-4-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-read_hex-5-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_hex-6-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-read_hex-7-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_hex-8-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 6.605214002775028e-05
+  },
+  {
+    "id": "DSK3-read_hex-9-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_hex-10-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_hex-11-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 5.144221358932555e-05
+  },
+  {
+    "id": "DSK3-read_hex-12-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_hex-13-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.006368908449076e-05
+  },
+  {
+    "id": "DSK3-read_hex-14-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_hex-15-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_hex-16-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_hex-17-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  },
+  {
+    "id": "DSK3-read_hex-18-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 5.829126530443318e-05
+  },
+  {
+    "id": "DSK3-read_hex-19-read",
+    "group_id": "disk-operation-family:read_hex",
+    "label": 0,
+    "probability": 4.539786823443137e-05
+  }
+]

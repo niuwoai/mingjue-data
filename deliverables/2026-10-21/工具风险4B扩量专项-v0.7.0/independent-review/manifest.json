@@ -1,0 +1,7 @@
+{
+  "model": "codex/gpt-6-astra",
+  "rubric_sha256": "1f6e0c3d5a3ff676aaa92816aa4c6e47de61b95b3268c5c6728accbc2350e3d9",
+  "input_sha256": "5b0b32c8114a766a4030d2e48b6d3c70b5a57202b7f5545d30ce728dd91157f7",
+  "human_verified": false,
+  "purpose": "stratified pretraining label audit"
+}

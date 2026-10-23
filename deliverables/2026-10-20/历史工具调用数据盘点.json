@@ -1,0 +1,30 @@
+{
+  "report_date": "2026-10-20",
+  "scope": "local_machine_only",
+  "version": "1.0.0",
+  "sources": [
+    {"source": "willdeep_cli", "sessions": 175, "sessions_with_calls": 86, "raw_calls": 7651, "unique_call_ids": 7651, "calls_with_result": 7645, "direct_shell_calls": 3847},
+    {"source": "willdeep_app", "sessions": 359, "sessions_with_calls": 241, "raw_calls": 18531, "unique_call_ids": 18531, "calls_with_result": 18421, "direct_shell_calls": 5484},
+    {"source": "willdeep_subagents", "sessions": 207, "sessions_with_calls": 160, "raw_calls": 2006, "unique_call_ids": 1988, "calls_with_result": 1988, "direct_shell_calls": 928},
+    {"source": "claude_code", "sessions": 489, "sessions_with_calls": 479, "raw_calls": 113951, "unique_call_ids": 113333, "calls_with_result": 113332, "direct_shell_calls": 75843},
+    {"source": "codex", "sessions": 3726, "sessions_with_calls": 1012, "raw_calls": 524031, "unique_call_ids": 524031, "calls_with_result": 524012, "direct_shell_calls": 95923, "exec_orchestration_calls": 334191}
+  ],
+  "totals": {
+    "raw_call_records": 666170,
+    "sum_of_source_unique_call_ids": 665534,
+    "known_willdeep_cross_source_duplicate_ids": 132,
+    "willdeep_union_call_ids": 28048,
+    "willdeep_union_measured_in_later_snapshot": true,
+    "full_cross_source_dedup_completed": false,
+    "direct_shell_records_before_cross_source_dedup": 182025,
+    "terminal_send_command_records_additional": 2302
+  },
+  "limitations": [
+    "No harmfulness or authorization labels have been assigned.",
+    "Tool requests are not necessarily successful executions.",
+    "Content and near-duplicate filtering has not been performed.",
+    "Nested tool calls inside orchestration code were not expanded.",
+    "Cloud ChatGPT history and other machines were not included.",
+    "Files were read at slightly different times while some sessions remained active."
+  ]
+}

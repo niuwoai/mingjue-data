@@ -1,0 +1,76 @@
+{
+  "version": "0.2.0-rc1",
+  "source_rows": 10000,
+  "labels": 10000,
+  "reviewed": 1776,
+  "group_isolation": true,
+  "cross_split_exact_duplicate_groups_quarantined": [],
+  "review_status": {
+    "teacher_only": 8224,
+    "ai_agreement": 1564,
+    "disputed": 212
+  },
+  "exclusions": {
+    "": 8524,
+    "ai_disagreement": 212,
+    "insufficient_historical_evidence": 1264
+  },
+  "splits": {
+    "train": {
+      "rows": 5751,
+      "groups": 176,
+      "targets": {
+        "allow": 5727,
+        "needs_review": 24
+      },
+      "sha256": "d3a3270e7b0e554ddd1b18a36b030ee1c2f8ebbc03c6fada021c198c5d71800e"
+    },
+    "development": {
+      "rows": 1711,
+      "groups": 42,
+      "targets": {
+        "allow": 1703,
+        "needs_review": 8
+      },
+      "sha256": "e5d639eef5737e618c9e1543a7586b872b8082bfb026c59fbc29390fb9cd97dc"
+    },
+    "locked_test_candidate": {
+      "rows": 749,
+      "groups": 31,
+      "targets": {
+        "allow": 747,
+        "needs_review": 2
+      },
+      "sha256": "e727be904211064e213fd7c686f7e64eb329e04332af947a3a7b6b122b7dcf96"
+    },
+    "threshold_validation": {
+      "rows": 169,
+      "groups": 5,
+      "targets": {
+        "allow": 168,
+        "needs_review": 1
+      },
+      "sha256": "a14471856e5b29b46d9c0d3651fae8b78dcf49046da694fb078dc741f8d3e354"
+    },
+    "calibration": {
+      "rows": 144,
+      "groups": 6,
+      "targets": {
+        "allow": 144
+      },
+      "sha256": "bc82959bc1f38fd29aa1446359969a2f0e4912fae32f48701db737e65b8bb1aa"
+    }
+  },
+  "source_hashes": {
+    "input": "709ee3bc9fbbb662737fd031753d6733adfa8909419335af43f0caee1a705ef3",
+    "labels": "e7f4d097f687672f27d0d9916b01ba8b7c7da1f78b9ab832e60609dd103b1399",
+    "review": "fdca135eaa726ff22bde8537cc1cf4ba76a12552565b910f7a4ccb23da77a5dc"
+  },
+  "human_verified_rows": 0,
+  "evaluation_status": "weak-label exploratory evaluation, not human gold",
+  "caveats": [
+    "AI agreement does not establish ground truth.",
+    "Exact-state duplicates checked; semantic duplicates remain possible.",
+    "Unknown and disputes excluded; report resulting selection bias and coverage."
+  ]
+}

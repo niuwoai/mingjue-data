@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "train_rows": 12000,
+  "train_positive": 6000,
+  "added_train_rows": 2000,
+  "added_positive": 1000,
+  "test_rows": 1200,
+  "test_positive": 600,
+  "regression_rows": 3073,
+  "development_rows": 60,
+  "calibration_rows": 60,
+  "threshold_validation_rows": 60,
+  "human_gold": 0,
+  "commands_executed": false,
+  "split_family_disjoint": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": "0.11.0",
+  "experiment": "tool_gate_literal_execution_20000_v10",
+  "label_source": "policy-derived inert contrasts; not human gold",
+  "human_verified_rows": 0,
+  "human_gold": false,
+  "production_qualified": false,
+  "protocol": "binary allow/needs_review; threshold fixed at 0.5; display and execution paired by command purpose; all holdout wrapper families are unseen during training; prior v0.10 holdout is now observed regression",
+  "base_train_manifest_sha256": "be7f89a318c7b077842be260a7d6401b4cc125a6992609941cfaf58d5368e9e4",
+  "splits": {
+    "train": {
+      "rows": 20000,
+      "positives": 10000,
+      "sha256": "201a928f9fe4afaeb4805b8803da16fafb04a8ab3605d1d9aaf0afc9e069c1f7"
+    },
+    "locked_test_candidate": {
+      "rows": 1200,
+      "positives": 600,
+      "sha256": "f421d1d5ef00e61ca7ce9924d9ff3bf31e52c9fdfbf095844fed01ff141811e0"
+    },
+    "development": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "dd2e789997a1ea05ad2a4239b5d9f8c6c012686ecb33851062d9f0e80e7f9ea9"
+    },
+    "calibration": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "f912e15ec280dcb94dc5bfd6cbfa65b2a8db9929234fcfdacd451d1137d2d9a9"
+    },
+    "threshold_validation": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "bc7b75d76afd28a1ed741937e8dd943a4ad00568057474a430d03eb47371aaca"
+    }
+  },
+  "regression": {
+    "rows": 4273,
+    "sha256": "8d62aec39ebc00efa92ae7b39cd5aed78730f8535769fb0e8949a98fe231d7d2"
+  }
+}

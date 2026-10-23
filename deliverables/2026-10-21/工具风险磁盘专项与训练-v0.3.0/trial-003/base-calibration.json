@@ -1,0 +1,626 @@
+[
+  {
+    "id": "DSK3-signature_wipe-0-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9669140577316284
+  },
+  {
+    "id": "DSK3-signature_wipe-0-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "DSK3-signature_wipe-0-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.10669060051441193
+  },
+  {
+    "id": "DSK3-signature_wipe-0-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.7981867790222168
+  },
+  {
+    "id": "DSK3-signature_wipe-0-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.43782350420951843
+  },
+  {
+    "id": "DSK3-signature_wipe-0-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.957912266254425
+  },
+  {
+    "id": "DSK3-signature_wipe-1-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.8670357465744019
+  },
+  {
+    "id": "DSK3-signature_wipe-1-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "DSK3-signature_wipe-1-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.020332353189587593
+  },
+  {
+    "id": "DSK3-signature_wipe-1-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "DSK3-signature_wipe-1-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.16451644897460938
+  },
+  {
+    "id": "DSK3-signature_wipe-1-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "DSK3-signature_wipe-2-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9399133324623108
+  },
+  {
+    "id": "DSK3-signature_wipe-2-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "DSK3-signature_wipe-2-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.22270014882087708
+  },
+  {
+    "id": "DSK3-signature_wipe-2-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.8670357465744019
+  },
+  {
+    "id": "DSK3-signature_wipe-2-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.4687906503677368
+  },
+  {
+    "id": "DSK3-signature_wipe-2-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.957912266254425
+  },
+  {
+    "id": "DSK3-signature_wipe-3-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.8670357465744019
+  },
+  {
+    "id": "DSK3-signature_wipe-3-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9890130758285522
+  },
+  {
+    "id": "DSK3-signature_wipe-3-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.009708477184176445
+  },
+  {
+    "id": "DSK3-signature_wipe-3-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.562176525592804
+  },
+  {
+    "id": "DSK3-signature_wipe-3-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.10669060051441193
+  },
+  {
+    "id": "DSK3-signature_wipe-3-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9149009585380554
+  },
+  {
+    "id": "DSK3-signature_wipe-4-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9669140577316284
+  },
+  {
+    "id": "DSK3-signature_wipe-4-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9902915358543396
+  },
+  {
+    "id": "DSK3-signature_wipe-4-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.06008664518594742
+  },
+  {
+    "id": "DSK3-signature_wipe-4-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.8807970285415649
+  },
+  {
+    "id": "DSK3-signature_wipe-4-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.2689414322376251
+  },
+  {
+    "id": "DSK3-signature_wipe-4-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9914224743843079
+  },
+  {
+    "id": "DSK3-signature_wipe-5-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.851952850818634
+  },
+  {
+    "id": "DSK3-signature_wipe-5-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "DSK3-signature_wipe-5-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.02595735713839531
+  },
+  {
+    "id": "DSK3-signature_wipe-5-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.851952850818634
+  },
+  {
+    "id": "DSK3-signature_wipe-5-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.08509904146194458
+  },
+  {
+    "id": "DSK3-signature_wipe-5-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "DSK3-signature_wipe-6-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "DSK3-signature_wipe-6-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9859364032745361
+  },
+  {
+    "id": "DSK3-signature_wipe-6-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.10669060051441193
+  },
+  {
+    "id": "DSK3-signature_wipe-6-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "DSK3-signature_wipe-6-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.531209409236908
+  },
+  {
+    "id": "DSK3-signature_wipe-6-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "DSK3-signature_wipe-7-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.8670357465744019
+  },
+  {
+    "id": "DSK3-signature_wipe-7-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "DSK3-signature_wipe-7-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.022977370768785477
+  },
+  {
+    "id": "DSK3-signature_wipe-7-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.7057850360870361
+  },
+  {
+    "id": "DSK3-signature_wipe-7-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.2018132209777832
+  },
+  {
+    "id": "DSK3-signature_wipe-7-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9740425944328308
+  },
+  {
+    "id": "DSK3-signature_wipe_force-0-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "DSK3-signature_wipe_force-0-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "DSK3-signature_wipe_force-0-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.10669060051441193
+  },
+  {
+    "id": "DSK3-signature_wipe_force-0-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9046505093574524
+  },
+  {
+    "id": "DSK3-signature_wipe_force-0-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.4687906503677368
+  },
+  {
+    "id": "DSK3-signature_wipe_force-0-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.970687747001648
+  },
+  {
+    "id": "DSK3-signature_wipe_force-1-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9796676635742188
+  },
+  {
+    "id": "DSK3-signature_wipe_force-1-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9924227595329285
+  },
+  {
+    "id": "DSK3-signature_wipe_force-1-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.02595735713839531
+  },
+  {
+    "id": "DSK3-signature_wipe_force-1-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9324532747268677
+  },
+  {
+    "id": "DSK3-signature_wipe_force-1-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.14804719388484955
+  },
+  {
+    "id": "DSK3-signature_wipe_force-1-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9940890073776245
+  },
+  {
+    "id": "DSK3-signature_wipe_force-2-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "DSK3-signature_wipe_force-2-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "DSK3-signature_wipe_force-2-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.2689414322376251
+  },
+  {
+    "id": "DSK3-signature_wipe_force-2-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9241418242454529
+  },
+  {
+    "id": "DSK3-signature_wipe_force-2-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.5
+  },
+  {
+    "id": "DSK3-signature_wipe_force-2-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.977022647857666
+  },
+  {
+    "id": "DSK3-signature_wipe_force-3-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9626730680465698
+  },
+  {
+    "id": "DSK3-signature_wipe_force-3-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "DSK3-signature_wipe_force-3-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.01243165135383606
+  },
+  {
+    "id": "DSK3-signature_wipe_force-3-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.8175744414329529
+  },
+  {
+    "id": "DSK3-signature_wipe_force-3-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.10669060051441193
+  },
+  {
+    "id": "DSK3-signature_wipe_force-3-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9669140577316284
+  },
+  {
+    "id": "DSK3-signature_wipe_force-4-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "DSK3-signature_wipe_force-4-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9890130758285522
+  },
+  {
+    "id": "DSK3-signature_wipe_force-4-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.07585817575454712
+  },
+  {
+    "id": "DSK3-signature_wipe_force-4-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.957912266254425
+  },
+  {
+    "id": "DSK3-signature_wipe_force-4-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.2689414322376251
+  },
+  {
+    "id": "DSK3-signature_wipe_force-4-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9959298968315125
+  },
+  {
+    "id": "DSK3-signature_wipe_force-5-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9465966820716858
+  },
+  {
+    "id": "DSK3-signature_wipe_force-5-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "DSK3-signature_wipe_force-5-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.037326883524656296
+  },
+  {
+    "id": "DSK3-signature_wipe_force-5-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9324532747268677
+  },
+  {
+    "id": "DSK3-signature_wipe_force-5-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.08509904146194458
+  },
+  {
+    "id": "DSK3-signature_wipe_force-5-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "DSK3-signature_wipe_force-6-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "DSK3-signature_wipe_force-6-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9875683188438416
+  },
+  {
+    "id": "DSK3-signature_wipe_force-6-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.13296423852443695
+  },
+  {
+    "id": "DSK3-signature_wipe_force-6-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9046505093574524
+  },
+  {
+    "id": "DSK3-signature_wipe_force-6-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.562176525592804
+  },
+  {
+    "id": "DSK3-signature_wipe_force-6-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9796676635742188
+  },
+  {
+    "id": "DSK3-signature_wipe_force-7-0",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9796676635742188
+  },
+  {
+    "id": "DSK3-signature_wipe_force-7-1",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9914224743843079
+  },
+  {
+    "id": "DSK3-signature_wipe_force-7-2",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.02931223064661026
+  },
+  {
+    "id": "DSK3-signature_wipe_force-7-3",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9241418242454529
+  },
+  {
+    "id": "DSK3-signature_wipe_force-7-4",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 0,
+    "probability": 0.16451644897460938
+  },
+  {
+    "id": "DSK3-signature_wipe_force-7-5",
+    "group_id": "disk-operation-family:signature_wipe",
+    "label": 1,
+    "probability": 0.9933071732521057
+  },
+  {
+    "id": "DSK3-read_parted-0-read",
+    "group_id": "disk-operation-family:read_parted",
+    "label": 0,
+    "probability": 0.7057850360870361
+  },
+  {
+    "id": "DSK3-read_parted-1-read",
+    "group_id": "disk-operation-family:read_parted",
+    "label": 0,
+    "probability": 0.7057850360870361
+  },
+  {
+    "id": "DSK3-read_parted-2-read",
+    "group_id": "disk-operation-family:read_parted",
+    "label": 0,
+    "probability": 0.7549149990081787
+  },
+  {
+    "id": "DSK3-read_parted-3-read",
+    "group_id": "disk-operation-family:read_parted",
+    "label": 0,
+    "probability": 0.7310585379600525
+  },
+  {
+    "id": "DSK3-read_parted-4-read",
+    "group_id": "disk-operation-family:read_parted",
+    "label": 0,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "DSK3-read_parted-5-read",
+    "group_id": "disk-operation-family:read_parted",
+    "label": 0,
+    "probability": 0.7057850360870361
+  },
+  {
+    "id": "DSK3-read_parted-6-read",
+    "group_id": "disk-operation-family:read_parted",
+    "label": 0,
+    "probability": 0.7772998809814453
+  },
+  {
+    "id": "DSK3-read_parted-7-read",
+    "group_id": "disk-operation-family:read_parted",
+    "label": 0,
+    "probability": 0.6791787147521973
+  }
+]

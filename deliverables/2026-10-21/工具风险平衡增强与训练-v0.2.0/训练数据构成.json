@@ -1,0 +1,8 @@
+{
+  "train_pool": 1280,
+  "review": 360,
+  "synthetic_scope_review": 312,
+  "synthetic_destruction": 24,
+  "approval_request_not_approval": 156,
+  "human_gold": 0
+}

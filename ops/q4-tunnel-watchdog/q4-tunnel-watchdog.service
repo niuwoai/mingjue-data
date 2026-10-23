@@ -1,0 +1,18 @@
+[Unit]
+Description=Verify h2:50022 reaches q4 SSH and recover its reverse tunnel
+After=network-online.target ssh.service edge-cli-q4-ssh-h2.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/q4-tunnel-watchdog/watchdog.py
+TimeoutStartSec=60
+StateDirectory=q4-tunnel-watchdog
+StateDirectoryMode=0700
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
