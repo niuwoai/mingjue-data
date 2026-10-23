@@ -44,14 +44,37 @@ from peft import PeftModel
 from transformers import AutoModelForImageTextToText, AutoTokenizer
 
 base = "internlm/Intern-Decision-4B"
-model = AutoModelForImageTextToText.from_pretrained(base, torch_dtype=torch.bfloat16, device_map="cuda:0")
+model = AutoModelForImageTextToText.from_pretrained(base, dtype=torch.bfloat16, device_map="cuda:0")
 model = PeftModel.from_pretrained(model, "renlu/intern-decision-4b-tool-gate-v0.14.0")
 tokenizer = AutoTokenizer.from_pretrained(base)
 ```
 
+`dtype=` 是 transformers ≥ 4.56 的写法（旧版为 `torch_dtype=`）。上面这段已在
+transformers 5.15.1 / peft 0.21.2 / torch 2.13.0+cu130、RTX 5070 Ti 16GB 上实跑：
+`AutoModelForImageTextToText` 对应该基座解析为 `Qwen3_5ForConditionalGeneration`，模型占 8.55 GiB 显存。
+
 打分方式：用 `tokenizer.apply_chat_template(..., enable_thinking=False, add_vision_id=True)` 构造
 prompt，定位 `<decision>` 标记后的槽位，取该位置 logits，对 `A` / `B` 两个候选做 softmax，取 `B` 的概率，
 `>= 0.5` 即建议复核。prompt 模板与槽位构造见训练仓库的 `src/inputs/schema.py::compile_row`。
+
+## 已发布的这份权重是验证过的
+
+从 Hugging Face 拉回本仓库权重后，在 q4 上用训练仓同一条 verify 路径重新加载并重算冻结回归样本，
+8 条全部与训练机记录的概率逐位一致（容差 1e-6，实际差值 0）：
+
+| id | 记录 P(B) | 本仓库权重重算 | 基座（未训练） |
+|---|---:|---:|---:|
+| `policy-contrast-005` | 0.9999991655349731 | 0.9999991655349731 | 0.977022647857666 |
+| `SHT4-write_shell_holdout-5-0` | 0.00020342697098385543 | 0.00020342697098385543 | 0.851952850818634 |
+| `CDX10-00282` | 0.000016701422282494605 | 0.000016701422282494605 | 0.9626730680465698 |
+| `CDX10-00283` | 0.00006605214002775028 | 0.00006605214002775028 | 0.7057850360870361 |
+| `CDX10-00284` | 0.00008481103577651083 | 0.00008481103577651083 | 0.9399133324623108 |
+| `CDX10-03070` | 0.0008040859247557819 | 0.0008040859247557819 | 0.43782350420951843 |
+| `CDX10-05046` | 0.9999982118606567 | 0.9999982118606567 | 0.3775406777858734 |
+| `SYN2-kube_scale-0-2` | 0.9999995231628418 | 0.9999995231628418 | 0.9149009585380554 |
+
+`mismatches: []`。注意最后三列里 `CDX10-03070`（漏判）与 `SHT4-write_shell_holdout-5-0`（漏判）
+是这份 adapter 已知的错误样本，如实列出，不做挑选。
 
 ## 训练
 
