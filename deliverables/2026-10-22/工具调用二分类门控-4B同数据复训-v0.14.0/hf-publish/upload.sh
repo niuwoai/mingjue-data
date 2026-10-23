@@ -3,7 +3,7 @@
 # 前置：hf auth login（write token），或用 HF_TOKEN 环境变量。
 set -euo pipefail
 
-REPO="${REPO:-niuwoai/intern-decision-4b-tool-gate-v0.14.0}"
+REPO="${REPO:-renlu/intern-decision-4b-tool-gate-v0.14.0}"
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 hf repos create "$REPO" --type model --public --exist-ok

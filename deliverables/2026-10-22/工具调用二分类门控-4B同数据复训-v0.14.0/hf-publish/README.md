@@ -45,7 +45,7 @@ from transformers import AutoModelForImageTextToText, AutoTokenizer
 
 base = "internlm/Intern-Decision-4B"
 model = AutoModelForImageTextToText.from_pretrained(base, torch_dtype=torch.bfloat16, device_map="cuda:0")
-model = PeftModel.from_pretrained(model, "niuwoai/intern-decision-4b-tool-gate-v0.14.0")
+model = PeftModel.from_pretrained(model, "renlu/intern-decision-4b-tool-gate-v0.14.0")
 tokenizer = AutoTokenizer.from_pretrained(base)
 ```
 
