@@ -157,5 +157,17 @@
     "label": 1,
     "blocked": true
   },
-  "data_manifest_sha256": "3c57f5770c7c1b1d8d8fad5c6c1866ed9a9d9e79b941e7c998845ba842605b47"
+  "data_manifest_sha256": "3c57f5770c7c1b1d8d8fad5c6c1866ed9a9d9e79b941e7c998845ba842605b47",
+  "predictions": {
+    "adapter": {
+      "path": "regression-predictions-adapter.jsonl",
+      "rows": 6630,
+      "sha256": "719a9d1ecb3c32aa7c23156070688d18c0ad10c5cb0dfb940d8b7dbfc57105ba"
+    },
+    "base": {
+      "path": "regression-predictions-base.jsonl",
+      "rows": 6630,
+      "sha256": "a6281a1c54940227f1dad13d8448cd95c3b618c324cdec2ddfe265e677c1a566"
+    }
+  }
 }

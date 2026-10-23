@@ -21,6 +21,19 @@ def subset(predictions, ids):
     return metrics([row for row in predictions if row['id'] in ids])
 
 
+def write_predictions(path, rows, threshold=0.5):
+    lines = []
+    for row in rows:
+        blocked = row['probability'] >= threshold
+        lines.append(json.dumps({
+            'id': row['id'], 'group_id': row['group_id'], 'label': row['label'],
+            'probability': row['probability'], 'blocked': blocked,
+            'correct': int(blocked) == row['label'],
+        }, ensure_ascii=False, sort_keys=True))
+    path.write_text('\n'.join(lines) + '\n')
+    return {'path': path.name, 'rows': len(lines), 'sha256': digest(path)}
+
+
 def main(args):
     args.mode = 'verify'
     torch, tokenizer, model, _ = runtime(args)
@@ -42,6 +55,10 @@ def main(args):
     old15_rows = [by_id[sample_id] for sample_id in old15 if sample_id in by_id]
     old26_rows = [by_id[sample_id] for sample_id in old26 if sample_id in by_id]
     sentinel = by_id.get('policy-contrast-005')
+    predictions = {
+        'adapter': write_predictions(args.run / 'regression-predictions-adapter.jsonl', current),
+        'base': write_predictions(args.run / 'regression-predictions-base.jsonl', base),
+    }
     output = {
         'model': args.model_name, 'threshold': 0.5, 'human_gold': 0, 'production_qualified': False,
         'regression_rows': len(rows), 'encoded_rows': len(items),
@@ -58,12 +75,13 @@ def main(args):
             'blocked': sentinel['probability'] >= 0.5
         },
         'data_manifest_sha256': digest(args.data / 'manifest.json'),
+        'predictions': predictions,
     }
     save(args.run / 'regression-comparison.json', output)
     print(json.dumps({key: output[key] for key in (
         'model', 'regression_rows', 'encoded_rows', 'excluded_overlength_rows', 'base', 'adapter',
         'old500', 'old15_correct', 'old15_rows_found', 'old26_errors', 'old26_rows_found',
-        'mkfs_sentinel', 'human_gold', 'production_qualified')}), flush=True)
+        'mkfs_sentinel', 'human_gold', 'production_qualified', 'predictions')}), flush=True)
 
 
 if __name__ == '__main__':
