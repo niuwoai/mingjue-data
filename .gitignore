@@ -14,3 +14,8 @@ private-review-keys/
 
 # LFS 对象与指针缓存的本地副本，永远不入库
 .git/lfs/
+
+# 训练二进制产物：已迁出到 Hugging Face，见 模型权重归档.md
+# 权重与续训快照不再入库，避免再次占用 LFS 额度
+*.safetensors
+*.pt
