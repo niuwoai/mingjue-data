@@ -1,0 +1,95 @@
+{
+  "version": "0.15.0",
+  "experiment": "tool_gate_shell_combo_pairs_29760_v15",
+  "label_source": "policy-constructed synthetic command/context contrasts; not human gold",
+  "human_verified_rows": 0,
+  "human_gold": false,
+  "production_qualified": false,
+  "base_manifest_sha256": "3c57f5770c7c1b1d8d8fad5c6c1866ed9a9d9e79b941e7c998845ba842605b47",
+  "extension": {
+    "added_train_rows": 1760,
+    "added_train_groups": 880,
+    "groups": [
+      {
+        "name": "combo_defer",
+        "pairs": 200,
+        "rows": 400
+      },
+      {
+        "name": "combo_forbid",
+        "pairs": 200,
+        "rows": 400
+      },
+      {
+        "name": "combo_destruct",
+        "pairs": 200,
+        "rows": 400
+      },
+      {
+        "name": "combo_device",
+        "pairs": 160,
+        "rows": 320
+      },
+      {
+        "name": "combo_cp",
+        "pairs": 120,
+        "rows": 240
+      }
+    ],
+    "holdout_axes": [
+      {
+        "name": "defer_holdout",
+        "rows": 240
+      },
+      {
+        "name": "forbid_holdout",
+        "rows": 240
+      },
+      {
+        "name": "destruct_holdout",
+        "rows": 240
+      },
+      {
+        "name": "device_holdout",
+        "rows": 240
+      },
+      {
+        "name": "cp_holdout",
+        "rows": 240
+      }
+    ],
+    "rationale": "combination coverage for the A/B/C failure families in the 21-error regression analysis; no historic command text copied"
+  },
+  "protocol": "binary allow/needs_review; fixed threshold 0.5; 29,760 balanced train rows; 1,760 targeted combo rows; 1,200 rotated holdout rows with unseen shapes; prior locked test moved to regression; no command is executed",
+  "splits": {
+    "train": {
+      "rows": 29760,
+      "positives": 14880,
+      "sha256": "a4c86ef7ff057164425755bd5a592e4a78ddd2fe106133b1d2dc6d8806c99b8f"
+    },
+    "development": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "dd2e789997a1ea05ad2a4239b5d9f8c6c012686ecb33851062d9f0e80e7f9ea9"
+    },
+    "calibration": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "f912e15ec280dcb94dc5bfd6cbfa65b2a8db9929234fcfdacd451d1137d2d9a9"
+    },
+    "threshold_validation": {
+      "rows": 60,
+      "positives": 30,
+      "sha256": "bc7b75d76afd28a1ed741937e8dd943a4ad00568057474a430d03eb47371aaca"
+    },
+    "locked_test_candidate": {
+      "rows": 1200,
+      "positives": 600,
+      "sha256": "ee2d2c9ba8b6abbfa63fad0bdb22f7cd497a886ce450d5a44cfecec95f623fa4"
+    }
+  },
+  "regression": {
+    "rows": 7873,
+    "sha256": "4dcdb62b81687cec9d561f2724b83d78fa26537ff7310d2bb0586b2d291e19d1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "train_rows": 29760,
+  "train_allow": 14880,
+  "train_needs_review": 14880,
+  "added_rows": 1760,
+  "added_groups": 880,
+  "group_counts": {
+    "combo_defer": 400,
+    "combo_forbid": 400,
+    "combo_destruct": 400,
+    "combo_device": 320,
+    "combo_cp": 240
+  },
+  "holdout_rows": 1200,
+  "regression_rows": 7873,
+  "human_gold": 0,
+  "commands_executed": false,
+  "train_holdout_shape_overlap": 0,
+  "threshold": 0.5,
+  "production_qualified": false
+}
