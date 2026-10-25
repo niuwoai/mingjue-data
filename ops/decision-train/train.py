@@ -161,7 +161,8 @@ def train(args, torch, tokenizer, model, data):
     positive_weight = 1.0 if args.balanced_draws else min(20.0, (len(train_items)-positives)/positives)
     normalizer = (len(train_items)-positives+positives*positive_weight)/len(train_items)
     trace, optimizer_step, start = [], int(resume_state.get("optimizer_step", 0)), time.perf_counter()
-    sessions = int(resume_state.get("sessions", 0)) + 1
+    prior_sessions = int(resume_state.get("sessions", 1)) if args.resume else 0
+    sessions = prior_sessions + 1
     carried_seconds = float(resume_state.get("cumulative_seconds", 0.0))
     remaining = order[consumed:]
     # First backward uses the longest training record; discard these gradients.
