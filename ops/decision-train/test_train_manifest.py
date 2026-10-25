@@ -26,5 +26,25 @@ class SupportedManifestTest(unittest.TestCase):
         self.assertTrue(train.is_supported_manifest({"labels": 10000}))
 
 
+class ResumeManifestTest(unittest.TestCase):
+    def test_legacy_state_without_sessions_counts_aborted_run(self):
+        self.assertEqual(train.session_number({"optimizer_step": 1500}, True), 2)
+
+    def test_recorded_sessions_advance_on_resume(self):
+        self.assertEqual(train.session_number({"sessions": 2}, True), 3)
+
+    def test_fresh_run_is_first_session(self):
+        self.assertEqual(train.session_number({}, False), 1)
+
+    def test_offset_must_land_on_accumulation_boundary(self):
+        self.assertEqual(train.resume_offset({"microsteps": 24000}, list(range(29760)), 16), 24000)
+        with self.assertRaises(ValueError):
+            train.resume_offset({"microsteps": 24008}, list(range(29760)), 16)
+
+    def test_offset_cannot_exceed_recorded_order(self):
+        with self.assertRaises(ValueError):
+            train.resume_offset({"microsteps": 29776}, list(range(29760)), 16)
+
+
 if __name__ == "__main__":
     unittest.main()

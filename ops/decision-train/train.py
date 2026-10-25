@@ -97,6 +97,17 @@ def checkpoint(args, model, tokenizer, optimizer, torch, step, microsteps, secon
     staged.replace(args.run / "training-state.pt")
 
 
+def session_number(state, resuming):
+    return int(state.get("sessions", 1)) + 1 if resuming else 1
+
+
+def resume_offset(state, order, accumulation):
+    consumed = int(state["microsteps"])
+    if consumed % accumulation or consumed > len(order):
+        raise ValueError("Resume offset is not an accumulation boundary")
+    return consumed
+
+
 def train(args, torch, tokenizer, model, data):
     train_items = data["train"]
     available_train_rows = len(train_items)
@@ -118,6 +129,8 @@ def train(args, torch, tokenizer, model, data):
         resume_state = torch.load(state_path, map_location="cpu", weights_only=False)
         if int(resume_state["optimizer_step"]) <= 0:
             raise ValueError("Resume state carries no completed optimizer step")
+        if "cpu_rng" not in resume_state or "cuda_rng" not in resume_state:
+            raise ValueError("Resume state carries no RNG state")
     alignment_audit(model, train_items[0], torch, args.run)
     evaluation_splits = SPLITS[1:]
     before = {}
@@ -152,18 +165,16 @@ def train(args, torch, tokenizer, model, data):
     if args.resume:
         if json.loads((args.run / "training-order.json").read_text()) != order_ids:
             raise ValueError("Resume training order differs from the recorded order")
-        consumed = int(resume_state["microsteps"])
-        if consumed % args.accumulation or consumed > len(order):
-            raise ValueError("Resume offset is not an accumulation boundary")
+        consumed = resume_offset(resume_state, order, args.accumulation)
     else:
         save(args.run / "training-order.json", order_ids)
         consumed = 0
     positive_weight = 1.0 if args.balanced_draws else min(20.0, (len(train_items)-positives)/positives)
     normalizer = (len(train_items)-positives+positives*positive_weight)/len(train_items)
     trace, optimizer_step, start = [], int(resume_state.get("optimizer_step", 0)), time.perf_counter()
-    prior_sessions = int(resume_state.get("sessions", 1)) if args.resume else 0
-    sessions = prior_sessions + 1
-    carried_seconds = float(resume_state.get("cumulative_seconds", 0.0))
+    sessions = session_number(resume_state, args.resume)
+    carried = resume_state.get("cumulative_seconds")
+    carried_seconds = None if carried is None else float(carried)
     remaining = order[consumed:]
     # First backward uses the longest training record; discard these gradients.
     longest = max(train_items, key=lambda i: i["length"])
@@ -203,14 +214,14 @@ def train(args, torch, tokenizer, model, data):
         print(json.dumps(row), flush=True)
         if optimizer_step % 50 == 0:
             checkpoint(args, model, tokenizer, optimizer, torch, optimizer_step, row["microsteps"],
-                       carried_seconds+time.perf_counter()-start, sessions)
+                       None if carried_seconds is None else carried_seconds+time.perf_counter()-start, sessions)
     checkpoint(args, model, tokenizer, optimizer, torch, optimizer_step, len(order),
-               carried_seconds+time.perf_counter()-start, sessions)
+               None if carried_seconds is None else carried_seconds+time.perf_counter()-start, sessions)
     updated_tensors = sum(not torch.equal(before, parameter.detach().cpu())
                           for before, parameter in zip(initial_adapter, parameters))
     if not updated_tensors:
         raise ValueError("No adapter tensor updated")
-    trained_seconds = carried_seconds+time.perf_counter()-start
+    trained_seconds = None if carried_seconds is None else carried_seconds+time.perf_counter()-start
     after = {}
     for split in evaluation_splits:
         after[split] = evaluate(model, data[split], torch)
