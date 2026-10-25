@@ -16,6 +16,9 @@ class SupportedManifestTest(unittest.TestCase):
     def test_accepts_targeted_shell_contrast_experiment(self):
         self.assertTrue(train.is_supported_manifest({"experiment": "tool_gate_shell_contrast_28000_v12"}))
 
+    def test_accepts_combo_pair_29760_experiment(self):
+        self.assertTrue(train.is_supported_manifest({"experiment": "tool_gate_shell_combo_pairs_29760_v15"}))
+
     def test_rejects_unknown_experiment(self):
         self.assertFalse(train.is_supported_manifest({"experiment": "unregistered_experiment"}))
 

@@ -18,6 +18,7 @@ SUPPORTED_EXPERIMENTS = {
     "shell_redirect_6000_v6", "shell_redirect_10000_v7", "shell_redirect_12000_v8",
     "tool_gate_shell_dialect_16000_v9", "tool_gate_literal_execution_20000_v10",
     "tool_gate_shell_authorization_24000_v11", "tool_gate_shell_contrast_28000_v12",
+    "tool_gate_shell_combo_pairs_29760_v15",
 }
 
 
@@ -54,6 +55,11 @@ def runtime(args):
         attn_implementation="sdpa", local_files_only=True).to("cuda")
     if args.mode == "verify":
         model = PeftModel.from_pretrained(base, args.run / "adapter")
+    elif args.resume:
+        targets = json.loads((args.run / "lora-modules.json").read_text())
+        model = PeftModel.from_pretrained(base, args.run / "adapter", is_trainable=True)
+        if sorted(model.peft_config["default"].target_modules) != sorted(targets):
+            raise ValueError("Resumed adapter targets differ from the recorded modules")
     else:
         targets = [name for name, module in base.named_modules()
                    if "language_model.layers." in name and isinstance(module, torch.nn.Linear)]
@@ -80,12 +86,15 @@ def alignment_audit(model, item, torch, run):
         raise ValueError("Misaligned target loss")
 
 
-def checkpoint(args, model, tokenizer, optimizer, torch, step, microsteps):
+def checkpoint(args, model, tokenizer, optimizer, torch, step, microsteps, seconds=0.0, sessions=0):
     model.save_pretrained(args.run / "adapter")
     tokenizer.save_pretrained(args.run / "tokenizer")
-    torch.save({"optimizer": optimizer.state_dict(), "optimizer_step": step, "microsteps": microsteps,
-                "cpu_rng": torch.get_rng_state(), "cuda_rng": torch.cuda.get_rng_state_all()},
-               args.run / "training-state.pt")
+    payload = {"optimizer": optimizer.state_dict(), "optimizer_step": step, "microsteps": microsteps,
+               "cpu_rng": torch.get_rng_state(), "cuda_rng": torch.cuda.get_rng_state_all(),
+               "python_rng": random.getstate(), "cumulative_seconds": seconds, "sessions": sessions}
+    staged = args.run / "training-state.pt.tmp"
+    torch.save(payload, staged)
+    staged.replace(args.run / "training-state.pt")
 
 
 def train(args, torch, tokenizer, model, data):
@@ -101,18 +110,37 @@ def train(args, torch, tokenizer, model, data):
     positives = sum(i["label"] for i in train_items)
     if positives == 0 or positives == len(train_items):
         raise ValueError("Cannot train a decision gate without both target classes")
+    resume_state = {}
+    if args.resume:
+        state_path = args.run / "training-state.pt"
+        if not state_path.exists():
+            raise ValueError("Resume requires training-state.pt")
+        resume_state = torch.load(state_path, map_location="cpu", weights_only=False)
+        if int(resume_state["optimizer_step"]) <= 0:
+            raise ValueError("Resume state carries no completed optimizer step")
     alignment_audit(model, train_items[0], torch, args.run)
     evaluation_splits = SPLITS[1:]
     before = {}
-    for split in evaluation_splits:
-        before[split] = evaluate(model, data[split], torch)
-        save(args.run / ("base-"+split+".json"), before[split])
-        print(json.dumps({"base_evaluated": split, "rows": len(before[split])}), flush=True)
+    if args.resume:
+        for split in evaluation_splits:
+            recorded = args.run / ("base-"+split+".json")
+            if not recorded.exists():
+                raise ValueError("Resume requires the recorded base evaluation: "+split)
+            before[split] = json.loads(recorded.read_text())
+    else:
+        for split in evaluation_splits:
+            before[split] = evaluate(model, data[split], torch)
+            save(args.run / ("base-"+split+".json"), before[split])
+            print(json.dumps({"base_evaluated": split, "rows": len(before[split])}), flush=True)
     parameters = [p for p in model.parameters() if p.requires_grad]
     if any("lora_" not in name for name, p in model.named_parameters() if p.requires_grad):
         raise ValueError("Unexpected base/vision parameter trainable")
     optimizer = torch.optim.AdamW(parameters, lr=5e-5)
     initial_adapter = [p.detach().cpu().clone() for p in parameters]
+    if args.resume:
+        if sorted(resume_state["optimizer"]["param_groups"][0]["params"]) != list(range(len(parameters))):
+            raise ValueError("Resumed optimizer state does not match the adapter parameters")
+        optimizer.load_state_dict(resume_state["optimizer"])
     model.gradient_checkpointing_enable(gradient_checkpointing_kwargs={"use_reentrant": False})
     model.enable_input_require_grads()
     model.train()
@@ -120,10 +148,22 @@ def train(args, torch, tokenizer, model, data):
     random.Random(SEED).shuffle(order)
     if args.balanced_draws:
         order = balanced_order(train_items, args.balanced_draws, args.accumulation, SEED)
-    save(args.run / "training-order.json", [train_items[i]["id"] for i in order])
+    order_ids = [train_items[i]["id"] for i in order]
+    if args.resume:
+        if json.loads((args.run / "training-order.json").read_text()) != order_ids:
+            raise ValueError("Resume training order differs from the recorded order")
+        consumed = int(resume_state["microsteps"])
+        if consumed % args.accumulation or consumed > len(order):
+            raise ValueError("Resume offset is not an accumulation boundary")
+    else:
+        save(args.run / "training-order.json", order_ids)
+        consumed = 0
     positive_weight = 1.0 if args.balanced_draws else min(20.0, (len(train_items)-positives)/positives)
     normalizer = (len(train_items)-positives+positives*positive_weight)/len(train_items)
-    trace, optimizer_step, start = [], 0, time.perf_counter()
+    trace, optimizer_step, start = [], int(resume_state.get("optimizer_step", 0)), time.perf_counter()
+    sessions = int(resume_state.get("sessions", 0)) + 1
+    carried_seconds = float(resume_state.get("cumulative_seconds", 0.0))
+    remaining = order[consumed:]
     # First backward uses the longest training record; discard these gradients.
     longest = max(train_items, key=lambda i: i["length"])
     probe = torch.nn.functional.cross_entropy(score(model, longest), longest["target"].to("cuda"))
@@ -131,8 +171,13 @@ def train(args, torch, tokenizer, model, data):
     optimizer.zero_grad(set_to_none=True)
     save(args.run / "memory-probe.json", {"id": longest["id"], "tokens": longest["length"],
          "peak_reserved_bytes": torch.cuda.max_memory_reserved(), "backward_passed": True})
-    for begin in range(0, len(order), args.accumulation):
-        indices = order[begin:begin+args.accumulation]
+    if args.resume:
+        torch.set_rng_state(resume_state["cpu_rng"])
+        torch.cuda.set_rng_state_all(resume_state["cuda_rng"])
+        if resume_state.get("python_rng") is not None:
+            random.setstate(resume_state["python_rng"])
+    for begin in range(0, len(remaining), args.accumulation):
+        indices = remaining[begin:begin+args.accumulation]
         optimizer.zero_grad(set_to_none=True)
         losses = []
         tick = time.perf_counter()
@@ -148,7 +193,7 @@ def train(args, torch, tokenizer, model, data):
         optimizer.step()
         optimizer_step += 1
         torch.cuda.synchronize()
-        row = {"optimizer_step": optimizer_step, "microsteps": begin+len(indices),
+        row = {"optimizer_step": optimizer_step, "microsteps": consumed+begin+len(indices),
                "mean_full_vocab_loss": sum(losses)/len(losses), "gradient_norm": norm.item(),
                "seconds": time.perf_counter()-tick}
         trace.append(row)
@@ -156,13 +201,15 @@ def train(args, torch, tokenizer, model, data):
             handle.write(json.dumps(row)+"\n")
         print(json.dumps(row), flush=True)
         if optimizer_step % 50 == 0:
-            checkpoint(args, model, tokenizer, optimizer, torch, optimizer_step, row["microsteps"])
-    checkpoint(args, model, tokenizer, optimizer, torch, optimizer_step, len(order))
+            checkpoint(args, model, tokenizer, optimizer, torch, optimizer_step, row["microsteps"],
+                       carried_seconds+time.perf_counter()-start, sessions)
+    checkpoint(args, model, tokenizer, optimizer, torch, optimizer_step, len(order),
+               carried_seconds+time.perf_counter()-start, sessions)
     updated_tensors = sum(not torch.equal(before, parameter.detach().cpu())
                           for before, parameter in zip(initial_adapter, parameters))
     if not updated_tensors:
         raise ValueError("No adapter tensor updated")
-    trained_seconds = time.perf_counter()-start
+    trained_seconds = carried_seconds+time.perf_counter()-start
     after = {}
     for split in evaluation_splits:
         after[split] = evaluate(model, data[split], torch)
@@ -181,6 +228,7 @@ def train(args, torch, tokenizer, model, data):
                "max_train_rows": args.max_train_rows, "train_positive_rows": positives, "positive_weight": positive_weight,
                "gradient_accumulation": args.accumulation, "optimizer_steps": optimizer_step,
                "trainable_parameters": sum(p.numel() for p in parameters), "training_seconds": trained_seconds,
+               "sessions": sessions, "resumed_from_step": int(resume_state["optimizer_step"]) if args.resume else 0,
                "updated_adapter_tensors": updated_tensors,
                "peak_reserved_bytes": torch.cuda.max_memory_reserved(), "gpu": torch.cuda.get_device_name(),
                "seed": SEED, "max_length": args.max_length, "threshold": threshold,
@@ -216,9 +264,16 @@ if __name__ == "__main__":
     parser.add_argument("--accumulation", type=int, default=16)
     parser.add_argument("--max-train-rows", type=int, default=0)
     parser.add_argument("--balanced-draws", type=int, default=0)
+    parser.add_argument("--resume", action="store_true")
     args = parser.parse_args()
     args.run.mkdir(parents=True, exist_ok=True)
-    if args.mode == "train" and ((args.run / "trace.jsonl").exists() or (args.run / "metrics.json").exists()):
+    if args.resume and args.mode != "train":
+        raise ValueError("Resume is only meaningful for training")
+    if args.mode == "train" and args.resume:
+        for name in ("training-state.pt", "training-order.json", "lora-modules.json"):
+            if not (args.run / name).exists():
+                raise ValueError("Resume requires "+name)
+    elif args.mode == "train" and ((args.run / "trace.jsonl").exists() or (args.run / "metrics.json").exists()):
         raise ValueError("Refusing to overwrite an existing training run")
     torch, tokenizer, model, data = runtime(args)
     if args.mode == "train":

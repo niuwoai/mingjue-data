@@ -6,7 +6,7 @@ from full_4b import prepare
 
 
 def main(args):
-    if args.mode == 'train' and any((args.run / name).exists() for name in ('trace.jsonl', 'metrics.json')):
+    if args.mode == 'train' and not args.resume and any((args.run / name).exists() for name in ('trace.jsonl', 'metrics.json')):
         raise ValueError('Refusing to overwrite an existing scaled shell trial')
     prepare(args)
     torch, tokenizer, model, data = engine.runtime(args)
@@ -28,4 +28,5 @@ if __name__ == '__main__':
     parser.add_argument('--balanced-draws', type=int, default=10_000)
     parser.add_argument('--max-train-rows', type=int, default=0)
     parser.add_argument('--expected-train-rows', type=int, default=10_000)
+    parser.add_argument('--resume', action='store_true')
     main(parser.parse_args())
