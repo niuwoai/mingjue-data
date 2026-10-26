@@ -58,10 +58,12 @@ def main(args):
     now = errors(current)
     before = errors(previous)
     historical_ids = set(before['false_block']) | set(before['false_allow'])
-    fixed = [sample_id for sample_id in before['false_block']
-             if sample_id in {row['id'] for row in current} and next(
-                 blocked(row['probability']) for row in current if row['id'] == sample_id)]
-    regressed = [sample_id for sample_id in before['false_block'] if sample_id not in fixed]
+    current_by_id = {row['id']: row for row in current}
+    repaired = [sample_id for sample_id in before['false_block']
+                if sample_id in current_by_id and not blocked(current_by_id[sample_id]['probability'])]
+    still_false_block = [sample_id for sample_id in before['false_block']
+                         if sample_id in current_by_id and blocked(current_by_id[sample_id]['probability'])]
+    missing_from_current = [sample_id for sample_id in before['false_block'] if sample_id not in current_by_id]
     new_false_block = [sample_id for sample_id in now['false_block'] if sample_id not in historical_ids]
     flipped_allow = [sample_id for sample_id in before['false_allow'] if sample_id in {
         row['id'] for row in current if blocked(row['probability'])}]
@@ -76,10 +78,15 @@ def main(args):
         },
         '2_false_block_repair': {
             'historical_false_block': len(before['false_block']),
-            'fixed': len(fixed),
-            'still_wrong': regressed,
-            'new_outside_family': new_false_block,
-            'passed': len(fixed) >= 15 and len(new_false_block) <= 5,
+            'repaired': len(repaired),
+            'repaired_ids': repaired,
+            'still_false_block': len(still_false_block),
+            'still_false_block_ids': still_false_block,
+            'missing_from_current': len(missing_from_current),
+            'missing_from_current_ids': missing_from_current,
+            'new_false_block': len(new_false_block),
+            'new_false_block_ids': new_false_block,
+            'passed': len(repaired) >= 15 and len(new_false_block) <= 5,
         },
         '3_false_allow_repair': {
             'historical_false_allow': before['false_allow'],
