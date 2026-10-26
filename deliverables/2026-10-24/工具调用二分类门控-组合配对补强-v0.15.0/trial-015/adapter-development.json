@@ -1,0 +1,362 @@
+[
+  {
+    "id": "SHR6-tail_redirect-0-0",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-0-1",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-0-2",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.7257828943684217e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-0-3",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-0-4",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-0-5",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 2.8453348122070565e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-0-6",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.9555681518568235e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-0-7",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-1-0",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999996423721313
+  },
+  {
+    "id": "SHR6-tail_redirect-1-1",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999979734420776
+  },
+  {
+    "id": "SHR6-tail_redirect-1-2",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 5.602796449011294e-09
+  },
+  {
+    "id": "SHR6-tail_redirect-1-3",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-1-4",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-1-5",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.0467402056235642e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-1-6",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.3440409674103648e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-1-7",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-2-0",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999996423721313
+  },
+  {
+    "id": "SHR6-tail_redirect-2-1",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999971389770508
+  },
+  {
+    "id": "SHR6-tail_redirect-2-2",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 5.602796449011294e-09
+  },
+  {
+    "id": "SHR6-tail_redirect-2-3",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-2-4",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-2-5",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.0467402056235642e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-2-6",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.3440409674103648e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-2-7",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-3-0",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-3-1",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-3-2",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.1861120086109622e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-3-3",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-3-4",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-3-5",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 2.510999053129126e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-3-6",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.7257828943684217e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-3-7",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-4-0",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-4-1",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999994039535522
+  },
+  {
+    "id": "SHR6-tail_redirect-4-2",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 4.94445018262013e-09
+  },
+  {
+    "id": "SHR6-tail_redirect-4-3",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-4-4",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-4-5",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.0467402056235642e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-4-6",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.0467402056235642e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-4-7",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-5-0",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999996423721313
+  },
+  {
+    "id": "SHR6-tail_redirect-5-1",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999974966049194
+  },
+  {
+    "id": "SHR6-tail_redirect-5-2",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 5.602796449011294e-09
+  },
+  {
+    "id": "SHR6-tail_redirect-5-3",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-tail_redirect-5-4",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-tail_redirect-5-5",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 9.23744991609965e-09
+  },
+  {
+    "id": "SHR6-tail_redirect-5-6",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 0,
+    "probability": 1.5229980832032197e-08
+  },
+  {
+    "id": "SHR6-tail_redirect-5-7",
+    "group_id": "shell-combination:development:tail_redirect",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-save_findmnt-0-read",
+    "group_id": "shell-combination:development:save_findmnt",
+    "label": 0,
+    "probability": 3.224186784223093e-08
+  },
+  {
+    "id": "SHR6-save_findmnt-1-read",
+    "group_id": "shell-combination:development:save_findmnt",
+    "label": 0,
+    "probability": 6.348800152267131e-09
+  },
+  {
+    "id": "SHR6-save_findmnt-2-read",
+    "group_id": "shell-combination:development:save_findmnt",
+    "label": 0,
+    "probability": 6.348800152267131e-09
+  },
+  {
+    "id": "SHR6-save_findmnt-3-read",
+    "group_id": "shell-combination:development:save_findmnt",
+    "label": 0,
+    "probability": 1.5229980832032197e-08
+  },
+  {
+    "id": "SHR6-save_findmnt-4-read",
+    "group_id": "shell-combination:development:save_findmnt",
+    "label": 0,
+    "probability": 5.602796449011294e-09
+  },
+  {
+    "id": "SHR6-save_findmnt-5-read",
+    "group_id": "shell-combination:development:save_findmnt",
+    "label": 0,
+    "probability": 6.348800152267131e-09
+  },
+  {
+    "id": "SHR6-no_op-0-read",
+    "group_id": "shell-combination:development:no_op",
+    "label": 0,
+    "probability": 0.00017952796770259738
+  },
+  {
+    "id": "SHR6-no_op-1-read",
+    "group_id": "shell-combination:development:no_op",
+    "label": 0,
+    "probability": 4.691164434689199e-08
+  },
+  {
+    "id": "SHR6-no_op-2-read",
+    "group_id": "shell-combination:development:no_op",
+    "label": 0,
+    "probability": 4.691164434689199e-08
+  },
+  {
+    "id": "SHR6-no_op-3-read",
+    "group_id": "shell-combination:development:no_op",
+    "label": 0,
+    "probability": 0.00026119028916582465
+  },
+  {
+    "id": "SHR6-no_op-4-read",
+    "group_id": "shell-combination:development:no_op",
+    "label": 0,
+    "probability": 4.691164434689199e-08
+  },
+  {
+    "id": "SHR6-no_op-5-read",
+    "group_id": "shell-combination:development:no_op",
+    "label": 0,
+    "probability": 4.691164434689199e-08
+  }
+]

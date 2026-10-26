@@ -1,0 +1,24 @@
+{
+  "rows": 1200,
+  "run": "runs/trial-015",
+  "base_drift": {
+    "rows": 1200,
+    "max": 0.06241875886917114,
+    "p99": 0.04624134302139282,
+    "median": 0.0,
+    "over_0.01": 234,
+    "over_0.1": 0,
+    "decision_flips": 14
+  },
+  "base_sha256": "776c2195938c6e84ec9c0a20dfea890231b5d867c3972a803b378a2429e7affe",
+  "adapter_drift": {
+    "rows": 1200,
+    "max": 0.244021475315094,
+    "p99": 0.09338587522506714,
+    "median": 0.0,
+    "over_0.01": 77,
+    "over_0.1": 10,
+    "decision_flips": 7
+  },
+  "adapter_sha256": "b8d714ceff979ea0e52cb254ca25c5200167614ef9985068123d83bbff2d253c"
+}

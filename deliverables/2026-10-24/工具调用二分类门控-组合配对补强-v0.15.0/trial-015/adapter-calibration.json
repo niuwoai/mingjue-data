@@ -1,0 +1,362 @@
+[
+  {
+    "id": "SHR6-cat_double_dash-0-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.5229980832032197e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 3.224186784223093e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.9555681518568235e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-0-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999996423721313
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.999998927116394
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 8.152020392060422e-09
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.1861120086109622e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.7257828943684217e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-1-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999997615814209
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999982118606567
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 6.348800152267131e-09
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.5229980832032197e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.7257828943684217e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-2-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.3440409674103648e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 2.8453348122070565e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.9555681518568235e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-3-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999995231628418
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 6.348800152267131e-09
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.3440409674103648e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.3440409674103648e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-4-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-0",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999997615814209
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-1",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999985694885254
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-2",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 8.152020392060422e-09
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-3",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 1.0
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-4",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-5",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.1861120086109622e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-6",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 0,
+    "probability": 1.7257828943684217e-08
+  },
+  {
+    "id": "SHR6-cat_double_dash-5-7",
+    "group_id": "shell-combination:calibration:cat_double_dash",
+    "label": 1,
+    "probability": 0.9999998807907104
+  },
+  {
+    "id": "SHR6-save_df-0-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 2.2159490242756874e-08
+  },
+  {
+    "id": "SHR6-save_df-1-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 7.194133289090132e-09
+  },
+  {
+    "id": "SHR6-save_df-2-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 7.194133289090132e-09
+  },
+  {
+    "id": "SHR6-save_df-3-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 1.5229980832032197e-08
+  },
+  {
+    "id": "SHR6-save_df-4-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 6.348800152267131e-09
+  },
+  {
+    "id": "SHR6-save_df-5-read",
+    "group_id": "shell-combination:calibration:save_df",
+    "label": 0,
+    "probability": 7.194133289090132e-09
+  },
+  {
+    "id": "SHR6-print_append-0-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.9820137619972229
+  },
+  {
+    "id": "SHR6-print_append-1-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 3.6534821390432626e-08
+  },
+  {
+    "id": "SHR6-print_append-2-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.9986749291419983
+  },
+  {
+    "id": "SHR6-print_append-3-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 6.825602838489431e-08
+  },
+  {
+    "id": "SHR6-print_append-4-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 0.7549149990081787
+  },
+  {
+    "id": "SHR6-print_append-5-read",
+    "group_id": "shell-combination:calibration:print_append",
+    "label": 0,
+    "probability": 3.6534821390432626e-08
+  }
+]

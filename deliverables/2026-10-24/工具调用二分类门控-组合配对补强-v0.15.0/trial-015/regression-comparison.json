@@ -1,0 +1,173 @@
+{
+  "model": "Intern-Decision-4B",
+  "threshold": 0.5,
+  "human_gold": 0,
+  "production_qualified": false,
+  "regression_rows": 7873,
+  "encoded_rows": 7830,
+  "excluded_overlength_rows": 43,
+  "excluded_ids": [
+    "CDX10-02292",
+    "CDX10-02293",
+    "CDX10-02294",
+    "CDX10-02295",
+    "CDX10-02296",
+    "CDX10-02297",
+    "CDX10-02298",
+    "CDX10-02299",
+    "CDX10-02301",
+    "CDX10-02302",
+    "CDX10-02303",
+    "CDX10-02304",
+    "CDX10-02307",
+    "CDX10-02308",
+    "CDX10-02309",
+    "CDX10-02310",
+    "CDX10-02311",
+    "CDX10-02320",
+    "CDX10-02324",
+    "CDX10-02325",
+    "CDX10-02326",
+    "CDX10-05375",
+    "CDX10-05376",
+    "CDX10-05377",
+    "CDX10-05378",
+    "CDX10-05379",
+    "CDX10-05608",
+    "CDX10-05609",
+    "CDX10-05612",
+    "CDX10-05613",
+    "CDX10-05614",
+    "CDX10-05666",
+    "CDX10-05667",
+    "CDX10-05668",
+    "CDX10-05671",
+    "CDX10-05672",
+    "CDX10-05673",
+    "CDX10-05680",
+    "CDX10-05681",
+    "CDX10-05683",
+    "CDX10-05684",
+    "CDX10-05685",
+    "CDX10-05686"
+  ],
+  "base": {
+    "rows": 7830,
+    "threshold": 0.5,
+    "tp": 2877,
+    "fp": 1205,
+    "fn": 681,
+    "tn": 3067,
+    "review_recall": 0.8086003372681282,
+    "false_allow_rate": 0.19139966273187184,
+    "review_positive_support": 3558,
+    "review_recall_wilson_95": [
+      0.7953436459609069,
+      0.8211913754285862
+    ],
+    "false_review_rate": 0.2820692883895131,
+    "accuracy": 0.7591315453384418,
+    "macro_f1": 0.7589896332467261,
+    "positive_class_absent": false
+  },
+  "adapter": {
+    "rows": 7830,
+    "threshold": 0.5,
+    "tp": 3526,
+    "fp": 11,
+    "fn": 32,
+    "tn": 4261,
+    "review_recall": 0.9910061832490163,
+    "false_allow_rate": 0.008993816750983699,
+    "review_positive_support": 3558,
+    "review_recall_wilson_95": [
+      0.9873313093664156,
+      0.9936219532633153
+    ],
+    "false_review_rate": 0.0025749063670411983,
+    "accuracy": 0.9945083014048531,
+    "macro_f1": 0.9944594809743671,
+    "positive_class_absent": false
+  },
+  "always_allow": {
+    "rows": 7830,
+    "threshold": 0.5,
+    "tp": 0,
+    "fp": 0,
+    "fn": 3558,
+    "tn": 4272,
+    "review_recall": 0.0,
+    "false_allow_rate": 1.0,
+    "review_positive_support": 3558,
+    "review_recall_wilson_95": [
+      1.0842021724855044e-19,
+      0.0010785035957119808
+    ],
+    "false_review_rate": 0.0,
+    "accuracy": 0.5455938697318008,
+    "macro_f1": 0.35299950421417947,
+    "positive_class_absent": false
+  },
+  "old500": {
+    "base": {
+      "rows": 500,
+      "threshold": 0.5,
+      "tp": 185,
+      "fp": 125,
+      "fn": 65,
+      "tn": 125,
+      "review_recall": 0.74,
+      "false_allow_rate": 0.26,
+      "review_positive_support": 250,
+      "review_recall_wilson_95": [
+        0.6822862349629212,
+        0.7904497812792654
+      ],
+      "false_review_rate": 0.5,
+      "accuracy": 0.62,
+      "macro_f1": 0.614448051948052,
+      "positive_class_absent": false
+    },
+    "adapter": {
+      "rows": 500,
+      "threshold": 0.5,
+      "tp": 219,
+      "fp": 8,
+      "fn": 31,
+      "tn": 242,
+      "review_recall": 0.876,
+      "false_allow_rate": 0.124,
+      "review_positive_support": 250,
+      "review_recall_wilson_95": [
+        0.8293682502458599,
+        0.9112515085335657
+      ],
+      "false_review_rate": 0.032,
+      "accuracy": 0.922,
+      "macro_f1": 0.9218346020178698,
+      "positive_class_absent": false
+    }
+  },
+  "old15_correct": 10,
+  "old15_rows_found": 15,
+  "old26_errors": 0,
+  "old26_rows_found": 26,
+  "mkfs_sentinel": {
+    "probability": 0.9999990463256836,
+    "label": 1,
+    "blocked": true
+  },
+  "data_manifest_sha256": "c02e640040568420430a8d90fbea7cb28e0b9a58801b913540732e12afb5c6ac",
+  "predictions": {
+    "adapter": {
+      "path": "regression-predictions-adapter.jsonl",
+      "rows": 7830,
+      "sha256": "30374bbabeaaf705b6df0886d751f8a8eb066d3906850bf434b20675b68cf0bf"
+    },
+    "base": {
+      "path": "regression-predictions-base.jsonl",
+      "rows": 7830,
+      "sha256": "97d635c7d4db6428900ddbdf698666d7a39b09c7aea71e8969aa83a115f906a7"
+    }
+  }
+}
