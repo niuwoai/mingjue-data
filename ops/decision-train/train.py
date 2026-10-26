@@ -255,8 +255,27 @@ def train(args, torch, tokenizer, model, data):
     print(json.dumps(summary), flush=True)
 
 
+def adapter_application(args, torch, model, items):
+    probe = items[:8]
+    deltas = []
+    with torch.no_grad():
+        for item in probe:
+            on = score(model, item)[0, item["candidates"]].softmax(-1)[1].item()
+            with model.disable_adapter():
+                off = score(model, item)[0, item["candidates"]].softmax(-1)[1].item()
+            deltas.append(abs(on - off))
+    delta = max(deltas, default=0.0)
+    import peft, transformers
+    save(args.run / "adapter-application.json", {
+        "rows": len(probe), "max_probability_delta": delta, "adapter_effective": delta > 0.001,
+        "transformers": transformers.__version__, "peft": peft.__version__, "torch": torch.__version__})
+    if delta <= 0.001:
+        raise ValueError("Adapter has no effect on fresh-process scores")
+
+
 def verify(args, torch, model, data):
     reference = json.loads((args.run / "adapter-locked_test_candidate.json").read_text())
+    adapter_application(args, torch, model, data["locked_test_candidate"])
     actual = evaluate(model, data["locked_test_candidate"], torch)
     if [r["id"] for r in actual] != [r["id"] for r in reference]:
         raise ValueError("Reload evaluation IDs changed")
